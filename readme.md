@@ -18,6 +18,11 @@ hexo new [layout] <title>
 hexo new post new_post
 ```
 
+在本地查看启动服务器
+```{bash}
+hexo server
+```
+
 生成静态文章
 
 ```{bash}
