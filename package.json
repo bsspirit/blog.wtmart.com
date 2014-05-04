@@ -1,0 +1,8 @@
+{
+  "name": "hexo-site",
+  "version": "2.5.5",
+  "private": true,
+  "dependencies": {
+    "hexo-migrator-wordpress": "~0.1.0"
+  }
+}
