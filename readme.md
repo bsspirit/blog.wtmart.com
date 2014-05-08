@@ -3,9 +3,12 @@ COS博客
 
 基于hexo系统搭建在github上面。
 
-访问地址：http://b.wtmart.com/
+访问地址：http://blog.wtmart.com/
 
-安装node, hexo
+安装node,hexo
+
++ http://blog.fens.me/nodejs-enviroment
++ http://blog.fens.me/hexo-blog-github/
 
 ```{bash}
 git clone git@github.com:bsspirit/blog.wtmart.com.git
