@@ -1,0 +1,44 @@
+title: This is a test Rmd demo
+date: `r as.character(Sys.time())` 
+author: Weilin Lin
+categories:
+- 大类资产配置研究
+- 高收益债
+---
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+
+When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r initProject, include=FALSE}
+library(datatools);
+```
+
+Plot and save it in the file path
+```{r ggplotTest}
+png              = bloomberg.gg.daily("Yr10", 20080101);
+image.tmp        = "/home/amg/git/blog.wtmart.com/source/images/ggdaily.png"
+ggsave(png, file = image.tmp, width=8,height=5);
+
+```
+
+**图 1：ggplot 画图测试** 
+* ------------------------------------- *
+![高收益债样本个数](/images/ggdaily.png)
+* ------------------------------------- *
+资料来源：Wind,COS Inv系统
+
+
+```{r xtable, results="asis"}
+n <- 100
+x <- rnorm(n)
+y <- 2*x + rnorm(n)
+out <- lm(y ~ x)
+library(xtable)
+tab <- xtable(summary(out)$coef, digits=c(0, 2, 2, 1, 2))
+print(tab, type="html")
+```
+
+
+
+
+
