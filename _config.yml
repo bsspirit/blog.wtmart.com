@@ -107,4 +107,4 @@ stylus:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repository: git@github.com:bsspirit/blog.wtmart.com.git
+  repository: https://github.com/bsspirit/blog.wtmart.com.git
