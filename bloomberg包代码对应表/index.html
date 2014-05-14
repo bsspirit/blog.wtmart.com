@@ -1,0 +1,925 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>bloomberg包代码对应表 | COS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="COS">
+    
+    <meta name="description" content="债券市场指标
+国内债券市场
+
+
+
+项目
+代码
+
+
+
+
+固定利率国债到期收益率:1年
+Yr1
+
+
+固定利率国债到期收益率:2年
+Yr2
+
+
+固定利率国债到期收益率:3年
+Yr3
+
+
+固定利率国债到期收益率:5年
+Yr5
+
+
+固定利率国债到期收益率:7年
+Yr7
+
+
+固定利率国债到期收益率:10年
+Yr">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="COS" title="COS"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="COS">COS</a></h1>
+				<h2 class="blog-motto">了解这个世界运行的原理</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+						<li><a href="/atom.xml">RSS</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:blog.wtmart.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/bloomberg包代码对应表/" title="bloomberg包代码对应表" itemprop="url">bloomberg包代码对应表</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://blog.wtmart.com" title="COS">COS</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2013-11-05T05:14:50.000Z" itemprop="datePublished">2013-11-05</time>
+    更新日期:<time datetime="2014-05-10T13:17:55.630Z" itemprop="dateModified">2014-05-10</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#债券市场指标"><span class="toc-number">1.</span> <span class="toc-text">债券市场指标</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#国内债券市场"><span class="toc-number">1.1.</span> <span class="toc-text">国内债券市场</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#国内宏观经济指标"><span class="toc-number">2.</span> <span class="toc-text">国内宏观经济指标</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PMI数据："><span class="toc-number">2.1.</span> <span class="toc-text">PMI数据：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#融资数据"><span class="toc-number">2.2.</span> <span class="toc-text">融资数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#（央行）其它存款性公司资产负债表"><span class="toc-number">2.3.</span> <span class="toc-text">（央行）其它存款性公司资产负债表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发电量"><span class="toc-number">2.4.</span> <span class="toc-text">发电量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#进出口贸易"><span class="toc-number">2.5.</span> <span class="toc-text">进出口贸易</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#工业增加值"><span class="toc-number">2.6.</span> <span class="toc-text">工业增加值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CPI通货膨胀"><span class="toc-number">2.7.</span> <span class="toc-text">CPI通货膨胀</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上市商业银行"><span class="toc-number">2.8.</span> <span class="toc-text">上市商业银行</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#国外宏观经济指标"><span class="toc-number">3.</span> <span class="toc-text">国外宏观经济指标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可转债择时指标"><span class="toc-number">4.</span> <span class="toc-text">可转债择时指标</span></a></li></ol>
+		</div>
+		
+		<h2 id="债券市场指标">债券市场指标</h2>
+<h3 id="国内债券市场">国内债券市场</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>固定利率国债到期收益率:1年</td>
+<td>Yr1</td>
+</tr>
+<tr>
+<td>固定利率国债到期收益率:2年</td>
+<td>Yr2</td>
+</tr>
+<tr>
+<td>固定利率国债到期收益率:3年</td>
+<td>Yr3</td>
+</tr>
+<tr>
+<td>固定利率国债到期收益率:5年</td>
+<td>Yr5</td>
+</tr>
+<tr>
+<td>固定利率国债到期收益率:7年</td>
+<td>Yr7</td>
+</tr>
+<tr>
+<td>固定利率国债到期收益率:10年</td>
+<td>Yr10</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(国开行):1年</td>
+<td>Yr1_gk</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(国开行):3年</td>
+<td>Yr3_gk</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(国开行):5年</td>
+<td>Yr5_gk</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(国开行):7年</td>
+<td>Yr7_gk</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(国开行):10年</td>
+<td>Yr10_gk</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(进出口和农发行):1年</td>
+<td>Yr1_jcnf</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(进出口和农发行):3年</td>
+<td>Yr3_jcnf</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(进出口和农发行):5年</td>
+<td>Yr5_jcnf</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(进出口和农发行):7年</td>
+<td>Yr7_jcnf</td>
+</tr>
+<tr>
+<td>银行间固定利率政策性金融债到期收益率(进出口和农发行):10年</td>
+<td>Yr10_jcnf</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(超AAA):1年</td>
+<td>Yr1_s3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(超AAA):3年</td>
+<td>Yr3_s3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(超AAA):5年</td>
+<td>Yr5_s3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA):1年</td>
+<td>Yr1_3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA):3年</td>
+<td>Yr3_3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA):5年</td>
+<td>Yr5_3a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA-):1年</td>
+<td>Yr1_3am_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA-):3年</td>
+<td>Yr3_3am_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AAA-):5年</td>
+<td>Yr5_3am_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA+):1年</td>
+<td>Yr1_2ap_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA+):3年</td>
+<td>Yr3_2ap_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA+):5年</td>
+<td>Yr5_2ap_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA):1年</td>
+<td>Yr1_2a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA):3年</td>
+<td>Yr3_2a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA):5年</td>
+<td>Yr5_2a_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA-):1年</td>
+<td>Yr1_2am_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA-):3年</td>
+<td>Yr3_2am_drzp</td>
+</tr>
+<tr>
+<td>银行间中短期票据到期收益率(AA-):5年</td>
+<td>Yr5_2am_drzp</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AAA):1年</td>
+<td>Yr1_3a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AAA):3年</td>
+<td>Yr3_3a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AAA):5年</td>
+<td>Yr5_3a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AAA):7年</td>
+<td>Yr7_3a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AAA):10年</td>
+<td>Yr10_3a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+):1年</td>
+<td>Yr1_2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+):3年</td>
+<td>Yr3_2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+):5年</td>
+<td>Yr5_2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+):7年</td>
+<td>Yr7_2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+):10年</td>
+<td>Yr10_2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+(2)):1年</td>
+<td>Yr1_s2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+(2)):3年</td>
+<td>Yr3_s2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+(2)):5年</td>
+<td>Yr5_s2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+(2)):7年</td>
+<td>Yr7_s2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA+(2)):10年</td>
+<td>Yr10_s2ap_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA):1年</td>
+<td>Yr1_2a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA):3年</td>
+<td>Yr3_2a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA):5年</td>
+<td>Yr5_2a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA):7年</td>
+<td>Yr7_2a_qyz</td>
+</tr>
+<tr>
+<td>银行间固定利率企业债到期收益率(AA):10年</td>
+<td>Yr10_2a_qyz</td>
+</tr>
+</tbody>
+</table>
+<h2 id="国内宏观经济指标">国内宏观经济指标</h2>
+<h3 id="PMI数据：">PMI数据：</h3>
+<ul>
+<li>PMI：中采PMI指数</li>
+<li>PMI_Production：生产</li>
+<li>PMI_NewOrder：新订单</li>
+<li>PMI_Export: 出口</li>
+<li>PMI_OnHandOrder：在手订单</li>
+<li>PMI_Stock: 产成品库存</li>
+<li>PMI_QuantityPurchased：采购量</li>
+<li>PMI_Import：进口</li>
+<li>PMI_PriceOfRawMaterials：主要原材料购进价格</li>
+<li>PMI_StockOfRawMaterials：原材料库存</li>
+<li>PMI_Employees：从业人员</li>
+<li>PMI_SupplierDeliverTime：供货商配送时间</li>
+<li>PMI_ProductionExpection：生产经营活动预期</li>
+<li>PMI_LargeEnterprise：大型企业</li>
+<li>PMI_MediumEnterprise：中型企业</li>
+<li>PMI_SmallEnterprise：小型企业</li>
+<li>PMI_EastArea：东部</li>
+<li>PMI_NorthEastArea：东北部</li>
+<li>PMI_CentralArea：中部</li>
+<li>PMI_WestArea：西部地区</li>
+<li>PMI_HSBC：汇丰PMI</li>
+<li>PMI_HSBC_Preview：汇丰预览</li>
+<li>PMI_HSBC_Production：汇丰生产</li>
+<li>PMI_HSBC_NewOrder：汇丰新订单</li>
+<li>PMI_HSBC_Employee：汇丰从业人员</li>
+</ul>
+<h3 id="融资数据">融资数据</h3>
+<ul>
+<li>totalFinance：社会融资总量:当月值</li>
+<li>newLoan：社会融资总量:新增人民币贷款:当月值</li>
+<li>newForeinLoan：社会融资总量:新增外币贷款:当月值</li>
+<li>entrustedLoan：社会融资总量:新增委托贷款:当月值</li>
+<li>trstedLoan：社会融资总量:新增信托贷款:当月值</li>
+<li>undiscountedBills：社会融资总量:新增未贴现银行承兑汇票:当月值</li>
+<li>corpBond：社会融资总量:企业债券融资:当月值</li>
+<li>equity：社会融资总量:非金融企业境内股票融资:当月值</li>
+<li>newLoanFinanceInc：金融机构:新增人民币贷款:当月值</li>
+<li>shortLoanAndCPFinanceInc：金融机构:新增人民币贷款:短期贷款及票据融资:当月值</li>
+<li>CPFinanceInc：金融机构:新增人民币贷款:票据融资:当月值</li>
+<li>medAndLongLoanFinanceInc：金融机构:新增人民币贷款:中长期:当月值</li>
+<li>shortLoanAmount：金融机构:短期贷款余额</li>
+<li>medAndLongLoanAmount：金融机构:中长期贷款余额</li>
+<li>depoMinusLoan：金融机构:存贷差</li>
+<li>forexPosTotal：金融机构:外汇占款余额:数据变化</li>
+<li>forexPosCB：货币当局:国外资产:外汇:数据变化</li>
+</ul>
+<h3 id="（央行）其它存款性公司资产负债表">（央行）其它存款性公司资产负债表</h3>
+<ul>
+<li>DC_Reserve_Assets：储备资产</li>
+<li>DC_loan: 贷款资产</li>
+<li>DC_notesFinancing：票据融资</li>
+<li>DC_bond:债券投资</li>
+<li>DC_Claims_on_Other_Depository_Corporations: 对其他存款性公司债权（扣除金融债和商业银行次级债）</li>
+<li>DC_Claims_on_Other_Financial_Institutions: 对其它金融机构债权</li>
+<li>DC_Other_Assets: 其它资产</li>
+<li>DC_totalAssets：总资产</li>
+<li>DC_deposits: 存款</li>
+<li>DC_Liabilities_to_Other_Depository_Corporations:对其他存款性公司负债</li>
+<li>DC_Liabilities_to_Other_Financial_Corporations：对其他金融性公司负债</li>
+<li>DC_Bond_Issue：债券发行</li>
+<li>DC_Paid_in_Capital：实收资本</li>
+<li>DC_Other_Liabilities：其他负债</li>
+<li>DC_totalLiabilities：总负债</li>
+</ul>
+<h3 id="发电量">发电量</h3>
+<ul>
+<li>power：产量:发电量:当月值</li>
+<li>powerYOY: 产量:发电量:当月同比</li>
+<li>thermalPowerYOY：产量:火电:当月同比</li>
+<li>HydropowerYOY：产量:水电:当月同比</li>
+<li>power_YTD_YOY：产量:发电量:累计同比</li>
+<li>thermalPower_YTD_YOY：产量:火电:累计同比</li>
+<li>Hydropower_YTD_YOY：产量:水电:累计同比</li>
+</ul>
+<h3 id="进出口贸易">进出口贸易</h3>
+<ul>
+<li>importValue：进口金额:当月值</li>
+<li>exportValue:出口金额:当月值</li>
+<li>netExport：贸易差额:当月值</li>
+<li>importAndExport:进出口金额:当月值</li>
+<li>importYOY:进口金额:当月同比</li>
+<li>importYOY_SAJ:进口金额:季调:当月同比</li>
+<li>exportYOY:出口金额:当月同比</li>
+<li>exportYOY_SAJ:出口金额:季调:当月同比</li>
+<li>netExportYOY:贸易差额:当月同比</li>
+<li>importAndExportYOY:进出口金额:当月同比</li>
+<li>importAndExportYOY_SAJ:进出口金额:季调:当月同比</li>
+<li>importAndExportMOM_SAJ:进出口金额:季调:环比</li>
+<li>exportMOM_SAJ:出口金额:季调:环比</li>
+<li>importMOM_SAJ:进口金额:季调:环比</li>
+</ul>
+<h3 id="工业增加值">工业增加值</h3>
+<ul>
+<li>VAI_YOY：工业增加值:当月同比</li>
+<li>VAI_YTD_YOY：工业增加值:累计同比</li>
+<li>VAI_MOM_SA：工业增加值:环比:季调</li>
+<li>VAI_LightIndustry_YOY：工业增加值:轻工业:当月同比</li>
+<li>VAI_HeavyIndustry_YOY：工业增加值:重工业:当月同比</li>
+<li>VAI_Mine_YOY：工业增加值:采矿业:当月同比</li>
+<li>VAI_Manufuture_YOY：工业增加值:制造业:当月同比</li>
+</ul>
+<h3 id="CPI通货膨胀">CPI通货膨胀</h3>
+<ul>
+<li>CPI_YOY：CPI:当月同比</li>
+<li>CPI_FOOD_YOY：CPI:食品:当月同比</li>
+<li>CPI_NONFOOD_YOY：CPI:非食品:当月同比</li>
+<li>CORE_CPI_YOY：CPI:不包括食品和能源(核心CPI):当月同比</li>
+<li>CPI_CONSUMPTION_YOY：CPI:消费品:当月同比</li>
+<li>CPI_SERVICE_YOY：CPI:服务:当月同比</li>
+<li>CPI_POULTRY_YOY：CPI:食品:肉禽及其制品:当月同比</li>
+<li>CPI_PORK_YOY：CPI:食品:肉禽及其制品:猪肉:当月同比</li>
+<li>CPI_BEEF_YOY：CPI:食品:肉禽及其制品:牛肉:当月同比</li>
+<li>CPI_MUTTON_YOY：CPI:食品:肉禽及其制品:羊肉:当月同比</li>
+<li>CPI_LIQUOR_TOBACCO_YOY：CPI:烟酒及用品:当月同比</li>
+</ul>
+<h3 id="上市商业银行">上市商业银行</h3>
+<ul>
+<li>GH_debt/asset: 工行，贷款/生息资产</li>
+<li>JH_debt/asset：建行，贷款/生息资产</li>
+<li>ZH_debt/asset：中行，贷款/生息资产</li>
+<li>NH_debt/asset：农行，贷款/生息资产</li>
+<li>ZX_debt/asset：中信，贷款/生息资产</li>
+<li>MS_debt/asset：民生，贷款/生息资产</li>
+<li>XY_debt/asset：兴业，贷款/生息资产</li>
+<li>PF_debt/asset：浦发，贷款/生息资产</li>
+<li>GD_debt/asset：光大，贷款/生息资产</li>
+<li>HX_debt/asset：华夏，贷款/生息资产</li>
+<li>PA_debt/asset：平安，贷款/生息资产</li>
+<li>BJ_debt/asset：北京，贷款/生息资产</li>
+<li>NJ_debt/asset：南京，贷款/生息资产</li>
+<li>NB_debt/asset：宁波，贷款/生息资产</li>
+<li><p>ALL_debt/asset：上市公司总计，贷款/生息资产</p>
+</li>
+<li><p>GH_bond/asset: 工行，债券/生息资产</p>
+</li>
+<li>JH_bond/asset：建行，债券/生息资产</li>
+<li>ZH_bond/asset：中行，债券/生息资产</li>
+<li>NH_bond/asset：农行，债券/生息资产</li>
+<li>ZX_bond/asset：中信，债券/生息资产</li>
+<li>MS_bond/asset：民生，债券/生息资产</li>
+<li>XY_bond/asset：兴业，债券/生息资产</li>
+<li>PF_bond/asset：浦发，债券/生息资产</li>
+<li>GD_bond/asset：光大，债券/生息资产</li>
+<li>HX_bond/asset：华夏，债券/生息资产</li>
+<li>PA_bond/asset：平安，债券/生息资产</li>
+<li>BJ_bond/asset：北京，债券/生息资产</li>
+<li>NJ_bond/asset：南京，债券/生息资产</li>
+<li>NB_bond/asset：宁波，债券/生息资产</li>
+<li><p>ALL_bond/asset：上市公司总计，债券/生息资产</p>
+</li>
+<li><p>GH_IBAsset/asset: 工行，同业资产/生息资产</p>
+</li>
+<li>JH_IBAsset/asset：建行，同业资产/生息资产</li>
+<li>ZH_IBAsset/asset：中行，同业资产/生息资产</li>
+<li>NH_IBAsset/asset：农行，同业资产/生息资产</li>
+<li>ZX_IBAsset/asset：中信，同业资产/生息资产</li>
+<li>MS_IBAsset/asset：民生，同业资产/生息资产</li>
+<li>XY_IBAsset/asset：兴业，同业资产/生息资产</li>
+<li>PF_IBAsset/asset：浦发，同业资产/生息资产</li>
+<li>GD_IBAsset/asset：光大，同业资产/生息资产</li>
+<li>HX_IBAsset/asset：华夏，同业资产/生息资产</li>
+<li>PA_IBAsset/asset：平安，同业资产/生息资产</li>
+<li>BJ_IBAsset/asset：北京，同业资产/生息资产</li>
+<li>NJ_IBAsset/asset：南京，同业资产/生息资产</li>
+<li>NB_IBAsset/asset：宁波，同业资产/生息资产</li>
+<li><p>ALL_IBAsset/asset：上市公司总计，同业资产/生息资产</p>
+</li>
+<li><p>GH_deposit: 工行，存款</p>
+</li>
+<li>JH_deposit：建行，存款</li>
+<li>ZH_deposit：中行，存款</li>
+<li>NH_deposit：农行，存款</li>
+<li>ZX_deposit：中信，存款</li>
+<li>MS_deposit：民生，存款</li>
+<li>XY_deposit：兴业，存款</li>
+<li>PF_deposit：浦发，存款</li>
+<li>GD_deposit：光大，存款</li>
+<li>HX_deposit：华夏，存款</li>
+<li>PA_deposit：平安，存款</li>
+<li>BJ_deposit：北京，存款</li>
+<li>NJ_deposit：南京，存款</li>
+<li>NB_deposit：宁波，存款</li>
+<li><p>ALL_deposit：上市公司总计，存款</p>
+</li>
+<li><p>GH_IBDebt: 工行，同业负债</p>
+</li>
+<li>JH_IBDebt：建行，同业负债</li>
+<li>ZH_IBDebt：中行，同业负债</li>
+<li>NH_IBDebt：农行，同业负债</li>
+<li>ZX_IBDebt：中信，同业负债</li>
+<li>MS_IBDebt：民生，同业负债</li>
+<li>XY_IBDebt：兴业，同业负债</li>
+<li>PF_IBDebt：浦发，同业负债</li>
+<li>GD_IBDebt：光大，同业负债</li>
+<li>HX_IBDebt：华夏，同业负债</li>
+<li>PA_IBDebt：平安，同业负债</li>
+<li>BJ_IBDebt：北京，同业负债</li>
+<li>NJ_IBDebt：南京，同业负债</li>
+<li>NB_IBDebt：宁波，同业负债</li>
+<li>ALL_IBDebt：上市公司总计，同业负债</li>
+</ul>
+<ul>
+<li>GH_ExReserveRate: 工行，超储率</li>
+<li>JH_ExReserveRate：建行，超储率</li>
+<li>ZH_ExReserveRate：中行，超储率</li>
+<li>NH_ExReserveRate：农行，超储率</li>
+<li>ZX_ExReserveRate：中信，超储率</li>
+<li>MS_ExReserveRate：民生，超储率</li>
+<li>XY_ExReserveRate：兴业，超储率</li>
+<li>PF_ExReserveRate：浦发，超储率</li>
+<li>GD_ExReserveRate：光大，超储率</li>
+<li>HX_ExReserveRate：华夏，超储率</li>
+<li>PA_ExReserveRate：平安，超储率</li>
+<li>BJ_ExReserveRate：北京，超储率</li>
+<li>NJ_ExReserveRate：南京，超储率</li>
+<li>NB_ExReserveRate：宁波，超储率</li>
+<li><p>ALL_ExReserveRate：上市公司总计，超储率</p>
+</li>
+<li><p>GH_NPL: 工行，不良贷款</p>
+</li>
+<li>JH_NPL：建行，不良贷款</li>
+<li>ZH_NPL：中行，不良贷款</li>
+<li>NH_NPL：农行，不良贷款</li>
+<li>ZX_NPL：中信，不良贷款</li>
+<li>MS_NPL：民生，不良贷款</li>
+<li>XY_NPL：兴业，不良贷款</li>
+<li>PF_NPL：浦发，不良贷款</li>
+<li>GD_NPL：光大，不良贷款</li>
+<li>HX_NPL：华夏，不良贷款</li>
+<li>PA_NPL：平安，不良贷款</li>
+<li>BJ_NPL：北京，不良贷款</li>
+<li>NJ_NPL：南京，不良贷款</li>
+<li>NB_NPL：宁波，不良贷款</li>
+<li>ALL_NPL：上市公司总计，不良贷款</li>
+</ul>
+<h2 id="国外宏观经济指标">国外宏观经济指标</h2>
+<ul>
+<li>美国:US_GDP,US_CPI_YOY,US_unemp</li>
+<li>日本:JN_GDP,JN_CPI_YOY,JN_unemp</li>
+<li>德国:GM_GDP,GM_CPI_YOY,GM_unemp</li>
+<li>澳大利亚:AU_GDP,AU_CPI_YOY,AU_unemp</li>
+<li>英国: UK_GDP,UK_CPI_YOY,UK_unemp</li>
+<li>法国:FR_GDP,FR_CPI_YOY,FR_unemp</li>
+<li>加拿大:CA_GDP,CA_CPI_YOY,CA_unemp</li>
+<li>中国:CN_GDP,CN_CPI_YOY,CN_unemp</li>
+<li>印度:IN_GDP,IN_CPI_YOY,IN_unemp</li>
+<li>巴西:BZ_GDP,BZ_CPI_YOY,BZ_unemp</li>
+<li>南非:SF_GDP,SF_CPI_YOY,SF_unemp</li>
+<li>俄罗斯:RU_GDP,RU_CPI_YOY,RU_unemp</li>
+<li>马来西亚:MA_GDP,MA_CPI_YOY,MA_unemp</li>
+<li>希腊:GR_GDP,GR_CPI_YOY,GR_unemp</li>
+<li>爱尔兰:IR_GDP,IR_CPI_YOY,IR_unemp</li>
+<li>意大利:ITL_GDP,ITL_CPI_YOY,ITL_unemp</li>
+<li>西班牙:SPN_GDP,SPN_CPI_YOY,SPN_unemp</li>
+</ul>
+<h2 id="可转债择时指标">可转债择时指标</h2>
+<ul>
+<li>可转债市值加权指数：cbMktWgtIndex</li>
+<li>可转债等权重指数：cbEqWgtIndex</li>
+<li>可转债正股市值加权指数：cbStockMktWgtIndex</li>
+<li>可转债正股等权重指数：cbStockEqWgtIndex</li>
+<li>模型溢价率流通市值加权指数：cbModelMktWgtIndex</li>
+<li>模型溢价率等权重指数：cbModelEqWgtIndex</li>
+<li>到期收益率流通市值加权指数：ytmMktIndex</li>
+<li>到期收益率等权重指数：ytmEqWgtIndex</li>
+<li>平价溢价率等权重指数：parityPremiumEqWgtIndex</li>
+<li>平价溢价率流通市值加权指数：parityPremiumMktWgtIndex</li>
+<li>相同期限国债收益率：treasuryYield</li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/宏观经济/">宏观经济</a>
+</div>
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://blog.wtmart.com/bloomberg包代码对应表/" data-title="bloomberg包代码对应表 | COS" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/银行研究专题一/" title="银行研究专题（一）：银行分析框架">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  银行研究专题（一）：银行分析框架</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/pr20dsignal/"  title="量化选股介绍和思考-追涨杀跌的简单例子">
+ <strong>NEXT:</strong><br/> 
+ <span>量化选股介绍和思考-追涨杀跌的简单例子
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#债券市场指标"><span class="toc-number">1.</span> <span class="toc-text">债券市场指标</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#国内债券市场"><span class="toc-number">1.1.</span> <span class="toc-text">国内债券市场</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#国内宏观经济指标"><span class="toc-number">2.</span> <span class="toc-text">国内宏观经济指标</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PMI数据："><span class="toc-number">2.1.</span> <span class="toc-text">PMI数据：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#融资数据"><span class="toc-number">2.2.</span> <span class="toc-text">融资数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#（央行）其它存款性公司资产负债表"><span class="toc-number">2.3.</span> <span class="toc-text">（央行）其它存款性公司资产负债表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发电量"><span class="toc-number">2.4.</span> <span class="toc-text">发电量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#进出口贸易"><span class="toc-number">2.5.</span> <span class="toc-text">进出口贸易</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#工业增加值"><span class="toc-number">2.6.</span> <span class="toc-text">工业增加值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CPI通货膨胀"><span class="toc-number">2.7.</span> <span class="toc-text">CPI通货膨胀</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上市商业银行"><span class="toc-number">2.8.</span> <span class="toc-text">上市商业银行</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#国外宏观经济指标"><span class="toc-number">3.</span> <span class="toc-text">国外宏观经济指标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可转债择时指标"><span class="toc-number">4.</span> <span class="toc-text">可转债择时指标</span></a></li></ol>
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/IT技术/" title="IT技术">IT技术<sup>1</sup></a></li>
+		
+			<li><a href="/categories/债券货币市场/" title="债券货币市场">债券货币市场<sup>9</sup></a></li>
+		
+			<li><a href="/categories/金融市场报告/债券货币市场/" title="债券货币市场">债券货币市场<sup>1</sup></a></li>
+		
+			<li><a href="/categories/可转债/" title="可转债">可转债<sup>6</sup></a></li>
+		
+			<li><a href="/categories/团队/" title="团队">团队<sup>1</sup></a></li>
+		
+			<li><a href="/categories/国债期货和利率/" title="国债期货和利率">国债期货和利率<sup>2</sup></a></li>
+		
+			<li><a href="/categories/大类资产配置研究/" title="大类资产配置研究">大类资产配置研究<sup>3</sup></a></li>
+		
+			<li><a href="/categories/宏观经济/" title="宏观经济">宏观经济<sup>3</sup></a></li>
+		
+			<li><a href="/categories/生活和旅游/" title="生活和旅游">生活和旅游<sup>1</sup></a></li>
+		
+			<li><a href="/categories/经济和历史/" title="经济和历史">经济和历史<sup>1</sup></a></li>
+		
+			<li><a href="/categories/股票市场/" title="股票市场">股票市场<sup>2</sup></a></li>
+		
+			<li><a href="/categories/金融市场报告/" title="金融市场报告">金融市场报告<sup>1</sup></a></li>
+		
+			<li><a href="/categories/债券货币市场/金融经济相关/" title="金融经济相关">金融经济相关<sup>1</sup></a></li>
+		
+			<li><a href="/categories/银行研究/" title="银行研究">银行研究<sup>1</sup></a></li>
+		
+			<li><a href="/categories/大类资产配置研究/高收益债/" title="高收益债">高收益债<sup>2</sup></a></li>
+		
+			<li><a href="/categories/债券货币市场/高收益债/" title="高收益债">高收益债<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/bitbucket/" title="bitbucket">bitbucket<sup>1</sup></a></li>
+		
+			<li><a href="/tags/git/" title="git">git<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+      
+<section id="comment">
+    <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'wtmartcom'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2014 
+		
+		<a href="http://blog.wtmart.com" target="_blank" title="COS">COS</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  </body>
+</html>
