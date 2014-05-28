@@ -1,1199 +1,1367 @@
-date: 2014-05-11 14:09:08.686
-argv: node /usr/local/bin/hexo generate
-os: Linux 3.8.0-21-generic linux x64
+date: 2014-05-19 21:01:42.692
+argv: node C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\bin\hexo generate
+os: Windows_NT 6.1.7601 win32 ia32
 version:
-  hexo: 2.5.6
+  hexo: 2.5.7
   http_parser: 1.0
-  node: 0.11.2
-  v8: 3.19.0
+  node: 0.10.28
+  v8: 3.14.5.9
   ares: 1.9.0-DEV
-  uv: 0.11.2
+  uv: 0.10.27
   zlib: 1.2.3
-  modules: 0x000C
-  openssl: 1.0.1e
+  modules: 11
+  openssl: 1.0.1g
 ---
 
-[debug] 14:09:01.972 Config file loaded
-[debug] 14:09:01.975 Version info checked successfully
-[debug] 14:09:02.011 Loading database.
-[debug] 14:09:02.067 Script load successfully: fancybox.js
-[debug] 14:09:02.306 Processed: LICENSE
-[debug] 14:09:02.306 Processed: README.md
-[debug] 14:09:02.311 Processed: scripts/fancybox.js
-[debug] 14:09:02.407 Processed: source/css/_base/code.styl
-[debug] 14:09:02.407 Processed: source/css/_base/font.styl
-[debug] 14:09:02.407 Processed: source/css/_base/public.styl
-[debug] 14:09:02.407 Processed: source/css/_base/variable.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/article.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/aside.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/duoshuo.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/footer.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/gallery.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/header.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/helper.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/index.styl
-[debug] 14:09:02.461 Processed: source/font/FontAwesome.otf
-[debug] 14:09:02.462 Processed: source/font/coveredbyyourgrace-webfont.eot
-[debug] 14:09:02.463 Processed: source/font/coveredbyyourgrace-webfont.svg
-[debug] 14:09:02.464 Processed: source/font/coveredbyyourgrace-webfont.ttf
-[debug] 14:09:02.465 Processed: source/font/coveredbyyourgrace-webfont.woff
-[debug] 14:09:02.466 Processed: source/font/fontawesome-webfont.eot
-[debug] 14:09:02.468 Processed: source/font/fontawesome-webfont.svg
-[debug] 14:09:02.469 Processed: source/font/fontawesome-webfont.ttf
-[debug] 14:09:02.470 Processed: source/font/fontawesome-webfont.woff
-[debug] 14:09:02.472 Processed: source/img/author.jpg
-[debug] 14:09:02.473 Processed: source/img/favicon.ico
-[debug] 14:09:02.474 Processed: source/img/logo.svg
-[debug] 14:09:02.475 Processed: source/img/pacman.jpg
-[debug] 14:09:02.477 Processed: source/js/jquery-2.1.0.min.js
-[debug] 14:09:02.478 Processed: source/css/style.styl
-[debug] 14:09:02.479 Processed: source/fancybox/blank.gif
-[debug] 14:09:02.481 Processed: source/fancybox/fancybox_loading.gif
-[debug] 14:09:02.482 Processed: source/fancybox/fancybox_loading@2x.gif
-[debug] 14:09:02.483 Processed: source/fancybox/fancybox_overlay.png
-[debug] 14:09:02.485 Processed: source/fancybox/fancybox_sprite.png
-[debug] 14:09:02.487 Processed: source/fancybox/fancybox_sprite@2x.png
-[debug] 14:09:02.489 Processed: source/fancybox/jquery.fancybox.css
-[debug] 14:09:02.490 Processed: source/fancybox/jquery.fancybox.js
-[debug] 14:09:02.492 Processed: source/fancybox/jquery.fancybox.pack.js
-[debug] 14:09:02.494 Processed: source/fancybox/helpers/fancybox_buttons.png
-[debug] 14:09:02.495 Processed: source/fancybox/helpers/jquery.fancybox-buttons.css
-[debug] 14:09:02.497 Processed: source/fancybox/helpers/jquery.fancybox-buttons.js
-[debug] 14:09:02.498 Processed: source/fancybox/helpers/jquery.fancybox-media.js
-[debug] 14:09:02.500 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.css
-[debug] 14:09:02.502 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.js
-[debug] 14:09:02.505 Processed: layout/archive.ejs
-[debug] 14:09:02.505 Processed: layout/category.ejs
-[debug] 14:09:02.505 Processed: layout/index.ejs
-[debug] 14:09:02.505 Processed: layout/layout.ejs
-[debug] 14:09:02.505 Processed: layout/page.ejs
-[debug] 14:09:02.506 Processed: layout/post.ejs
-[debug] 14:09:02.506 Processed: layout/tag.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/archive.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/category.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/links.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/rss.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/tag.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/tagcloud.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/after_footer.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/archive.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/article.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/categories.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/comment.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/footer.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/google_analytics.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/head.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/header.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/mathjax.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/pagination.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/search.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/sidebar.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/tags.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/article.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/catetags.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/comment.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/footer.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/gallery.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/header.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/jiathis.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/pagination.ejs
-[debug] 14:09:02.527 Processed: Rmd/test.Rmd~
-[debug] 14:09:02.539 Processed: Rmd/债券市场回顾.Rmd~
-[debug] 14:09:02.541 Processed: _drafts/2013日本旅行照片.md
-[debug] 14:09:02.542 Processed: _drafts/risk parity策略测试.md
-[debug] 14:09:02.542 Processed: _drafts/从三季报看银行的行为.md
-[debug] 14:09:02.542 Processed: _drafts/关于周五的回购利率问题.md
-[debug] 14:09:02.542 Processed: _drafts/分级债基套利专题(一).md
-[debug] 14:09:02.542 Processed: _drafts/利率市场概览--.md
-[debug] 14:09:02.542 Processed: _drafts/券商报告选读：从“紧非标”到“债市牛”之间的距离.md
-[debug] 14:09:02.542 Processed: _drafts/商业银行行为和债券市场走势.md
-[debug] 14:09:02.542 Processed: _drafts/国债收益率曲线可视化项目.md
-[debug] 14:09:02.542 Processed: _drafts/国债期货相关入门学习资料.md
-[debug] 14:09:02.542 Processed: _drafts/国债期货管理收益率曲线风险.md
-[debug] 14:09:02.542 Processed: _drafts/字体测试.md
-[debug] 14:09:02.542 Processed: _drafts/日本金融机构资金流量表解读.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆、国债收益率演变以及对银行行为的思考.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆经济学专题（一）：用杠杆思考经济学的框架介绍.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆经济学专题（二）：杠杆经济学以及对中国经济的理解.md
-[debug] 14:09:02.542 Processed: _drafts/比特币高频交易设计.md
-[debug] 14:09:02.542 Processed: _drafts/石化二期转债发行情况.md
-[debug] 14:09:02.745 Processed: _posts/figure/yieldCurveChange.png
-[debug] 14:09:03.601 Processed: CNAME
-[debug] 14:09:03.609 Processed: Rmd/test.Rmd
-[debug] 14:09:03.616 Processed: Rmd/债券市场回顾.Rmd
-[debug] 14:09:03.623 Processed: images/Yr10.png
-[debug] 14:09:03.630 Processed: images/Yr10_gk.png
-[debug] 14:09:03.637 Processed: images/Yr5_2a_drzp.png
-[debug] 14:09:03.644 Processed: images/Yr5_2ap_drzp.png
-[debug] 14:09:03.651 Processed: images/assetMonth.png
-[debug] 14:09:03.660 Processed: images/assetWeek.png
-[debug] 14:09:03.668 Processed: images/assetYear.png
-[debug] 14:09:03.675 Processed: images/ggdaily.png
-[debug] 14:09:03.687 Processed: images/unnamed-chunk-2.png
-[debug] 14:09:03.697 Processed: images/ycDecompose2008.png
-[debug] 14:09:03.708 Processed: images/ycDecompose2014.png
-[debug] 14:09:03.720 Processed: images/ycDiffDay.png
-[debug] 14:09:03.731 Processed: images/ycDiffWeek.png
-[debug] 14:09:03.747 Processed: images/高收益债样本个数.png
-[debug] 14:09:03.754 Processed: uploads/2013/06/01-igraph-vs-statnet.pdf
-[debug] 14:09:03.757 Processed: uploads/2013/06/2320339_005913444_2-150x150.jpg
-[debug] 14:09:03.761 Processed: uploads/2013/06/2320339_005913444_2-300x141.jpg
-[debug] 14:09:03.764 Processed: uploads/2013/06/2320339_005913444_2-624x293.jpg
-[debug] 14:09:03.766 Processed: uploads/2013/06/2320339_005913444_2.jpg
-[debug] 14:09:03.768 Processed: uploads/2013/06/Rplot-1000x288.jpg
-[debug] 14:09:03.770 Processed: uploads/2013/06/Rplot-1024x554.jpg
-[debug] 14:09:03.772 Processed: uploads/2013/06/Rplot-150x150.jpg
-[debug] 14:09:03.774 Processed: uploads/2013/06/Rplot-150x150.png
-[debug] 14:09:03.777 Processed: uploads/2013/06/Rplot-300x162.jpg
-[debug] 14:09:03.780 Processed: uploads/2013/06/Rplot-300x280.png
-[debug] 14:09:03.783 Processed: uploads/2013/06/Rplot-320x300.png
-[debug] 14:09:03.797 Processed: uploads/2013/06/Rplot-500x270.jpg
-[debug] 14:09:03.799 Processed: uploads/2013/06/Rplot-614x288.png
-[debug] 14:09:03.801 Processed: uploads/2013/06/Rplot.jpg
-[debug] 14:09:03.803 Processed: uploads/2013/06/Rplot.png
-[debug] 14:09:03.805 Processed: uploads/2013/06/Rplot1-150x150.png
-[debug] 14:09:03.807 Processed: uploads/2013/06/Rplot1-300x187.png
-[debug] 14:09:03.811 Processed: uploads/2013/06/Rplot1-478x300.png
-[debug] 14:09:03.813 Processed: uploads/2013/06/Rplot1-640x288.png
-[debug] 14:09:03.815 Processed: uploads/2013/06/Rplot1.png
-[debug] 14:09:03.816 Processed: uploads/2013/06/assetPerformance-150x150.png
-[debug] 14:09:03.818 Processed: uploads/2013/06/assetPerformance-300x145.png
-[debug] 14:09:03.820 Processed: uploads/2013/06/assetPerformance-300x166.png
-[debug] 14:09:03.822 Processed: uploads/2013/06/assetPerformance-500x242.png
-[debug] 14:09:03.824 Processed: uploads/2013/06/assetPerformance-500x276.png
-[debug] 14:09:03.826 Processed: uploads/2013/06/assetPerformance-655x288.png
-[debug] 14:09:03.828 Processed: uploads/2013/06/assetPerformance-982x288.png
-[debug] 14:09:03.830 Processed: uploads/2013/06/assetPerformance.png
-[debug] 14:09:03.832 Processed: uploads/2013/06/bondFuture-150x150.png
-[debug] 14:09:03.834 Processed: uploads/2013/06/bondFuture-300x205.png
-[debug] 14:09:03.836 Processed: uploads/2013/06/bondFuture-438x300.png
-[debug] 14:09:03.838 Processed: uploads/2013/06/bondFuture-612x288.png
-[debug] 14:09:03.840 Processed: uploads/2013/06/bondFuture.png
-[debug] 14:09:03.842 Processed: uploads/2013/06/convertible-150x150.png
-[debug] 14:09:03.844 Processed: uploads/2013/06/convertible-300x243.png
-[debug] 14:09:03.846 Processed: uploads/2013/06/convertible-370x300.png
-[debug] 14:09:03.848 Processed: uploads/2013/06/convertible-676x288.png
-[debug] 14:09:03.850 Processed: uploads/2013/06/convertible.png
-[debug] 14:09:03.853 Processed: uploads/2013/06/cropped-Rplot-150x150.jpg
-[debug] 14:09:03.855 Processed: uploads/2013/06/cropped-Rplot-300x68.jpg
-[debug] 14:09:03.857 Processed: uploads/2013/06/cropped-Rplot-500x114.jpg
-[debug] 14:09:03.862 Processed: uploads/2013/06/cropped-Rplot.jpg
-[debug] 14:09:03.865 Processed: uploads/2013/06/cropped-Rplot2-1000x288.png
-[debug] 14:09:03.867 Processed: uploads/2013/06/cropped-Rplot2-150x150.png
-[debug] 14:09:03.869 Processed: uploads/2013/06/cropped-Rplot2-300x150.png
-[debug] 14:09:03.871 Processed: uploads/2013/06/cropped-Rplot2-500x251.png
-[debug] 14:09:03.874 Processed: uploads/2013/06/cropped-Rplot2.png
-[debug] 14:09:03.876 Processed: uploads/2013/06/cropped-tao-1000x288.jpg
-[debug] 14:09:03.879 Processed: uploads/2013/06/cropped-tao-150x150.jpg
-[debug] 14:09:03.881 Processed: uploads/2013/06/cropped-tao-300x132.jpg
-[debug] 14:09:03.885 Processed: uploads/2013/06/cropped-tao-500x220.jpg
-[debug] 14:09:03.887 Processed: uploads/2013/06/cropped-tao.jpg
-[debug] 14:09:03.890 Processed: uploads/2013/06/git-cheat-sheet-medium-1000x288.png
-[debug] 14:09:03.892 Processed: uploads/2013/06/git-cheat-sheet-medium-1024x791.png
-[debug] 14:09:03.895 Processed: uploads/2013/06/git-cheat-sheet-medium-150x150.png
-[debug] 14:09:03.897 Processed: uploads/2013/06/git-cheat-sheet-medium-300x231.png
-[debug] 14:09:03.900 Processed: uploads/2013/06/git-cheat-sheet-medium-388x300.png
-[debug] 14:09:03.902 Processed: uploads/2013/06/git-cheat-sheet-medium.png
-[debug] 14:09:03.905 Processed: uploads/2013/06/money-1000x188.png
-[debug] 14:09:03.907 Processed: uploads/2013/06/money-1024x154.png
-[debug] 14:09:03.910 Processed: uploads/2013/06/money-150x150.png
-[debug] 14:09:03.914 Processed: uploads/2013/06/money-300x45.png
-[debug] 14:09:03.917 Processed: uploads/2013/06/money-500x75.png
-[debug] 14:09:03.920 Processed: uploads/2013/06/money-e1370486329431-1024x154.png
-[debug] 14:09:03.922 Processed: uploads/2013/06/money-e1370486329431-150x150.png
-[debug] 14:09:03.925 Processed: uploads/2013/06/money-e1370486329431-300x45.png
-[debug] 14:09:03.928 Processed: uploads/2013/06/money-e1370486329431.png
-[debug] 14:09:03.931 Processed: uploads/2013/06/money.png
-[debug] 14:09:03.933 Processed: uploads/2013/06/treasury-1000x288.png
-[debug] 14:09:03.936 Processed: uploads/2013/06/treasury-1024x289.png
-[debug] 14:09:03.939 Processed: uploads/2013/06/treasury-150x150.png
-[debug] 14:09:03.942 Processed: uploads/2013/06/treasury-300x84.png
-[debug] 14:09:03.944 Processed: uploads/2013/06/treasury-500x141.png
-[debug] 14:09:03.947 Processed: uploads/2013/06/treasury.png
-[debug] 14:09:03.950 Processed: uploads/2013/06/upload-1000x288.png
-[debug] 14:09:03.953 Processed: uploads/2013/06/upload-1024x488.png
-[debug] 14:09:03.956 Processed: uploads/2013/06/upload-150x150.png
-[debug] 14:09:03.961 Processed: uploads/2013/06/upload-300x143.png
-[debug] 14:09:03.965 Processed: uploads/2013/06/upload-500x238.png
-[debug] 14:09:03.968 Processed: uploads/2013/06/upload.png
-[debug] 14:09:03.971 Processed: uploads/2013/06/win-dns-150x150.png
-[debug] 14:09:03.977 Processed: uploads/2013/06/win-dns-300x186.png
-[debug] 14:09:03.980 Processed: uploads/2013/06/win-dns-483x300.png
-[debug] 14:09:03.984 Processed: uploads/2013/06/win-dns-719x288.png
-[debug] 14:09:03.987 Processed: uploads/2013/06/win-dns.png
-[debug] 14:09:03.989 Processed: uploads/2013/06/wind-1000x288.png
-[debug] 14:09:03.993 Processed: uploads/2013/06/wind-1024x436.png
-[debug] 14:09:03.996 Processed: uploads/2013/06/wind-150x150.png
-[debug] 14:09:03.999 Processed: uploads/2013/06/wind-300x127.png
-[debug] 14:09:04.002 Processed: uploads/2013/06/wind-500x213.png
-[debug] 14:09:04.005 Processed: uploads/2013/06/wind.png
-[debug] 14:09:04.008 Processed: uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf
-[debug] 14:09:04.011 Processed: uploads/2013/07/Repo-150x150.png
-[debug] 14:09:04.014 Processed: uploads/2013/07/Repo-300x87.png
-[debug] 14:09:04.017 Processed: uploads/2013/07/Repo-500x146.png
-[debug] 14:09:04.021 Processed: uploads/2013/07/Repo.png
-[debug] 14:09:04.024 Processed: uploads/2013/10/IRR-150x150.gif
-[debug] 14:09:04.029 Processed: uploads/2013/10/IRR-300x203.gif
-[debug] 14:09:04.034 Processed: uploads/2013/10/IRR.gif
-[debug] 14:09:04.041 Processed: uploads/2013/10/IRRvsRepo-150x150.gif
-[debug] 14:09:04.044 Processed: uploads/2013/10/IRRvsRepo-300x186.gif
-[debug] 14:09:04.047 Processed: uploads/2013/10/IRRvsRepo.gif
-[debug] 14:09:04.051 Processed: uploads/2013/10/IRR参数优化-150x150.gif
-[debug] 14:09:04.054 Processed: uploads/2013/10/IRR参数优化-300x193.gif
-[debug] 14:09:04.059 Processed: uploads/2013/10/IRR参数优化.gif
-[debug] 14:09:04.064 Processed: uploads/2013/10/IRR回测-150x93.png
-[debug] 14:09:04.067 Processed: uploads/2013/10/IRR回测-300x45.png
-[debug] 14:09:04.071 Processed: uploads/2013/10/IRR回测.png
-[debug] 14:09:04.074 Processed: uploads/2013/10/IRR数据总结-150x150.gif
-[debug] 14:09:04.078 Processed: uploads/2013/10/IRR数据总结-300x194.gif
-[debug] 14:09:04.082 Processed: uploads/2013/10/IRR数据总结.gif
-[debug] 14:09:04.085 Processed: uploads/2013/10/My Heart Will Go On.mp3
-[debug] 14:09:04.089 Processed: uploads/2013/10/volatility-150x150.gif
-[debug] 14:09:04.092 Processed: uploads/2013/10/volatility-300x143.gif
-[debug] 14:09:04.096 Processed: uploads/2013/10/volatility.gif
-[debug] 14:09:04.100 Processed: uploads/2013/10/wind.mp3
-[debug] 14:09:04.104 Processed: uploads/2013/10/三季度转债表现-150x150.gif
-[debug] 14:09:04.108 Processed: uploads/2013/10/三季度转债表现-300x150.gif
-[debug] 14:09:04.112 Processed: uploads/2013/10/三季度转债表现.gif
-[debug] 14:09:04.115 Processed: uploads/2013/10/三季度转债表现图-150x150.gif
-[debug] 14:09:04.119 Processed: uploads/2013/10/三季度转债表现图-300x265.gif
-[debug] 14:09:04.123 Processed: uploads/2013/10/三季度转债表现图.gif
-[debug] 14:09:04.127 Processed: uploads/2013/10/三季度转债表现表-150x150.gif
-[debug] 14:09:04.131 Processed: uploads/2013/10/三季度转债表现表-238x300.gif
-[debug] 14:09:04.139 Processed: uploads/2013/10/三季度转债表现表.gif
-[debug] 14:09:04.142 Processed: uploads/2013/10/东大寺2-150x150.jpg
-[debug] 14:09:04.146 Processed: uploads/2013/10/东大寺2-300x225.jpg
-[debug] 14:09:04.150 Processed: uploads/2013/10/东大寺2.jpg
-[debug] 14:09:04.154 Processed: uploads/2013/10/中美国债-150x150.gif
-[debug] 14:09:04.159 Processed: uploads/2013/10/中美国债-300x189.gif
-[debug] 14:09:04.165 Processed: uploads/2013/10/中美国债.gif
-[debug] 14:09:04.169 Processed: uploads/2013/10/中行民生石化-150x150.gif
-[debug] 14:09:04.172 Processed: uploads/2013/10/中行民生石化-228x300.gif
-[debug] 14:09:04.176 Processed: uploads/2013/10/中行民生石化-780x1024.gif
-[debug] 14:09:04.180 Processed: uploads/2013/10/中行民生石化.gif
-[debug] 14:09:04.184 Processed: uploads/2013/10/京都岚山-150x150.jpg
-[debug] 14:09:04.188 Processed: uploads/2013/10/京都岚山-300x225.jpg
-[debug] 14:09:04.192 Processed: uploads/2013/10/京都岚山.jpg
-[debug] 14:09:04.197 Processed: uploads/2013/10/公募基金仓位1-150x150.png
-[debug] 14:09:04.202 Processed: uploads/2013/10/公募基金仓位1-276x300.png
-[debug] 14:09:04.206 Processed: uploads/2013/10/公募基金仓位1-945x1024.png
-[debug] 14:09:04.210 Processed: uploads/2013/10/公募基金仓位1.png
-[debug] 14:09:04.214 Processed: uploads/2013/10/公募基金仓位2-1024x742.png
-[debug] 14:09:04.218 Processed: uploads/2013/10/公募基金仓位2-150x150.png
-[debug] 14:09:04.222 Processed: uploads/2013/10/公募基金仓位2-300x217.png
-[debug] 14:09:04.226 Processed: uploads/2013/10/公募基金仓位2.png
-[debug] 14:09:04.230 Processed: uploads/2013/10/南山石化-150x150.gif
-[debug] 14:09:04.235 Processed: uploads/2013/10/南山石化-300x266.gif
-[debug] 14:09:04.239 Processed: uploads/2013/10/南山石化.gif
-[debug] 14:09:04.243 Processed: uploads/2013/10/可转债个券指标-150x150.png
-[debug] 14:09:04.247 Processed: uploads/2013/10/可转债个券指标-300x200.png
-[debug] 14:09:04.251 Processed: uploads/2013/10/可转债个券指标.png
-[debug] 14:09:04.256 Processed: uploads/2013/10/可转债个券指标1-150x150.png
-[debug] 14:09:04.260 Processed: uploads/2013/10/可转债个券指标1-300x151.png
-[debug] 14:09:04.264 Processed: uploads/2013/10/可转债个券指标1.png
-[debug] 14:09:04.269 Processed: uploads/2013/10/和服-150x150.jpg
-[debug] 14:09:04.273 Processed: uploads/2013/10/和服-300x225.jpg
-[debug] 14:09:04.277 Processed: uploads/2013/10/和服.jpg
-[debug] 14:09:04.281 Processed: uploads/2013/10/哲学の道-150x150.jpg
-[debug] 14:09:04.291 Processed: uploads/2013/10/哲学の道-300x225.jpg
-[debug] 14:09:04.295 Processed: uploads/2013/10/哲学の道.jpg
-[debug] 14:09:04.300 Processed: uploads/2013/10/四季度3-150x150.gif
-[debug] 14:09:04.304 Processed: uploads/2013/10/四季度3-215x300.gif
-[debug] 14:09:04.309 Processed: uploads/2013/10/四季度3.gif
-[debug] 14:09:04.313 Processed: uploads/2013/10/四季度报告-150x150.gif
-[debug] 14:09:04.318 Processed: uploads/2013/10/四季度报告-274x300.gif
-[debug] 14:09:04.323 Processed: uploads/2013/10/四季度报告.gif
-[debug] 14:09:04.327 Processed: uploads/2013/10/四季度报告2-150x150.gif
-[debug] 14:09:04.334 Processed: uploads/2013/10/四季度报告2-285x300.gif
-[debug] 14:09:04.339 Processed: uploads/2013/10/四季度报告2.gif
-[debug] 14:09:04.343 Processed: uploads/2013/10/国债期货-150x150.png
-[debug] 14:09:04.348 Processed: uploads/2013/10/国债期货-300x154.png
-[debug] 14:09:04.352 Processed: uploads/2013/10/国债期货.png
-[debug] 14:09:04.358 Processed: uploads/2013/10/国债期货四季度策略.pdf
-[debug] 14:09:04.363 Processed: uploads/2013/10/国债期货四季度策略1.pdf
-[debug] 14:09:04.368 Processed: uploads/2013/10/国债期货高频交易-150x150.png
-[debug] 14:09:04.373 Processed: uploads/2013/10/国债期货高频交易-300x225.png
-[debug] 14:09:04.378 Processed: uploads/2013/10/国债期货高频交易.png
-[debug] 14:09:04.383 Processed: uploads/2013/10/大阪-150x150.jpg
-[debug] 14:09:04.387 Processed: uploads/2013/10/大阪-300x225.jpg
-[debug] 14:09:04.392 Processed: uploads/2013/10/大阪.jpg
-[debug] 14:09:04.397 Processed: uploads/2013/10/大阪漫画者-150x150.jpg
-[debug] 14:09:04.402 Processed: uploads/2013/10/大阪漫画者-225x300.jpg
-[debug] 14:09:04.407 Processed: uploads/2013/10/大阪漫画者.jpg
-[debug] 14:09:04.412 Processed: uploads/2013/10/奈良_唐绍提寺-150x150.jpg
-[debug] 14:09:04.417 Processed: uploads/2013/10/奈良_唐绍提寺-300x225.jpg
-[debug] 14:09:04.422 Processed: uploads/2013/10/奈良_唐绍提寺.jpg
-[debug] 14:09:04.426 Processed: uploads/2013/10/奈良东大寺-150x150.jpg
-[debug] 14:09:04.432 Processed: uploads/2013/10/奈良东大寺-300x225.jpg
-[debug] 14:09:04.440 Processed: uploads/2013/10/奈良东大寺.jpg
-[debug] 14:09:04.445 Processed: uploads/2013/10/奈良东大寺1-150x150.jpg
-[debug] 14:09:04.450 Processed: uploads/2013/10/奈良东大寺1-300x225.jpg
-[debug] 14:09:04.455 Processed: uploads/2013/10/奈良东大寺1.jpg
-[debug] 14:09:04.462 Processed: uploads/2013/10/居酒屋-150x150.jpg
-[debug] 14:09:04.467 Processed: uploads/2013/10/居酒屋-300x225.jpg
-[debug] 14:09:04.472 Processed: uploads/2013/10/居酒屋.jpg
-[debug] 14:09:04.477 Processed: uploads/2013/10/岚山街头-150x150.jpg
-[debug] 14:09:04.482 Processed: uploads/2013/10/岚山街头-300x225.jpg
-[debug] 14:09:04.487 Processed: uploads/2013/10/岚山街头.jpg
-[debug] 14:09:04.493 Processed: uploads/2013/10/日本和服-150x150.jpg
-[debug] 14:09:04.498 Processed: uploads/2013/10/日本和服-300x225.jpg
-[debug] 14:09:04.503 Processed: uploads/2013/10/日本和服.jpg
-[debug] 14:09:04.508 Processed: uploads/2013/10/日本和服2-150x150.jpg
-[debug] 14:09:04.514 Processed: uploads/2013/10/日本和服2-300x225.jpg
-[debug] 14:09:04.519 Processed: uploads/2013/10/日本和服2.jpg
-[debug] 14:09:04.525 Processed: uploads/2013/10/民生转债走势-150x150.gif
-[debug] 14:09:04.531 Processed: uploads/2013/10/民生转债走势-300x233.gif
-[debug] 14:09:04.536 Processed: uploads/2013/10/民生转债走势.gif
-[debug] 14:09:04.541 Processed: uploads/2013/10/民生银行资本充足率-1024x701.png
-[debug] 14:09:04.547 Processed: uploads/2013/10/民生银行资本充足率-150x150.png
-[debug] 14:09:04.552 Processed: uploads/2013/10/民生银行资本充足率-300x205.png
-[debug] 14:09:04.558 Processed: uploads/2013/10/民生银行资本充足率.png
-[debug] 14:09:04.565 Processed: uploads/2013/10/清水市步行街-150x150.jpg
-[debug] 14:09:04.570 Processed: uploads/2013/10/清水市步行街-300x225.jpg
-[debug] 14:09:04.576 Processed: uploads/2013/10/清水市步行街.jpg
-[debug] 14:09:04.583 Processed: uploads/2013/10/艺妓-150x150.jpg
-[debug] 14:09:04.592 Processed: uploads/2013/10/艺妓-300x225.jpg
-[debug] 14:09:04.597 Processed: uploads/2013/10/艺妓.jpg
-[debug] 14:09:04.602 Processed: uploads/2013/10/转债基金资产配置.xlsx
-[debug] 14:09:04.608 Processed: uploads/2013/10/转债指数-150x150.png
-[debug] 14:09:04.614 Processed: uploads/2013/10/转债指数-300x136.png
-[debug] 14:09:04.619 Processed: uploads/2013/10/转债指数.png
-[debug] 14:09:04.625 Processed: uploads/2013/10/金阁寺-150x150.jpg
-[debug] 14:09:04.631 Processed: uploads/2013/10/金阁寺-300x225.jpg
-[debug] 14:09:04.640 Processed: uploads/2013/10/金阁寺.jpg
-[debug] 14:09:04.646 Processed: uploads/2013/11/pr20d_backtest-150x150.gif
-[debug] 14:09:04.652 Processed: uploads/2013/11/pr20d_backtest-300x208.gif
-[debug] 14:09:04.657 Processed: uploads/2013/11/pr20d_backtest.gif
-[debug] 14:09:04.666 Processed: uploads/2013/11/pr20d_backtest1-150x150.gif
-[debug] 14:09:04.672 Processed: uploads/2013/11/pr20d_backtest1-300x198.gif
-[debug] 14:09:04.680 Processed: uploads/2013/11/pr20d_backtest1.gif
-[debug] 14:09:04.688 Processed: uploads/2013/11/pr20d_backtest2-150x150.gif
-[debug] 14:09:04.697 Processed: uploads/2013/11/pr20d_backtest2-300x202.gif
-[debug] 14:09:04.705 Processed: uploads/2013/11/pr20d_backtest2.gif
-[debug] 14:09:04.716 Processed: uploads/2013/11/repo-150x150.png
-[debug] 14:09:04.725 Processed: uploads/2013/11/repo-300x86.png
-[debug] 14:09:04.734 Processed: uploads/2013/11/repo.png
-[debug] 14:09:04.742 Processed: uploads/2013/11/可转债套利.xlsx
-[debug] 14:09:04.761 Processed: uploads/2013/11/可转债套利1-150x150.gif
-[debug] 14:09:04.767 Processed: uploads/2013/11/可转债套利1-300x197.gif
-[debug] 14:09:04.773 Processed: uploads/2013/11/可转债套利1.gif
-[debug] 14:09:04.779 Processed: uploads/2013/11/转债套利2-150x150.gif
-[debug] 14:09:04.785 Processed: uploads/2013/11/转债套利2-300x269.gif
-[debug] 14:09:04.791 Processed: uploads/2013/11/转债套利2.gif
-[debug] 14:09:04.797 Processed: uploads/2013/11/转债套利3-150x150.gif
-[debug] 14:09:04.803 Processed: uploads/2013/11/转债套利3-300x147.gif
-[debug] 14:09:04.809 Processed: uploads/2013/11/转债套利3.gif
-[debug] 14:09:04.815 Processed: uploads/2013/11/转债套利4-150x150.gif
-[debug] 14:09:04.821 Processed: uploads/2013/11/转债套利4-300x232.gif
-[debug] 14:09:04.828 Processed: uploads/2013/11/转债套利4.gif
-[debug] 14:09:04.834 Processed: uploads/2013/11/银行资产负债表-150x150.gif
-[debug] 14:09:04.840 Processed: uploads/2013/11/银行资产负债表-300x200.gif
-[debug] 14:09:04.846 Processed: uploads/2013/11/银行资产负债表.gif
-[debug] 14:09:04.852 Processed: uploads/2013/11/银行资产负债表资产端-150x150.gif
-[debug] 14:09:04.858 Processed: uploads/2013/11/银行资产负债表资产端-300x168.gif
-[debug] 14:09:04.864 Processed: uploads/2013/11/银行资产负债表资产端.gif
-[debug] 14:09:04.871 Processed: uploads/2013/11/银行资产配置-150x150.png
-[debug] 14:09:04.877 Processed: uploads/2013/11/银行资产配置-300x148.png
-[debug] 14:09:04.883 Processed: uploads/2013/11/银行资产配置.png
-[debug] 14:09:04.889 Processed: uploads/2014/01/民生转债-150x150.png
-[debug] 14:09:04.896 Processed: uploads/2014/01/民生转债-300x273.png
-[debug] 14:09:04.902 Processed: uploads/2014/01/民生转债.png
-[debug] 14:09:04.911 Processed: uploads/2014/01/民生转债1-150x150.png
-[debug] 14:09:04.917 Processed: uploads/2014/01/民生转债1-300x233.png
-[debug] 14:09:04.923 Processed: uploads/2014/01/民生转债1.png
-[debug] 14:09:04.930 Processed: uploads/2014/01/民生转债修正-150x150.gif
-[debug] 14:09:04.936 Processed: uploads/2014/01/民生转债修正-300x237.gif
-[debug] 14:09:04.942 Processed: uploads/2014/01/民生转债修正.gif
-[debug] 14:09:04.949 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.doc
-[debug] 14:09:04.955 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.pdf
-[debug] 14:09:04.961 Processed: uploads/2014/03/杠杠使用之一.pdf
-[debug] 14:09:04.968 Processed: uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf
-[debug] 14:09:04.975 Processed: uploads/2014/04/房地产信贷-1024x303.png
-[debug] 14:09:04.981 Processed: uploads/2014/04/房地产信贷-150x150.png
-[debug] 14:09:04.987 Processed: uploads/2014/04/房地产信贷-300x89.png
-[debug] 14:09:04.994 Processed: uploads/2014/04/房地产信贷.png
-[debug] 14:09:05.000 Processed: uploads/2014/04/社会融资总量201403-150x150.png
-[debug] 14:09:05.007 Processed: uploads/2014/04/社会融资总量201403-300x178.png
-[debug] 14:09:05.013 Processed: uploads/2014/04/社会融资总量201403.png
-[debug] 14:09:05.020 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png
-[debug] 14:09:05.026 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png
-[debug] 14:09:05.033 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403.png
-[debug] 14:09:05.040 Processed: uploads/2014/04/社会融资总量__贷款201403-150x150.png
-[debug] 14:09:05.050 Processed: uploads/2014/04/社会融资总量__贷款201403-300x178.png
-[debug] 14:09:05.057 Processed: uploads/2014/04/社会融资总量__贷款201403.png
-[debug] 14:09:05.063 Processed: uploads/2014/04/银行生息资产配置行为-150x150.png
-[debug] 14:09:05.070 Processed: uploads/2014/04/银行生息资产配置行为-300x158.png
-[debug] 14:09:05.077 Processed: uploads/2014/04/银行生息资产配置行为.png
-[debug] 14:09:05.084 Processed: uploads/2014/04/银行资产配置—201403-150x150.png
-[debug] 14:09:05.090 Processed: uploads/2014/04/银行资产配置—201403-300x150.png
-[debug] 14:09:05.097 Processed: uploads/2014/04/银行资产配置—201403.png
-[debug] 14:09:05.104 Processed: uploads/2014/05/收益率阀值分析.png
-[debug] 14:09:05.111 Processed: uploads/2014/05/收益率阀值建仓速度.png
-[debug] 14:09:05.118 Processed: uploads/2014/05/高收益债列表.png
-[debug] 14:09:05.125 Processed: uploads/2014/05/高收益债指数久期变化.png
-[debug] 14:09:05.131 Processed: uploads/2014/05/高收益债指数交易额（万）.png
-[debug] 14:09:05.138 Processed: uploads/2014/05/高收益债指数表现情况.png
-[debug] 14:09:05.145 Processed: uploads/2014/05/高收益债指数走势.png
-[debug] 14:09:05.152 Processed: uploads/2014/05/高收益债数量和回购利率关系.png
-[debug] 14:09:05.163 Theme config loaded
-[debug] 14:09:05.163 Processed: _config.yml
-[debug] 14:09:05.170 Processed: uploads/2014/05/高收益债样本个数.png
-[debug] 14:09:05.171 Processed: languages/default.yml
-[debug] 14:09:05.172 Processed: languages/zh-CN.yml
-[debug] 14:09:05.174 Processed: languages/zh-TW.yml
-[debug] 14:09:06.073 Processed: readme.md
-[debug] 14:09:06.078 Processed: Rmd/test.md
-[debug] 14:09:06.079 Processed: Rmd/债券市场回顾.md
-[debug] 14:09:06.079 Processed: about/index.md
-[debug] 14:09:06.290 Processed: _posts/2013亚洲独立研究峰会笔录.md
-[debug] 14:09:06.290 Processed: _posts/2013日本游玩.md
-[debug] 14:09:06.290 Processed: _posts/MathJax试用.md
-[debug] 14:09:06.290 Processed: _posts/backtesting-of-risk-parity-strategy.md
-[debug] 14:09:06.290 Processed: _posts/bitbucket-intro.md
-[debug] 14:09:06.290 Processed: _posts/bloomberg包代码对应表.md
-[debug] 14:09:06.290 Processed: _posts/bs-and-pl.md
-[debug] 14:09:06.290 Processed: _posts/cb2013qr3allocation.md
-[debug] 14:09:06.290 Processed: _posts/economic-review-in-april.md
-[debug] 14:09:06.290 Processed: _posts/emacs-使用介绍.md
-[debug] 14:09:06.290 Processed: _posts/fwdrate.md
-[debug] 14:09:06.290 Processed: _posts/git-intro.md
-[debug] 14:09:06.290 Processed: _posts/pr20dsignal.md
-[debug] 14:09:06.290 Processed: _posts/project-name.md
-[debug] 14:09:06.290 Processed: _posts/test.md
-[debug] 14:09:06.291 Processed: _posts/write-r-pacakges-on-github.md
-[debug] 14:09:06.291 Processed: _posts/三月份融资数据点评.md
-[debug] 14:09:06.291 Processed: _posts/优先股试点报告.md
-[debug] 14:09:06.291 Processed: _posts/会计记录的后续问题讨论.md
-[debug] 14:09:06.291 Processed: _posts/债券和货币市场回顾_20130605.md
-[debug] 14:09:06.291 Processed: _posts/债券市场回顾.md
-[debug] 14:09:06.291 Processed: _posts/关于我们投资平台页面的设计.md
-[debug] 14:09:06.291 Processed: _posts/关于隔夜回购计息的问题.md
-[debug] 14:09:06.291 Processed: _posts/分级基金之基本风险收益分析.md
-[debug] 14:09:06.291 Processed: _posts/可转债市场回顾_20130605.md
-[debug] 14:09:06.291 Processed: _posts/可转债负溢价率套利策略一.md
-[debug] 14:09:06.291 Processed: _posts/可转债转股套利.md
-[debug] 14:09:06.291 Processed: _posts/回购的即期和远期收益率曲线.md
-[debug] 14:09:06.291 Processed: _posts/国债收益率曲线可视化项目.md
-[debug] 14:09:06.291 Processed: _posts/国债期货上市以来回顾.md
-[debug] 14:09:06.291 Processed: _posts/国债期货高频交易策略.md
-[debug] 14:09:06.291 Processed: _posts/国务院关于开展优先股试点的指导意见.md
-[debug] 14:09:06.291 Processed: _posts/在投资中使用杠杆之一.md
-[debug] 14:09:06.291 Processed: _posts/在投资中使用杠杆之二.md
-[debug] 14:09:06.291 Processed: _posts/基金份额的计算.md
-[debug] 14:09:06.291 Processed: _posts/推荐一篇非常难得的好报告.md
-[debug] 14:09:06.291 Processed: _posts/期货的持仓记录.md
-[debug] 14:09:06.291 Processed: _posts/民生转债修正条款博弈.md
-[debug] 14:09:06.291 Processed: _posts/转债市场观点_2013-10-29.md
-[debug] 14:09:06.291 Processed: _posts/远期收益率曲线交易角度的理解.md
-[debug] 14:09:06.291 Processed: _posts/银行研究专题一.md
-[debug] 14:09:06.292 Processed: _posts/高收益债投资研究.md
-[info] 14:09:06.629 Files loaded in 4.560s
-[debug] 14:09:06.666 Cache saved
-[debug] 14:09:06.752 Public folder cleared: archives/index.html,archives/page/2/index.html,archives/page/3/index.html,archives/page/4/index.html,archives/page/5/index.html,archives/2013/index.html,archives/2013/page/2/index.html,archives/2013/page/3/index.html,archives/2013/06/index.html,archives/2013/06/page/2/index.html,archives/2013/07/index.html,archives/2013/08/index.html,archives/2013/10/index.html,archives/2013/11/index.html,archives/2013/12/index.html,archives/2014/index.html,archives/2014/page/2/index.html,archives/2014/01/index.html,archives/2014/02/index.html,archives/2014/03/index.html,archives/2014/04/index.html,archives/2014/05/index.html,categories/经济和历史/index.html,categories/生活和旅游/index.html,categories/大类资产配置研究/index.html,categories/IT技术/index.html,categories/宏观经济/index.html,categories/可转债/index.html,categories/债券货币市场/index.html,categories/股票市场/index.html,categories/团队/index.html,categories/大类资产配置研究/高收益债/index.html,categories/金融市场报告/index.html,categories/金融市场报告/债券货币市场/index.html,categories/国债期货和利率/index.html,categories/债券货币市场/金融经济相关/index.html,categories/银行研究/index.html,index.html,page/2/index.html,page/3/index.html,page/4/index.html,page/5/index.html,readme.html,Rmd/test.html,Rmd/债券市场回顾.html,about/index.html,债券市场回顾/index.html,test/index.html,高收益债投资研究/index.html,三月份融资数据点评/index.html,在投资中使用杠杆之二/index.html,bs-and-pl/index.html,在投资中使用杠杆之一/index.html,分级基金之基本风险收益分析/index.html,会计记录的后续问题讨论/index.html,期货的持仓记录/index.html,基金份额的计算/index.html,民生转债修正条款博弈/index.html,可转债转股套利/index.html,国务院关于开展优先股试点的指导意见/index.html,可转债负溢价率套利策略一/index.html,银行研究专题一/index.html,bloomberg包代码对应表/index.html,pr20dsignal/index.html,fwdrate/index.html,2013亚洲独立研究峰会笔录/index.html,转债市场观点_2013-10-29/index.html,cb2013qr3allocation/index.html,国债期货高频交易策略/index.html,2013日本游玩/index.html,emacs-使用介绍/index.html,国债期货上市以来回顾/index.html,优先股试点报告/index.html,write-r-pacakges-on-github/index.html,远期收益率曲线交易角度的理解/index.html,回购的即期和远期收益率曲线/index.html,关于我们投资平台页面的设计/index.html,git-intro/index.html,推荐一篇非常难得的好报告/index.html,bitbucket-intro/index.html,project-name/index.html,economic-review-in-april/index.html,关于隔夜回购计息的问题/index.html,backtesting-of-risk-parity-strategy/index.html,MathJax试用/index.html,国债收益率曲线可视化项目/index.html,债券和货币市场回顾_20130605/index.html,可转债市场回顾_20130605/index.html,tags/bitbucket/index.html,tags/git/index.html,font/FontAwesome.otf,font/coveredbyyourgrace-webfont.eot,font/coveredbyyourgrace-webfont.svg,font/coveredbyyourgrace-webfont.ttf,font/coveredbyyourgrace-webfont.woff,font/fontawesome-webfont.eot,font/fontawesome-webfont.svg,font/fontawesome-webfont.ttf,font/fontawesome-webfont.woff,img/author.jpg,img/favicon.ico,img/logo.svg,img/pacman.jpg,js/jquery-2.1.0.min.js,css/style.css,fancybox/blank.gif,fancybox/fancybox_loading.gif,fancybox/fancybox_loading@2x.gif,fancybox/fancybox_overlay.png,fancybox/fancybox_sprite.png,fancybox/fancybox_sprite@2x.png,fancybox/jquery.fancybox.css,fancybox/jquery.fancybox.js,fancybox/jquery.fancybox.pack.js,fancybox/helpers/fancybox_buttons.png,fancybox/helpers/jquery.fancybox-buttons.css,fancybox/helpers/jquery.fancybox-buttons.js,fancybox/helpers/jquery.fancybox-media.js,fancybox/helpers/jquery.fancybox-thumbs.css,fancybox/helpers/jquery.fancybox-thumbs.js,CNAME,uploads/2013/06/01-igraph-vs-statnet.pdf,uploads/2013/06/2320339_005913444_2-150x150.jpg,uploads/2013/06/2320339_005913444_2-300x141.jpg,uploads/2013/06/2320339_005913444_2-624x293.jpg,uploads/2013/06/2320339_005913444_2.jpg,uploads/2013/06/Rplot-1000x288.jpg,uploads/2013/06/Rplot-1024x554.jpg,uploads/2013/06/Rplot-150x150.jpg,uploads/2013/06/Rplot-150x150.png,uploads/2013/06/Rplot-300x162.jpg,uploads/2013/06/Rplot-300x280.png,uploads/2013/06/Rplot-320x300.png,uploads/2013/06/Rplot-500x270.jpg,uploads/2013/06/Rplot-614x288.png,uploads/2013/06/Rplot.png,uploads/2013/06/Rplot.jpg,uploads/2013/06/Rplot1-300x187.png,uploads/2013/06/Rplot1-150x150.png,uploads/2013/06/Rplot1-478x300.png,uploads/2013/06/Rplot1-640x288.png,uploads/2013/06/Rplot1.png,uploads/2013/06/assetPerformance-150x150.png,uploads/2013/06/assetPerformance-300x145.png,uploads/2013/06/assetPerformance-300x166.png,uploads/2013/06/assetPerformance-500x276.png,uploads/2013/06/assetPerformance-500x242.png,uploads/2013/06/assetPerformance-655x288.png,uploads/2013/06/assetPerformance-982x288.png,uploads/2013/06/assetPerformance.png,uploads/2013/06/bondFuture-150x150.png,uploads/2013/06/bondFuture-300x205.png,uploads/2013/06/bondFuture-438x300.png,uploads/2013/06/bondFuture-612x288.png,uploads/2013/06/bondFuture.png,uploads/2013/06/convertible-150x150.png,uploads/2013/06/convertible-300x243.png,uploads/2013/06/convertible-370x300.png,uploads/2013/06/convertible-676x288.png,uploads/2013/06/convertible.png,uploads/2013/06/cropped-Rplot-150x150.jpg,uploads/2013/06/cropped-Rplot-300x68.jpg,uploads/2013/06/cropped-Rplot-500x114.jpg,uploads/2013/06/cropped-Rplot.jpg,uploads/2013/06/cropped-Rplot2-1000x288.png,uploads/2013/06/cropped-Rplot2-150x150.png,uploads/2013/06/cropped-Rplot2-300x150.png,uploads/2013/06/cropped-Rplot2-500x251.png,uploads/2013/06/cropped-Rplot2.png,uploads/2013/06/cropped-tao-1000x288.jpg,uploads/2013/06/cropped-tao-150x150.jpg,uploads/2013/06/cropped-tao-300x132.jpg,uploads/2013/06/cropped-tao.jpg,uploads/2013/06/git-cheat-sheet-medium-1000x288.png,uploads/2013/06/git-cheat-sheet-medium-1024x791.png,uploads/2013/06/cropped-tao-500x220.jpg,uploads/2013/06/git-cheat-sheet-medium-150x150.png,uploads/2013/06/git-cheat-sheet-medium-300x231.png,uploads/2013/06/git-cheat-sheet-medium-388x300.png,uploads/2013/06/git-cheat-sheet-medium.png,uploads/2013/06/money-1000x188.png,uploads/2013/06/money-1024x154.png,uploads/2013/06/money-150x150.png,uploads/2013/06/money-300x45.png,uploads/2013/06/money-500x75.png,uploads/2013/06/money-e1370486329431-1024x154.png,uploads/2013/06/money-e1370486329431-150x150.png,uploads/2013/06/money-e1370486329431.png,uploads/2013/06/money-e1370486329431-300x45.png,uploads/2013/06/money.png,uploads/2013/06/treasury-1000x288.png,uploads/2013/06/treasury-1024x289.png,uploads/2013/06/treasury-150x150.png,uploads/2013/06/treasury-300x84.png,uploads/2013/06/treasury-500x141.png,uploads/2013/06/upload-1000x288.png,uploads/2013/06/treasury.png,uploads/2013/06/upload-1024x488.png,uploads/2013/06/upload-150x150.png,uploads/2013/06/upload-300x143.png,uploads/2013/06/upload-500x238.png,uploads/2013/06/upload.png,uploads/2013/06/win-dns-150x150.png,uploads/2013/06/win-dns-300x186.png,uploads/2013/06/win-dns-483x300.png,uploads/2013/06/win-dns-719x288.png,uploads/2013/06/win-dns.png,uploads/2013/06/wind-1000x288.png,uploads/2013/06/wind-1024x436.png,uploads/2013/06/wind-150x150.png,uploads/2013/06/wind-300x127.png,uploads/2013/06/wind-500x213.png,uploads/2013/06/wind.png,uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf,uploads/2013/07/Repo-150x150.png,uploads/2013/07/Repo-300x87.png,uploads/2013/07/Repo-500x146.png,uploads/2013/07/Repo.png,uploads/2013/10/IRR-150x150.gif,uploads/2013/10/IRR-300x203.gif,uploads/2013/10/IRR.gif,uploads/2013/10/IRRvsRepo-150x150.gif,uploads/2013/10/IRRvsRepo-300x186.gif,uploads/2013/10/IRRvsRepo.gif,uploads/2013/10/IRR参数优化-150x150.gif,uploads/2013/10/IRR参数优化-300x193.gif,uploads/2013/10/IRR参数优化.gif,uploads/2013/10/IRR回测-150x93.png,uploads/2013/10/IRR回测-300x45.png,uploads/2013/10/IRR回测.png,uploads/2013/10/IRR数据总结-150x150.gif,uploads/2013/10/IRR数据总结-300x194.gif,uploads/2013/10/IRR数据总结.gif,uploads/2013/10/My Heart Will Go On.mp3,uploads/2013/10/volatility-150x150.gif,uploads/2013/10/volatility-300x143.gif,uploads/2013/10/volatility.gif,uploads/2013/10/wind.mp3,uploads/2013/10/三季度转债表现-150x150.gif,uploads/2013/10/三季度转债表现-300x150.gif,uploads/2013/10/三季度转债表现.gif,uploads/2013/10/三季度转债表现图-150x150.gif,uploads/2013/10/三季度转债表现图-300x265.gif,uploads/2013/10/三季度转债表现图.gif,uploads/2013/10/三季度转债表现表-150x150.gif,uploads/2013/10/三季度转债表现表.gif,uploads/2013/10/三季度转债表现表-238x300.gif,uploads/2013/10/东大寺2-150x150.jpg,uploads/2013/10/东大寺2-300x225.jpg,uploads/2013/10/东大寺2.jpg,uploads/2013/10/中美国债-150x150.gif,uploads/2013/10/中美国债-300x189.gif,uploads/2013/10/中美国债.gif,uploads/2013/10/中行民生石化-150x150.gif,uploads/2013/10/中行民生石化-228x300.gif,uploads/2013/10/中行民生石化-780x1024.gif,uploads/2013/10/中行民生石化.gif,uploads/2013/10/京都岚山-150x150.jpg,uploads/2013/10/京都岚山-300x225.jpg,uploads/2013/10/京都岚山.jpg,uploads/2013/10/公募基金仓位1-276x300.png,uploads/2013/10/公募基金仓位1-150x150.png,uploads/2013/10/公募基金仓位1-945x1024.png,uploads/2013/10/公募基金仓位1.png,uploads/2013/10/公募基金仓位2-1024x742.png,uploads/2013/10/公募基金仓位2-150x150.png,uploads/2013/10/公募基金仓位2-300x217.png,uploads/2013/10/公募基金仓位2.png,uploads/2013/10/南山石化-150x150.gif,uploads/2013/10/南山石化-300x266.gif,uploads/2013/10/南山石化.gif,uploads/2013/10/可转债个券指标-150x150.png,uploads/2013/10/可转债个券指标-300x200.png,uploads/2013/10/可转债个券指标.png,uploads/2013/10/可转债个券指标1-150x150.png,uploads/2013/10/可转债个券指标1-300x151.png,uploads/2013/10/可转债个券指标1.png,uploads/2013/10/和服-150x150.jpg,uploads/2013/10/和服-300x225.jpg,uploads/2013/10/和服.jpg,uploads/2013/10/哲学の道-150x150.jpg,uploads/2013/10/哲学の道-300x225.jpg,uploads/2013/10/哲学の道.jpg,uploads/2013/10/四季度3-150x150.gif,uploads/2013/10/四季度3.gif,uploads/2013/10/四季度3-215x300.gif,uploads/2013/10/四季度报告-150x150.gif,uploads/2013/10/四季度报告-274x300.gif,uploads/2013/10/四季度报告.gif,uploads/2013/10/四季度报告2-150x150.gif,uploads/2013/10/四季度报告2-285x300.gif,uploads/2013/10/四季度报告2.gif,uploads/2013/10/国债期货-150x150.png,uploads/2013/10/国债期货-300x154.png,uploads/2013/10/国债期货.png,uploads/2013/10/国债期货四季度策略1.pdf,uploads/2013/10/国债期货高频交易-150x150.png,uploads/2013/10/国债期货高频交易-300x225.png,uploads/2013/10/国债期货高频交易.png,uploads/2013/10/国债期货四季度策略.pdf,uploads/2013/10/大阪-150x150.jpg,uploads/2013/10/大阪-300x225.jpg,uploads/2013/10/大阪.jpg,uploads/2013/10/大阪漫画者-150x150.jpg,uploads/2013/10/大阪漫画者-225x300.jpg,uploads/2013/10/大阪漫画者.jpg,uploads/2013/10/奈良_唐绍提寺-150x150.jpg,uploads/2013/10/奈良_唐绍提寺-300x225.jpg,uploads/2013/10/奈良_唐绍提寺.jpg,uploads/2013/10/奈良东大寺-150x150.jpg,uploads/2013/10/奈良东大寺-300x225.jpg,uploads/2013/10/奈良东大寺.jpg,uploads/2013/10/奈良东大寺1-150x150.jpg,uploads/2013/10/奈良东大寺1-300x225.jpg,uploads/2013/10/奈良东大寺1.jpg,uploads/2013/10/居酒屋-150x150.jpg,uploads/2013/10/居酒屋-300x225.jpg,uploads/2013/10/居酒屋.jpg,uploads/2013/10/岚山街头-150x150.jpg,uploads/2013/10/岚山街头-300x225.jpg,uploads/2013/10/岚山街头.jpg,uploads/2013/10/日本和服-300x225.jpg,uploads/2013/10/日本和服.jpg,uploads/2013/10/日本和服2-150x150.jpg,uploads/2013/10/日本和服-150x150.jpg,uploads/2013/10/日本和服2-300x225.jpg,uploads/2013/10/日本和服2.jpg,uploads/2013/10/民生转债走势-300x233.gif,uploads/2013/10/民生转债走势-150x150.gif,uploads/2013/10/民生转债走势.gif,uploads/2013/10/民生银行资本充足率-1024x701.png,uploads/2013/10/民生银行资本充足率-150x150.png,uploads/2013/10/民生银行资本充足率-300x205.png,uploads/2013/10/民生银行资本充足率.png,uploads/2013/10/清水市步行街-150x150.jpg,uploads/2013/10/清水市步行街-300x225.jpg,uploads/2013/10/清水市步行街.jpg,uploads/2013/10/艺妓-150x150.jpg,uploads/2013/10/艺妓.jpg,uploads/2013/10/转债基金资产配置.xlsx,uploads/2013/10/转债指数-150x150.png,uploads/2013/10/艺妓-300x225.jpg,uploads/2013/10/转债指数-300x136.png,uploads/2013/10/转债指数.png,uploads/2013/10/金阁寺-150x150.jpg,uploads/2013/10/金阁寺-300x225.jpg,uploads/2013/10/金阁寺.jpg,uploads/2013/11/pr20d_backtest-150x150.gif,uploads/2013/11/pr20d_backtest-300x208.gif,uploads/2013/11/pr20d_backtest.gif,uploads/2013/11/pr20d_backtest1-300x198.gif,uploads/2013/11/pr20d_backtest1.gif,uploads/2013/11/pr20d_backtest2-150x150.gif,uploads/2013/11/pr20d_backtest1-150x150.gif,uploads/2013/11/pr20d_backtest2-300x202.gif,uploads/2013/11/pr20d_backtest2.gif,uploads/2013/11/repo-150x150.png,uploads/2013/11/repo-300x86.png,uploads/2013/11/repo.png,uploads/2013/11/可转债套利.xlsx,uploads/2013/11/可转债套利1-150x150.gif,uploads/2013/11/可转债套利1-300x197.gif,uploads/2013/11/可转债套利1.gif,uploads/2013/11/转债套利2-150x150.gif,uploads/2013/11/转债套利2-300x269.gif,uploads/2013/11/转债套利3-150x150.gif,uploads/2013/11/转债套利3-300x147.gif,uploads/2013/11/转债套利2.gif,uploads/2013/11/转债套利3.gif,uploads/2013/11/转债套利4-150x150.gif,uploads/2013/11/转债套利4-300x232.gif,uploads/2013/11/转债套利4.gif,uploads/2013/11/银行资产负债表-300x200.gif,uploads/2013/11/银行资产负债表.gif,uploads/2013/11/银行资产负债表资产端-150x150.gif,uploads/2013/11/银行资产负债表-150x150.gif,uploads/2013/11/银行资产负债表资产端-300x168.gif,uploads/2013/11/银行资产负债表资产端.gif,uploads/2013/11/银行资产配置-150x150.png,uploads/2013/11/银行资产配置.png,uploads/2013/11/银行资产配置-300x148.png,uploads/2014/01/民生转债-150x150.png,uploads/2014/01/民生转债-300x273.png,uploads/2014/01/民生转债.png,uploads/2014/01/民生转债1-150x150.png,uploads/2014/01/民生转债1-300x233.png,uploads/2014/01/民生转债修正-150x150.gif,uploads/2014/01/民生转债修正-300x237.gif,uploads/2014/01/民生转债修正.gif,uploads/2014/01/民生转债1.png,uploads/2014/03/分级基金A基金投资案例-双禧A.doc,uploads/2014/03/分级基金A基金投资案例-双禧A.pdf,uploads/2014/03/杠杠使用之一.pdf,uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf,uploads/2014/04/房地产信贷-1024x303.png,uploads/2014/04/房地产信贷-150x150.png,uploads/2014/04/房地产信贷-300x89.png,uploads/2014/04/房地产信贷.png,uploads/2014/04/社会融资总量201403-150x150.png,uploads/2014/04/社会融资总量201403-300x178.png,uploads/2014/04/社会融资总量201403.png,uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png,uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png,uploads/2014/04/社会融资总量__新增信托贷款201403.png,uploads/2014/04/社会融资总量__贷款201403-150x150.png,uploads/2014/04/社会融资总量__贷款201403.png,uploads/2014/04/银行生息资产配置行为-150x150.png,uploads/2014/04/社会融资总量__贷款201403-300x178.png,uploads/2014/04/银行生息资产配置行为.png,uploads/2014/04/银行资产配置—201403-150x150.png,uploads/2014/04/银行资产配置—201403-300x150.png,uploads/2014/04/银行生息资产配置行为-300x158.png,uploads/2014/04/银行资产配置—201403.png,uploads/2014/05/收益率阀值分析.png,uploads/2014/05/收益率阀值建仓速度.png,uploads/2014/05/高收益债列表.png,uploads/2014/05/高收益债指数久期变化.png,uploads/2014/05/高收益债指数交易额（万）.png,uploads/2014/05/高收益债指数表现情况.png,uploads/2014/05/高收益债指数走势.png,uploads/2014/05/高收益债数量和回购利率关系.png,uploads/2014/05/高收益债样本个数.png,Rmd/test.Rmd,images/高收益债样本个数.png,images/unnamed-chunk-2.png,images/ggdaily.png,images/Yr10.png,images/Yr10_gk.png,images/Yr5_2ap_drzp.png,images/Yr5_2a_drzp.png,images/ycDiffDay.png,images/ycDiffWeek.png,images/ycDecompose2008.png,images/ycDecompose2014.png,images/assetWeek.png,images/assetYear.png,Rmd/债券市场回顾.Rmd,images/assetMonth.png
-[debug] 14:09:06.788 Render archive: archives/
-[debug] 14:09:06.794 Render archive: archives/page/2/
-[debug] 14:09:06.795 Render archive: archives/page/3/
-[debug] 14:09:06.795 Render archive: archives/page/4/
-[debug] 14:09:06.796 Render archive: archives/page/5/
-[debug] 14:09:06.796 Render archive: archives/2013/
-[debug] 14:09:06.797 Render archive: archives/2013/page/2/
-[debug] 14:09:06.797 Render archive: archives/2013/page/3/
-[debug] 14:09:06.797 Render archive: archives/2013/06/
-[debug] 14:09:06.798 Render archive: archives/2013/06/page/2/
-[debug] 14:09:06.798 Render archive: archives/2013/07/
-[debug] 14:09:06.799 Render archive: archives/2013/08/
-[debug] 14:09:06.799 Render archive: archives/2013/10/
-[debug] 14:09:06.800 Render archive: archives/2013/11/
-[debug] 14:09:06.800 Render archive: archives/2013/12/
-[debug] 14:09:06.800 Render archive: archives/2014/
-[debug] 14:09:06.801 Render archive: archives/2014/page/2/
-[debug] 14:09:06.801 Render archive: archives/2014/01/
-[debug] 14:09:06.801 Render archive: archives/2014/02/
-[debug] 14:09:06.802 Render archive: archives/2014/03/
-[debug] 14:09:06.802 Render archive: archives/2014/04/
-[debug] 14:09:06.802 Render archive: archives/2014/05/
-[debug] 14:09:06.803 Render category: categories/经济和历史/
-[debug] 14:09:06.803 Render category: categories/生活和旅游/
-[debug] 14:09:06.803 Render category: categories/大类资产配置研究/
-[debug] 14:09:06.804 Render category: categories/IT技术/
-[debug] 14:09:06.804 Render category: categories/宏观经济/
-[debug] 14:09:06.804 Render category: categories/可转债/
-[debug] 14:09:06.805 Render category: categories/债券货币市场/
-[debug] 14:09:06.805 Render category: categories/股票市场/
-[debug] 14:09:06.805 Render category: categories/团队/
-[debug] 14:09:06.806 Render category: categories/大类资产配置研究/高收益债/
-[debug] 14:09:06.806 Render category: categories/金融市场报告/
-[debug] 14:09:06.806 Render category: categories/金融市场报告/债券货币市场/
-[debug] 14:09:06.807 Render category: categories/国债期货和利率/
-[debug] 14:09:06.807 Render category: categories/债券货币市场/金融经济相关/
-[debug] 14:09:06.807 Render category: categories/银行研究/
-[debug] 14:09:06.808 Render index: 
-[debug] 14:09:06.808 Render index: page/2/
-[debug] 14:09:06.808 Render index: page/3/
-[debug] 14:09:06.809 Render index: page/4/
-[debug] 14:09:06.809 Render index: page/5/
-[debug] 14:09:06.809 Render page: readme.html
-[debug] 14:09:06.809 Render page: Rmd/test.html
-[debug] 14:09:06.810 Render page: Rmd/债券市场回顾.html
-[debug] 14:09:06.810 Render page: about/index.html
-[debug] 14:09:06.810 Render post: 债券市场回顾/
-[debug] 14:09:06.811 Render post: test/
-[debug] 14:09:06.811 Render post: 高收益债投资研究/
-[debug] 14:09:06.811 Render post: 三月份融资数据点评/
-[debug] 14:09:06.812 Render post: 在投资中使用杠杆之二/
-[debug] 14:09:06.812 Render post: bs-and-pl/
-[debug] 14:09:06.812 Render post: 在投资中使用杠杆之一/
-[debug] 14:09:06.813 Render post: 分级基金之基本风险收益分析/
-[debug] 14:09:06.813 Render post: 会计记录的后续问题讨论/
-[debug] 14:09:06.813 Render post: 期货的持仓记录/
-[debug] 14:09:06.814 Render post: 基金份额的计算/
-[debug] 14:09:06.814 Render post: 民生转债修正条款博弈/
-[debug] 14:09:06.814 Render post: 可转债转股套利/
-[debug] 14:09:06.815 Render post: 国务院关于开展优先股试点的指导意见/
-[debug] 14:09:06.815 Render post: 可转债负溢价率套利策略一/
-[debug] 14:09:06.815 Render post: 银行研究专题一/
-[debug] 14:09:06.816 Render post: bloomberg包代码对应表/
-[debug] 14:09:06.816 Render post: pr20dsignal/
-[debug] 14:09:06.817 Render post: fwdrate/
-[debug] 14:09:06.817 Render post: 2013亚洲独立研究峰会笔录/
-[debug] 14:09:06.817 Render post: 转债市场观点_2013-10-29/
-[debug] 14:09:06.817 Render post: cb2013qr3allocation/
-[debug] 14:09:06.818 Render post: 国债期货高频交易策略/
-[debug] 14:09:06.818 Render post: 2013日本游玩/
-[debug] 14:09:06.818 Render post: emacs-使用介绍/
-[debug] 14:09:06.819 Render post: 国债期货上市以来回顾/
-[debug] 14:09:06.819 Render post: 优先股试点报告/
-[debug] 14:09:06.819 Render post: write-r-pacakges-on-github/
-[debug] 14:09:06.820 Render post: 远期收益率曲线交易角度的理解/
-[debug] 14:09:06.820 Render post: 回购的即期和远期收益率曲线/
-[debug] 14:09:06.820 Render post: 关于我们投资平台页面的设计/
-[debug] 14:09:06.821 Render post: git-intro/
-[debug] 14:09:06.821 Render post: 推荐一篇非常难得的好报告/
-[debug] 14:09:06.821 Render post: bitbucket-intro/
-[debug] 14:09:06.822 Render post: project-name/
-[debug] 14:09:06.822 Render post: economic-review-in-april/
-[debug] 14:09:06.822 Render post: 关于隔夜回购计息的问题/
-[debug] 14:09:06.823 Render post: backtesting-of-risk-parity-strategy/
-[debug] 14:09:06.823 Render post: MathJax试用/
-[debug] 14:09:06.823 Render post: 国债收益率曲线可视化项目/
-[debug] 14:09:06.824 Render post: 债券和货币市场回顾_20130605/
-[debug] 14:09:06.824 Render post: 可转债市场回顾_20130605/
-[debug] 14:09:06.825 Render tag: tags/bitbucket/
-[debug] 14:09:06.825 Render tag: tags/git/
-[error] 14:09:08.661 HexoError: Render failed: Rmd/test.html
-TypeError: Object [object Array] has no method 'find'
-    at list (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:48:16)
-    at Object.exports.list_categories (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:91:3)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:33:290)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:38:66)
-    at /usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:255:15
-    at Object.exports.render (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:293:13)
-    at module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/renderer/ejs.js:5:14)
-    at Object.exports.renderSync (/usr/local/lib/node_modules/hexo/lib/core/render.js:133:12)
-    at View.renderSync (/usr/local/lib/node_modules/hexo/lib/theme/view.js:183:28)
-    at Object.module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/helper/partial.js:19:17)
+[debug] 21:01:37.890 Config file loaded
+[debug] 21:01:37.900 Version info checked successfully
+[debug] 21:01:37.990 Loading database.
+[debug] 21:01:38.110 Script load successfully: fancybox.js
+[debug] 21:01:38.650 Processed: LICENSE
+[debug] 21:01:38.650 Processed: README.md
+[debug] 21:01:38.650 Processed: scripts/fancybox.js
+[debug] 21:01:38.834 Processed: source/css/_base/code.styl
+[debug] 21:01:38.835 Processed: source/css/_base/font.styl
+[debug] 21:01:38.835 Processed: source/css/_base/public.styl
+[debug] 21:01:38.835 Processed: source/css/_base/variable.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/article.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/aside.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/duoshuo.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/footer.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/gallery.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/header.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/helper.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/index.styl
+[debug] 21:01:38.998 Processed: source/font/FontAwesome.otf
+[debug] 21:01:39.006 Processed: source/font/coveredbyyourgrace-webfont.eot
+[debug] 21:01:39.014 Processed: source/font/coveredbyyourgrace-webfont.svg
+[debug] 21:01:39.021 Processed: source/font/coveredbyyourgrace-webfont.ttf
+[debug] 21:01:39.029 Processed: source/font/coveredbyyourgrace-webfont.woff
+[debug] 21:01:39.036 Processed: source/font/fontawesome-webfont.eot
+[debug] 21:01:39.044 Processed: source/font/fontawesome-webfont.svg
+[debug] 21:01:39.051 Processed: source/font/fontawesome-webfont.ttf
+[debug] 21:01:39.060 Processed: source/font/fontawesome-webfont.woff
+[debug] 21:01:39.068 Processed: source/img/author.jpg
+[debug] 21:01:39.075 Processed: source/img/favicon.ico
+[debug] 21:01:39.083 Processed: source/img/logo.svg
+[debug] 21:01:39.091 Processed: source/img/pacman.jpg
+[debug] 21:01:39.099 Processed: source/js/jquery-2.1.0.min.js
+[debug] 21:01:39.107 Processed: source/css/style.styl
+[debug] 21:01:39.115 Processed: source/fancybox/blank.gif
+[debug] 21:01:39.123 Processed: source/fancybox/fancybox_loading.gif
+[debug] 21:01:39.130 Processed: source/fancybox/fancybox_loading@2x.gif
+[debug] 21:01:39.138 Processed: source/fancybox/fancybox_overlay.png
+[debug] 21:01:39.146 Processed: source/fancybox/fancybox_sprite.png
+[debug] 21:01:39.154 Processed: source/fancybox/fancybox_sprite@2x.png
+[debug] 21:01:39.161 Processed: source/fancybox/jquery.fancybox.css
+[debug] 21:01:39.173 Processed: source/fancybox/jquery.fancybox.js
+[debug] 21:01:39.181 Processed: source/fancybox/jquery.fancybox.pack.js
+[debug] 21:01:39.189 Processed: source/fancybox/helpers/fancybox_buttons.png
+[debug] 21:01:39.196 Processed: source/fancybox/helpers/jquery.fancybox-buttons.css
+[debug] 21:01:39.206 Processed: source/fancybox/helpers/jquery.fancybox-buttons.js
+[debug] 21:01:39.213 Processed: source/fancybox/helpers/jquery.fancybox-media.js
+[debug] 21:01:39.221 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.css
+[debug] 21:01:39.229 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.js
+[debug] 21:01:39.237 Processed: Rmd/test.Rmd~
+[debug] 21:01:39.238 Processed: Rmd/债券市场回顾.Rmd~
+[debug] 21:01:39.278 Processed: _drafts/2013日本旅行照片.md
+[debug] 21:01:39.278 Processed: _drafts/risk parity策略测试.md
+[debug] 21:01:39.278 Processed: _drafts/从三季报看银行的行为.md
+[debug] 21:01:39.278 Processed: _drafts/关于周五的回购利率问题.md
+[debug] 21:01:39.278 Processed: _drafts/分级债基套利专题(一).md
+[debug] 21:01:39.278 Processed: _drafts/利率市场概览--.md
+[debug] 21:01:39.279 Processed: _drafts/券商报告选读：从“紧非标”到“债市牛”之间的距离.md
+[debug] 21:01:39.279 Processed: _drafts/商业银行行为和债券市场走势.md
+[debug] 21:01:39.279 Processed: _drafts/国债收益率曲线可视化项目.md
+[debug] 21:01:39.279 Processed: _drafts/国债期货相关入门学习资料.md
+[debug] 21:01:39.279 Processed: _drafts/国债期货管理收益率曲线风险.md
+[debug] 21:01:39.279 Processed: _drafts/字体测试.md
+[debug] 21:01:39.279 Processed: _drafts/日本金融机构资金流量表解读.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆、国债收益率演变以及对银行行为的思考.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆经济学专题（一）：用杠杆思考经济学的框架介绍.md
+[debug] 21:01:39.279 Processed: _drafts/比特币高频交易设计.md
+[debug] 21:01:39.279 Processed: _drafts/石化二期转债发行情况.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆经济学专题（二）：杠杆经济学以及对中国经济的理解.md
+[debug] 21:01:39.326 Processed: _posts/四月份融资数据点评.md~
+[debug] 21:01:39.345 Processed: _posts/figure/unnamed-chunk-1.png
+[debug] 21:01:39.345 Processed: _posts/figure/yieldCurveChange.png
+[debug] 21:01:40.022 Processed: layout/archive.ejs
+[debug] 21:01:40.022 Processed: CNAME
+[debug] 21:01:40.022 Processed: Rmd/test.Rmd
+[debug] 21:01:40.022 Processed: Rmd/债券市场回顾.Rmd
+[debug] 21:01:40.022 Processed: figure/unnamed-chunk-2.png
+[debug] 21:01:40.022 Processed: images/M2变化和测算结果偏离.png
+[debug] 21:01:40.022 Processed: images/M2变化和金融机构存款变化对比.png
+[debug] 21:01:40.022 Processed: images/M2变化季节性规律.png
+[debug] 21:01:40.022 Processed: images/M2实际变化和预测结果对比.png
+[debug] 21:01:40.022 Processed: images/M2来源分解季节性规律.png
+[debug] 21:01:40.022 Processed: images/Yr10.png
+[debug] 21:01:40.022 Processed: images/Yr10_gk.png
+[debug] 21:01:40.022 Processed: images/Yr5_2a_drzp.png
+[debug] 21:01:40.022 Processed: images/Yr5_2ap_drzp.png
+[debug] 21:01:40.022 Processed: images/assetMonth.png
+[debug] 21:01:40.032 Processed: images/assetWeek.png
+[debug] 21:01:40.032 Processed: images/assetYear.png
+[debug] 21:01:40.032 Processed: images/corpBond.png
+[debug] 21:01:40.032 Processed: images/entrustedLoan.png
+[debug] 21:01:40.032 Processed: images/ggdaily.png
+[debug] 21:01:40.032 Processed: images/newLoan.png
+[debug] 21:01:40.032 Processed: images/totalFinance.png
+[debug] 21:01:40.032 Processed: images/trstedLoan.png
+[debug] 21:01:40.032 Processed: images/unnamed-chunk-2.png
+[debug] 21:01:40.032 Processed: images/ycDecompose2008.png
+[debug] 21:01:40.032 Processed: images/ycDecompose2014.png
+[debug] 21:01:40.032 Processed: images/ycDiffDay.png
+[debug] 21:01:40.032 Processed: images/ycDiffWeek.png
+[debug] 21:01:40.032 Processed: images/保证金存款季节性.png
+[debug] 21:01:40.032 Processed: images/社融新增债券融资.png
+[debug] 21:01:40.032 Processed: images/社融非标.png
+[debug] 21:01:40.032 Processed: images/社融非标同比.png
+[debug] 21:01:40.032 Processed: images/银行表外进表季节性估算.png
+[debug] 21:01:40.032 Processed: images/预测残差的季节性规律_央行口径.png
+[debug] 21:01:40.042 Processed: images/预测残差的季节性规律_金融机构口径.png
+[debug] 21:01:40.042 Processed: images/高收益债样本个数.png
+[debug] 21:01:40.042 Processed: layout/category.ejs
+[debug] 21:01:40.042 Processed: uploads/2013/06/01-igraph-vs-statnet.pdf
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-150x150.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-300x141.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-624x293.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-1000x288.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-1024x554.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-150x150.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-150x150.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-300x162.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-300x280.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-320x300.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-500x270.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-614x288.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-150x150.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-300x187.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-478x300.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-640x288.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/assetPerformance-150x150.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-300x145.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-300x166.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-500x242.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-500x276.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-655x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-982x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-150x150.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-300x205.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-438x300.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-612x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-150x150.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-300x243.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-370x300.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-676x288.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-150x150.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-300x68.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-500x114.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot2-1000x288.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot2-150x150.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2-300x150.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2-500x251.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-1000x288.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-150x150.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-300x132.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-500x220.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/git-cheat-sheet-medium-1000x288.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/git-cheat-sheet-medium-1024x791.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-150x150.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-300x231.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-388x300.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-1000x188.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-1024x154.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-150x150.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-300x45.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-500x75.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-e1370486329431-1024x154.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431-150x150.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431-300x45.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-1000x288.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-1024x289.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-150x150.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury-300x84.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury-500x141.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-1000x288.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-1024x488.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-150x150.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-300x143.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-500x238.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-150x150.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-300x186.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-483x300.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-719x288.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-1000x288.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-1024x436.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-150x150.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind-300x127.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind-500x213.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-150x150.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-300x87.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-500x146.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo.png
+[debug] 21:01:40.132 Processed: uploads/2013/10/IRR-150x150.gif
+[debug] 21:01:40.132 Processed: uploads/2013/10/IRR-300x203.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo-150x150.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo-300x186.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化-150x150.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化-300x193.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR回测-150x93.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR回测-300x45.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR回测.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结-150x150.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结-300x194.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/My Heart Will Go On.mp3
+[debug] 21:01:40.152 Processed: uploads/2013/10/volatility-150x150.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/volatility-300x143.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/volatility.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/wind.mp3
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现-150x150.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现-300x150.gif
+[debug] 21:01:40.162 Processed: layout/index.ejs
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图-150x150.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图-300x265.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表-150x150.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表-238x300.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/东大寺2-150x150.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/东大寺2-300x225.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/东大寺2.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债-150x150.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债-300x189.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中行民生石化-150x150.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中行民生石化-228x300.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/中行民生石化-780x1024.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/中行民生石化.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山-150x150.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山-300x225.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/公募基金仓位1-150x150.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1-276x300.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1-945x1024.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-1024x742.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-150x150.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-300x217.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/公募基金仓位2.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化-150x150.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化-300x266.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/可转债个券指标-150x150.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/可转债个券指标-300x200.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1-150x150.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1-300x151.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/和服-150x150.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/和服-300x225.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/和服.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道-150x150.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道-300x225.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/四季度3-150x150.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度3-215x300.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度3.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告-150x150.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告-274x300.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告2-150x150.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/四季度报告2-285x300.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/四季度报告2.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货-150x150.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货-300x154.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货四季度策略.pdf
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货四季度策略1.pdf
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易-150x150.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易-300x225.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/大阪-150x150.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪-300x225.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者-150x150.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者-225x300.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺-150x150.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺-300x225.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺-150x150.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺-300x225.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1-150x150.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1-300x225.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/居酒屋-150x150.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/居酒屋-300x225.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/居酒屋.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头-150x150.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头-300x225.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/日本和服-150x150.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服-300x225.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2-150x150.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2-300x225.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2.jpg
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势-150x150.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势-300x233.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生银行资本充足率-1024x701.png
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生银行资本充足率-150x150.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/民生银行资本充足率-300x205.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/民生银行资本充足率.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/清水市步行街-150x150.jpg
+[debug] 21:01:40.332 Processed: uploads/2013/10/清水市步行街-300x225.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/清水市步行街.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓-150x150.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓-300x225.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/转债基金资产配置.xlsx
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数-150x150.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数-300x136.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/金阁寺-150x150.jpg
+[debug] 21:01:40.352 Processed: uploads/2013/10/金阁寺-300x225.jpg
+[debug] 21:01:40.362 Processed: uploads/2013/10/金阁寺.jpg
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest-150x150.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest-300x208.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest1-150x150.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest1-300x198.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest1.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest2-150x150.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest2-300x202.gif
+[debug] 21:01:40.382 Processed: uploads/2013/11/pr20d_backtest2.gif
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo-150x150.png
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo-300x86.png
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo.png
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利.xlsx
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1-150x150.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1-300x197.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/转债套利2-150x150.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利2-300x269.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利2.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利3-150x150.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利3-300x147.gif
+[debug] 21:01:40.402 Processed: layout/layout.ejs
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利3.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4-150x150.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4-300x232.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/银行资产负债表-150x150.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表-300x200.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表资产端-150x150.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表资产端-300x168.gif
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产负债表资产端.gif
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置-150x150.png
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置-300x148.png
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债-150x150.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债-300x273.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债1-150x150.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债1-300x233.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债1.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债修正-150x150.gif
+[debug] 21:01:40.462 Processed: uploads/2014/01/民生转债修正-300x237.gif
+[debug] 21:01:40.462 Processed: uploads/2014/01/民生转债修正.gif
+[debug] 21:01:40.462 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.doc
+[debug] 21:01:40.462 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.pdf
+[debug] 21:01:40.462 Processed: uploads/2014/03/杠杠使用之一.pdf
+[debug] 21:01:40.472 Processed: uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf
+[debug] 21:01:40.472 Processed: uploads/2014/04/房地产信贷-1024x303.png
+[debug] 21:01:40.472 Processed: uploads/2014/04/房地产信贷-150x150.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/房地产信贷-300x89.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/房地产信贷.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/社会融资总量201403-150x150.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/社会融资总量201403-300x178.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量201403.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403-150x150.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403-300x178.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为-150x150.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为-300x158.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行资产配置—201403-150x150.png
+[debug] 21:01:40.522 Processed: uploads/2014/04/银行资产配置—201403-300x150.png
+[debug] 21:01:40.522 Processed: uploads/2014/04/银行资产配置—201403.png
+[debug] 21:01:40.522 Processed: uploads/2014/05/unnamed-chunk-2.png
+[debug] 21:01:40.522 Processed: uploads/2014/05/收益率阀值分析.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/收益率阀值建仓速度.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/高收益债列表.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/高收益债指数久期变化.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数交易额（万）.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数表现情况.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数走势.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债数量和回购利率关系.png
+[debug] 21:01:40.552 Processed: uploads/2014/05/高收益债样本个数.png
+[debug] 21:01:40.552 Processed: layout/page.ejs
+[debug] 21:01:40.552 Processed: layout/post.ejs
+[debug] 21:01:40.552 Processed: layout/tag.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/archive.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/category.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/links.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/rss.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/tag.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/tagcloud.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/after_footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/archive.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/article.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/categories.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/comment.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/google_analytics.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/head.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/header.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/mathjax.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/pagination.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/search.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/sidebar.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/tags.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/catetags.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/gallery.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/header.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/jiathis.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/pagination.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/comment.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/article.ejs
+[debug] 21:01:40.552 Theme config loaded
+[debug] 21:01:40.552 Processed: _config.yml
+[debug] 21:01:40.552 Processed: languages/default.yml
+[debug] 21:01:40.552 Processed: languages/zh-CN.yml
+[debug] 21:01:40.552 Processed: languages/zh-TW.yml
+[debug] 21:01:41.342 Processed: readme.md
+[debug] 21:01:41.342 Processed: Rmd/test.md
+[debug] 21:01:41.342 Processed: Rmd/债券市场回顾.md
+[debug] 21:01:41.342 Processed: about/index.md
+[debug] 21:01:41.422 Processed: _posts/2013亚洲独立研究峰会笔录.md
+[debug] 21:01:41.422 Processed: _posts/2013日本游玩.md
+[debug] 21:01:41.422 Processed: _posts/MathJax试用.md
+[debug] 21:01:41.422 Processed: _posts/backtesting-of-risk-parity-strategy.md
+[debug] 21:01:41.422 Processed: _posts/bitbucket-intro.md
+[debug] 21:01:41.422 Processed: _posts/bloomberg包代码对应表.md
+[debug] 21:01:41.422 Processed: _posts/bs-and-pl.md
+[debug] 21:01:41.422 Processed: _posts/cb2013qr3allocation.md
+[debug] 21:01:41.422 Processed: _posts/economic-review-in-april.md
+[debug] 21:01:41.422 Processed: _posts/emacs-使用介绍.md
+[debug] 21:01:41.422 Processed: _posts/fwdrate.md
+[debug] 21:01:41.422 Processed: _posts/git-intro.md
+[debug] 21:01:41.422 Processed: _posts/pr20dsignal.md
+[debug] 21:01:41.422 Processed: _posts/project-name.md
+[debug] 21:01:41.422 Processed: _posts/test.md
+[debug] 21:01:41.422 Processed: _posts/test_de.md
+[debug] 21:01:41.422 Processed: _posts/write-r-pacakges-on-github.md
+[debug] 21:01:41.422 Processed: _posts/三月份融资数据点评.md
+[debug] 21:01:41.422 Processed: _posts/优先股试点报告.md
+[debug] 21:01:41.422 Processed: _posts/会计记录的后续问题讨论.md
+[debug] 21:01:41.422 Processed: _posts/债券和货币市场回顾_20130605.md
+[debug] 21:01:41.422 Processed: _posts/债券市场回顾.md
+[debug] 21:01:41.422 Processed: _posts/关于我们投资平台页面的设计.md
+[debug] 21:01:41.422 Processed: _posts/关于隔夜回购计息的问题.md
+[debug] 21:01:41.422 Processed: _posts/分级基金之基本风险收益分析.md
+[debug] 21:01:41.422 Processed: _posts/可转债市场回顾_20130605.md
+[debug] 21:01:41.422 Processed: _posts/可转债负溢价率套利策略一.md
+[debug] 21:01:41.422 Processed: _posts/可转债转股套利.md
+[debug] 21:01:41.422 Processed: _posts/四月份融资数据点评.md
+[debug] 21:01:41.422 Processed: _posts/回购的即期和远期收益率曲线.md
+[debug] 21:01:41.422 Processed: _posts/国债收益率曲线可视化项目.md
+[debug] 21:01:41.422 Processed: _posts/国债期货上市以来回顾.md
+[debug] 21:01:41.422 Processed: _posts/国债期货高频交易策略.md
+[debug] 21:01:41.422 Processed: _posts/国务院关于开展优先股试点的指导意见.md
+[debug] 21:01:41.422 Processed: _posts/在投资中使用杠杆之一.md
+[debug] 21:01:41.422 Processed: _posts/在投资中使用杠杆之二.md
+[debug] 21:01:41.422 Processed: _posts/基金份额的计算.md
+[debug] 21:01:41.422 Processed: _posts/推荐一篇非常难得的好报告.md
+[debug] 21:01:41.422 Processed: _posts/期货的持仓记录.md
+[debug] 21:01:41.422 Processed: _posts/民生转债修正条款博弈.md
+[debug] 21:01:41.422 Processed: _posts/转债市场观点_2013-10-29.md
+[debug] 21:01:41.422 Processed: _posts/银行研究专题一.md
+[debug] 21:01:41.422 Processed: _posts/高收益债投资研究.md
+[debug] 21:01:41.422 Processed: _posts/高收益债组合优化和回测.md
+[debug] 21:01:41.422 Processed: _posts/远期收益率曲线交易角度的理解.md
+[info] 21:01:41.562 Files loaded in 3.452s
+[debug] 21:01:41.572 Public folder not exists. No need to clear public folder.
+[debug] 21:01:41.572 Cache saved
+[debug] 21:01:41.582 Render archive: archives/
+[debug] 21:01:41.582 Render archive: archives/page/2/
+[debug] 21:01:41.582 Render archive: archives/page/3/
+[debug] 21:01:41.582 Render archive: archives/page/4/
+[debug] 21:01:41.582 Render archive: archives/page/5/
+[debug] 21:01:41.582 Render archive: archives/2013/
+[debug] 21:01:41.582 Render archive: archives/2013/page/2/
+[debug] 21:01:41.582 Render archive: archives/2013/page/3/
+[debug] 21:01:41.582 Render archive: archives/2013/06/
+[debug] 21:01:41.582 Render archive: archives/2013/06/page/2/
+[debug] 21:01:41.582 Render archive: archives/2013/07/
+[debug] 21:01:41.582 Render archive: archives/2013/08/
+[debug] 21:01:41.582 Render archive: archives/2013/10/
+[debug] 21:01:41.582 Render archive: archives/2013/11/
+[debug] 21:01:41.582 Render archive: archives/2013/12/
+[debug] 21:01:41.582 Render archive: archives/2014/
+[debug] 21:01:41.582 Render archive: archives/2014/page/2/
+[debug] 21:01:41.582 Render archive: archives/2014/01/
+[debug] 21:01:41.582 Render archive: archives/2014/02/
+[debug] 21:01:41.582 Render archive: archives/2014/03/
+[debug] 21:01:41.582 Render archive: archives/2014/04/
+[debug] 21:01:41.582 Render archive: archives/2014/05/
+[debug] 21:01:41.582 Render category: categories/经济和历史/
+[debug] 21:01:41.582 Render category: categories/生活和旅游/
+[debug] 21:01:41.582 Render category: categories/大类资产配置研究/
+[debug] 21:01:41.592 Render category: categories/IT技术/
+[debug] 21:01:41.592 Render category: categories/宏观经济/
+[debug] 21:01:41.592 Render category: categories/可转债/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/
+[debug] 21:01:41.592 Render category: categories/股票市场/
+[debug] 21:01:41.592 Render category: categories/团队/
+[debug] 21:01:41.592 Render category: categories/大类资产配置研究/高收益债/
+[debug] 21:01:41.592 Render category: categories/日志/
+[debug] 21:01:41.592 Render category: categories/金融市场报告/
+[debug] 21:01:41.592 Render category: categories/金融市场报告/债券货币市场/
+[debug] 21:01:41.592 Render category: categories/国债期货和利率/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/金融经济相关/
+[debug] 21:01:41.592 Render category: categories/银行研究/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/高收益债/
+[debug] 21:01:41.592 Render index: 
+[debug] 21:01:41.592 Render index: page/2/
+[debug] 21:01:41.592 Render index: page/3/
+[debug] 21:01:41.592 Render index: page/4/
+[debug] 21:01:41.592 Render index: page/5/
+[debug] 21:01:41.592 Render page: readme.html
+[debug] 21:01:41.592 Render page: Rmd/test.html
+[debug] 21:01:41.592 Render page: Rmd/债券市场回顾.html
+[debug] 21:01:41.592 Render page: about/index.html
+[debug] 21:01:41.592 Render post: test_de/
+[debug] 21:01:41.592 Render post: 高收益债组合优化和回测/
+[debug] 21:01:41.592 Render post: 债券市场回顾/
+[debug] 21:01:41.592 Render post: 四月份融资数据点评/
+[debug] 21:01:41.592 Render post: test/
+[debug] 21:01:41.592 Render post: 高收益债投资研究/
+[debug] 21:01:41.592 Render post: 三月份融资数据点评/
+[debug] 21:01:41.592 Render post: 在投资中使用杠杆之二/
+[debug] 21:01:41.592 Render post: bs-and-pl/
+[debug] 21:01:41.592 Render post: 在投资中使用杠杆之一/
+[debug] 21:01:41.592 Render post: 分级基金之基本风险收益分析/
+[debug] 21:01:41.592 Render post: 会计记录的后续问题讨论/
+[debug] 21:01:41.592 Render post: 期货的持仓记录/
+[debug] 21:01:41.592 Render post: 基金份额的计算/
+[debug] 21:01:41.592 Render post: 民生转债修正条款博弈/
+[debug] 21:01:41.592 Render post: 可转债转股套利/
+[debug] 21:01:41.592 Render post: 国务院关于开展优先股试点的指导意见/
+[debug] 21:01:41.592 Render post: 可转债负溢价率套利策略一/
+[debug] 21:01:41.592 Render post: 银行研究专题一/
+[debug] 21:01:41.592 Render post: bloomberg包代码对应表/
+[debug] 21:01:41.592 Render post: pr20dsignal/
+[debug] 21:01:41.592 Render post: fwdrate/
+[debug] 21:01:41.592 Render post: 2013亚洲独立研究峰会笔录/
+[debug] 21:01:41.592 Render post: 转债市场观点_2013-10-29/
+[debug] 21:01:41.592 Render post: cb2013qr3allocation/
+[debug] 21:01:41.592 Render post: 国债期货高频交易策略/
+[debug] 21:01:41.592 Render post: 2013日本游玩/
+[debug] 21:01:41.592 Render post: emacs-使用介绍/
+[debug] 21:01:41.592 Render post: 国债期货上市以来回顾/
+[debug] 21:01:41.592 Render post: 优先股试点报告/
+[debug] 21:01:41.592 Render post: write-r-pacakges-on-github/
+[debug] 21:01:41.592 Render post: 远期收益率曲线交易角度的理解/
+[debug] 21:01:41.592 Render post: 回购的即期和远期收益率曲线/
+[debug] 21:01:41.592 Render post: 关于我们投资平台页面的设计/
+[debug] 21:01:41.592 Render post: git-intro/
+[debug] 21:01:41.592 Render post: 推荐一篇非常难得的好报告/
+[debug] 21:01:41.592 Render post: bitbucket-intro/
+[debug] 21:01:41.592 Render post: project-name/
+[debug] 21:01:41.592 Render post: economic-review-in-april/
+[debug] 21:01:41.592 Render post: 关于隔夜回购计息的问题/
+[debug] 21:01:41.592 Render post: backtesting-of-risk-parity-strategy/
+[debug] 21:01:41.592 Render post: MathJax试用/
+[debug] 21:01:41.592 Render post: 国债收益率曲线可视化项目/
+[debug] 21:01:41.592 Render post: 债券和货币市场回顾_20130605/
+[debug] 21:01:41.592 Render post: 可转债市场回顾_20130605/
+[debug] 21:01:41.592 Render tag: tags/bitbucket/
+[debug] 21:01:41.592 Render tag: tags/git/
+[debug] 21:01:41.592 Render tag: tags/开始/
+[debug] 21:01:41.602 Render tag: tags/我/
+[debug] 21:01:41.602 Render tag: tags/日记/
+[error] 21:01:42.572 HexoError: Render failed: Rmd/test.html
+TypeError: C:\Sites\blog.wtmart.com\themes\pacman\layout\page.ejs:1
+ >> 1| <%- partial('_partial/post/article', {item: page, index: false,table: false}) %>
 
-[error] 14:09:08.668 HexoError: Render failed: Rmd/债券市场回顾.html
-TypeError: Object [object Array] has no method 'find'
-    at list (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:48:16)
-    at Object.exports.list_categories (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:91:3)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:33:290)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:38:66)
-    at /usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:255:15
-    at Object.exports.render (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:293:13)
-    at module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/renderer/ejs.js:5:14)
-    at Object.exports.renderSync (/usr/local/lib/node_modules/hexo/lib/core/render.js:133:12)
-    at View.renderSync (/usr/local/lib/node_modules/hexo/lib/theme/view.js:183:28)
-    at Object.module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/helper/partial.js:19:17)
-[debug] 14:09:01.972 Config file loaded
-[debug] 14:09:01.975 Version info checked successfully
-[debug] 14:09:02.011 Loading database.
-[debug] 14:09:02.067 Script load successfully: fancybox.js
-[debug] 14:09:02.306 Processed: LICENSE
-[debug] 14:09:02.306 Processed: README.md
-[debug] 14:09:02.311 Processed: scripts/fancybox.js
-[debug] 14:09:02.407 Processed: source/css/_base/code.styl
-[debug] 14:09:02.407 Processed: source/css/_base/font.styl
-[debug] 14:09:02.407 Processed: source/css/_base/public.styl
-[debug] 14:09:02.407 Processed: source/css/_base/variable.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/article.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/aside.styl
-[debug] 14:09:02.407 Processed: source/css/_partial/duoshuo.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/footer.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/gallery.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/header.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/helper.styl
-[debug] 14:09:02.408 Processed: source/css/_partial/index.styl
-[debug] 14:09:02.461 Processed: source/font/FontAwesome.otf
-[debug] 14:09:02.462 Processed: source/font/coveredbyyourgrace-webfont.eot
-[debug] 14:09:02.463 Processed: source/font/coveredbyyourgrace-webfont.svg
-[debug] 14:09:02.464 Processed: source/font/coveredbyyourgrace-webfont.ttf
-[debug] 14:09:02.465 Processed: source/font/coveredbyyourgrace-webfont.woff
-[debug] 14:09:02.466 Processed: source/font/fontawesome-webfont.eot
-[debug] 14:09:02.468 Processed: source/font/fontawesome-webfont.svg
-[debug] 14:09:02.469 Processed: source/font/fontawesome-webfont.ttf
-[debug] 14:09:02.470 Processed: source/font/fontawesome-webfont.woff
-[debug] 14:09:02.472 Processed: source/img/author.jpg
-[debug] 14:09:02.473 Processed: source/img/favicon.ico
-[debug] 14:09:02.474 Processed: source/img/logo.svg
-[debug] 14:09:02.475 Processed: source/img/pacman.jpg
-[debug] 14:09:02.477 Processed: source/js/jquery-2.1.0.min.js
-[debug] 14:09:02.478 Processed: source/css/style.styl
-[debug] 14:09:02.479 Processed: source/fancybox/blank.gif
-[debug] 14:09:02.481 Processed: source/fancybox/fancybox_loading.gif
-[debug] 14:09:02.482 Processed: source/fancybox/fancybox_loading@2x.gif
-[debug] 14:09:02.483 Processed: source/fancybox/fancybox_overlay.png
-[debug] 14:09:02.485 Processed: source/fancybox/fancybox_sprite.png
-[debug] 14:09:02.487 Processed: source/fancybox/fancybox_sprite@2x.png
-[debug] 14:09:02.489 Processed: source/fancybox/jquery.fancybox.css
-[debug] 14:09:02.490 Processed: source/fancybox/jquery.fancybox.js
-[debug] 14:09:02.492 Processed: source/fancybox/jquery.fancybox.pack.js
-[debug] 14:09:02.494 Processed: source/fancybox/helpers/fancybox_buttons.png
-[debug] 14:09:02.495 Processed: source/fancybox/helpers/jquery.fancybox-buttons.css
-[debug] 14:09:02.497 Processed: source/fancybox/helpers/jquery.fancybox-buttons.js
-[debug] 14:09:02.498 Processed: source/fancybox/helpers/jquery.fancybox-media.js
-[debug] 14:09:02.500 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.css
-[debug] 14:09:02.502 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.js
-[debug] 14:09:02.505 Processed: layout/archive.ejs
-[debug] 14:09:02.505 Processed: layout/category.ejs
-[debug] 14:09:02.505 Processed: layout/index.ejs
-[debug] 14:09:02.505 Processed: layout/layout.ejs
-[debug] 14:09:02.505 Processed: layout/page.ejs
-[debug] 14:09:02.506 Processed: layout/post.ejs
-[debug] 14:09:02.506 Processed: layout/tag.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/archive.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/category.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/links.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/rss.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/tag.ejs
-[debug] 14:09:02.506 Processed: layout/_widget/tagcloud.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/after_footer.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/archive.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/article.ejs
-[debug] 14:09:02.506 Processed: layout/_partial/categories.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/comment.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/footer.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/google_analytics.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/head.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/header.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/mathjax.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/pagination.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/search.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/sidebar.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/tags.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/article.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/catetags.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/comment.ejs
-[debug] 14:09:02.507 Processed: layout/_partial/post/footer.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/gallery.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/header.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/jiathis.ejs
-[debug] 14:09:02.508 Processed: layout/_partial/post/pagination.ejs
-[debug] 14:09:02.527 Processed: Rmd/test.Rmd~
-[debug] 14:09:02.539 Processed: Rmd/债券市场回顾.Rmd~
-[debug] 14:09:02.541 Processed: _drafts/2013日本旅行照片.md
-[debug] 14:09:02.542 Processed: _drafts/risk parity策略测试.md
-[debug] 14:09:02.542 Processed: _drafts/从三季报看银行的行为.md
-[debug] 14:09:02.542 Processed: _drafts/关于周五的回购利率问题.md
-[debug] 14:09:02.542 Processed: _drafts/分级债基套利专题(一).md
-[debug] 14:09:02.542 Processed: _drafts/利率市场概览--.md
-[debug] 14:09:02.542 Processed: _drafts/券商报告选读：从“紧非标”到“债市牛”之间的距离.md
-[debug] 14:09:02.542 Processed: _drafts/商业银行行为和债券市场走势.md
-[debug] 14:09:02.542 Processed: _drafts/国债收益率曲线可视化项目.md
-[debug] 14:09:02.542 Processed: _drafts/国债期货相关入门学习资料.md
-[debug] 14:09:02.542 Processed: _drafts/国债期货管理收益率曲线风险.md
-[debug] 14:09:02.542 Processed: _drafts/字体测试.md
-[debug] 14:09:02.542 Processed: _drafts/日本金融机构资金流量表解读.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆、国债收益率演变以及对银行行为的思考.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆经济学专题（一）：用杠杆思考经济学的框架介绍.md
-[debug] 14:09:02.542 Processed: _drafts/杠杆经济学专题（二）：杠杆经济学以及对中国经济的理解.md
-[debug] 14:09:02.542 Processed: _drafts/比特币高频交易设计.md
-[debug] 14:09:02.542 Processed: _drafts/石化二期转债发行情况.md
-[debug] 14:09:02.745 Processed: _posts/figure/yieldCurveChange.png
-[debug] 14:09:03.601 Processed: CNAME
-[debug] 14:09:03.609 Processed: Rmd/test.Rmd
-[debug] 14:09:03.616 Processed: Rmd/债券市场回顾.Rmd
-[debug] 14:09:03.623 Processed: images/Yr10.png
-[debug] 14:09:03.630 Processed: images/Yr10_gk.png
-[debug] 14:09:03.637 Processed: images/Yr5_2a_drzp.png
-[debug] 14:09:03.644 Processed: images/Yr5_2ap_drzp.png
-[debug] 14:09:03.651 Processed: images/assetMonth.png
-[debug] 14:09:03.660 Processed: images/assetWeek.png
-[debug] 14:09:03.668 Processed: images/assetYear.png
-[debug] 14:09:03.675 Processed: images/ggdaily.png
-[debug] 14:09:03.687 Processed: images/unnamed-chunk-2.png
-[debug] 14:09:03.697 Processed: images/ycDecompose2008.png
-[debug] 14:09:03.708 Processed: images/ycDecompose2014.png
-[debug] 14:09:03.720 Processed: images/ycDiffDay.png
-[debug] 14:09:03.731 Processed: images/ycDiffWeek.png
-[debug] 14:09:03.747 Processed: images/高收益债样本个数.png
-[debug] 14:09:03.754 Processed: uploads/2013/06/01-igraph-vs-statnet.pdf
-[debug] 14:09:03.757 Processed: uploads/2013/06/2320339_005913444_2-150x150.jpg
-[debug] 14:09:03.761 Processed: uploads/2013/06/2320339_005913444_2-300x141.jpg
-[debug] 14:09:03.764 Processed: uploads/2013/06/2320339_005913444_2-624x293.jpg
-[debug] 14:09:03.766 Processed: uploads/2013/06/2320339_005913444_2.jpg
-[debug] 14:09:03.768 Processed: uploads/2013/06/Rplot-1000x288.jpg
-[debug] 14:09:03.770 Processed: uploads/2013/06/Rplot-1024x554.jpg
-[debug] 14:09:03.772 Processed: uploads/2013/06/Rplot-150x150.jpg
-[debug] 14:09:03.774 Processed: uploads/2013/06/Rplot-150x150.png
-[debug] 14:09:03.777 Processed: uploads/2013/06/Rplot-300x162.jpg
-[debug] 14:09:03.780 Processed: uploads/2013/06/Rplot-300x280.png
-[debug] 14:09:03.783 Processed: uploads/2013/06/Rplot-320x300.png
-[debug] 14:09:03.797 Processed: uploads/2013/06/Rplot-500x270.jpg
-[debug] 14:09:03.799 Processed: uploads/2013/06/Rplot-614x288.png
-[debug] 14:09:03.801 Processed: uploads/2013/06/Rplot.jpg
-[debug] 14:09:03.803 Processed: uploads/2013/06/Rplot.png
-[debug] 14:09:03.805 Processed: uploads/2013/06/Rplot1-150x150.png
-[debug] 14:09:03.807 Processed: uploads/2013/06/Rplot1-300x187.png
-[debug] 14:09:03.811 Processed: uploads/2013/06/Rplot1-478x300.png
-[debug] 14:09:03.813 Processed: uploads/2013/06/Rplot1-640x288.png
-[debug] 14:09:03.815 Processed: uploads/2013/06/Rplot1.png
-[debug] 14:09:03.816 Processed: uploads/2013/06/assetPerformance-150x150.png
-[debug] 14:09:03.818 Processed: uploads/2013/06/assetPerformance-300x145.png
-[debug] 14:09:03.820 Processed: uploads/2013/06/assetPerformance-300x166.png
-[debug] 14:09:03.822 Processed: uploads/2013/06/assetPerformance-500x242.png
-[debug] 14:09:03.824 Processed: uploads/2013/06/assetPerformance-500x276.png
-[debug] 14:09:03.826 Processed: uploads/2013/06/assetPerformance-655x288.png
-[debug] 14:09:03.828 Processed: uploads/2013/06/assetPerformance-982x288.png
-[debug] 14:09:03.830 Processed: uploads/2013/06/assetPerformance.png
-[debug] 14:09:03.832 Processed: uploads/2013/06/bondFuture-150x150.png
-[debug] 14:09:03.834 Processed: uploads/2013/06/bondFuture-300x205.png
-[debug] 14:09:03.836 Processed: uploads/2013/06/bondFuture-438x300.png
-[debug] 14:09:03.838 Processed: uploads/2013/06/bondFuture-612x288.png
-[debug] 14:09:03.840 Processed: uploads/2013/06/bondFuture.png
-[debug] 14:09:03.842 Processed: uploads/2013/06/convertible-150x150.png
-[debug] 14:09:03.844 Processed: uploads/2013/06/convertible-300x243.png
-[debug] 14:09:03.846 Processed: uploads/2013/06/convertible-370x300.png
-[debug] 14:09:03.848 Processed: uploads/2013/06/convertible-676x288.png
-[debug] 14:09:03.850 Processed: uploads/2013/06/convertible.png
-[debug] 14:09:03.853 Processed: uploads/2013/06/cropped-Rplot-150x150.jpg
-[debug] 14:09:03.855 Processed: uploads/2013/06/cropped-Rplot-300x68.jpg
-[debug] 14:09:03.857 Processed: uploads/2013/06/cropped-Rplot-500x114.jpg
-[debug] 14:09:03.862 Processed: uploads/2013/06/cropped-Rplot.jpg
-[debug] 14:09:03.865 Processed: uploads/2013/06/cropped-Rplot2-1000x288.png
-[debug] 14:09:03.867 Processed: uploads/2013/06/cropped-Rplot2-150x150.png
-[debug] 14:09:03.869 Processed: uploads/2013/06/cropped-Rplot2-300x150.png
-[debug] 14:09:03.871 Processed: uploads/2013/06/cropped-Rplot2-500x251.png
-[debug] 14:09:03.874 Processed: uploads/2013/06/cropped-Rplot2.png
-[debug] 14:09:03.876 Processed: uploads/2013/06/cropped-tao-1000x288.jpg
-[debug] 14:09:03.879 Processed: uploads/2013/06/cropped-tao-150x150.jpg
-[debug] 14:09:03.881 Processed: uploads/2013/06/cropped-tao-300x132.jpg
-[debug] 14:09:03.885 Processed: uploads/2013/06/cropped-tao-500x220.jpg
-[debug] 14:09:03.887 Processed: uploads/2013/06/cropped-tao.jpg
-[debug] 14:09:03.890 Processed: uploads/2013/06/git-cheat-sheet-medium-1000x288.png
-[debug] 14:09:03.892 Processed: uploads/2013/06/git-cheat-sheet-medium-1024x791.png
-[debug] 14:09:03.895 Processed: uploads/2013/06/git-cheat-sheet-medium-150x150.png
-[debug] 14:09:03.897 Processed: uploads/2013/06/git-cheat-sheet-medium-300x231.png
-[debug] 14:09:03.900 Processed: uploads/2013/06/git-cheat-sheet-medium-388x300.png
-[debug] 14:09:03.902 Processed: uploads/2013/06/git-cheat-sheet-medium.png
-[debug] 14:09:03.905 Processed: uploads/2013/06/money-1000x188.png
-[debug] 14:09:03.907 Processed: uploads/2013/06/money-1024x154.png
-[debug] 14:09:03.910 Processed: uploads/2013/06/money-150x150.png
-[debug] 14:09:03.914 Processed: uploads/2013/06/money-300x45.png
-[debug] 14:09:03.917 Processed: uploads/2013/06/money-500x75.png
-[debug] 14:09:03.920 Processed: uploads/2013/06/money-e1370486329431-1024x154.png
-[debug] 14:09:03.922 Processed: uploads/2013/06/money-e1370486329431-150x150.png
-[debug] 14:09:03.925 Processed: uploads/2013/06/money-e1370486329431-300x45.png
-[debug] 14:09:03.928 Processed: uploads/2013/06/money-e1370486329431.png
-[debug] 14:09:03.931 Processed: uploads/2013/06/money.png
-[debug] 14:09:03.933 Processed: uploads/2013/06/treasury-1000x288.png
-[debug] 14:09:03.936 Processed: uploads/2013/06/treasury-1024x289.png
-[debug] 14:09:03.939 Processed: uploads/2013/06/treasury-150x150.png
-[debug] 14:09:03.942 Processed: uploads/2013/06/treasury-300x84.png
-[debug] 14:09:03.944 Processed: uploads/2013/06/treasury-500x141.png
-[debug] 14:09:03.947 Processed: uploads/2013/06/treasury.png
-[debug] 14:09:03.950 Processed: uploads/2013/06/upload-1000x288.png
-[debug] 14:09:03.953 Processed: uploads/2013/06/upload-1024x488.png
-[debug] 14:09:03.956 Processed: uploads/2013/06/upload-150x150.png
-[debug] 14:09:03.961 Processed: uploads/2013/06/upload-300x143.png
-[debug] 14:09:03.965 Processed: uploads/2013/06/upload-500x238.png
-[debug] 14:09:03.968 Processed: uploads/2013/06/upload.png
-[debug] 14:09:03.971 Processed: uploads/2013/06/win-dns-150x150.png
-[debug] 14:09:03.977 Processed: uploads/2013/06/win-dns-300x186.png
-[debug] 14:09:03.980 Processed: uploads/2013/06/win-dns-483x300.png
-[debug] 14:09:03.984 Processed: uploads/2013/06/win-dns-719x288.png
-[debug] 14:09:03.987 Processed: uploads/2013/06/win-dns.png
-[debug] 14:09:03.989 Processed: uploads/2013/06/wind-1000x288.png
-[debug] 14:09:03.993 Processed: uploads/2013/06/wind-1024x436.png
-[debug] 14:09:03.996 Processed: uploads/2013/06/wind-150x150.png
-[debug] 14:09:03.999 Processed: uploads/2013/06/wind-300x127.png
-[debug] 14:09:04.002 Processed: uploads/2013/06/wind-500x213.png
-[debug] 14:09:04.005 Processed: uploads/2013/06/wind.png
-[debug] 14:09:04.008 Processed: uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf
-[debug] 14:09:04.011 Processed: uploads/2013/07/Repo-150x150.png
-[debug] 14:09:04.014 Processed: uploads/2013/07/Repo-300x87.png
-[debug] 14:09:04.017 Processed: uploads/2013/07/Repo-500x146.png
-[debug] 14:09:04.021 Processed: uploads/2013/07/Repo.png
-[debug] 14:09:04.024 Processed: uploads/2013/10/IRR-150x150.gif
-[debug] 14:09:04.029 Processed: uploads/2013/10/IRR-300x203.gif
-[debug] 14:09:04.034 Processed: uploads/2013/10/IRR.gif
-[debug] 14:09:04.041 Processed: uploads/2013/10/IRRvsRepo-150x150.gif
-[debug] 14:09:04.044 Processed: uploads/2013/10/IRRvsRepo-300x186.gif
-[debug] 14:09:04.047 Processed: uploads/2013/10/IRRvsRepo.gif
-[debug] 14:09:04.051 Processed: uploads/2013/10/IRR参数优化-150x150.gif
-[debug] 14:09:04.054 Processed: uploads/2013/10/IRR参数优化-300x193.gif
-[debug] 14:09:04.059 Processed: uploads/2013/10/IRR参数优化.gif
-[debug] 14:09:04.064 Processed: uploads/2013/10/IRR回测-150x93.png
-[debug] 14:09:04.067 Processed: uploads/2013/10/IRR回测-300x45.png
-[debug] 14:09:04.071 Processed: uploads/2013/10/IRR回测.png
-[debug] 14:09:04.074 Processed: uploads/2013/10/IRR数据总结-150x150.gif
-[debug] 14:09:04.078 Processed: uploads/2013/10/IRR数据总结-300x194.gif
-[debug] 14:09:04.082 Processed: uploads/2013/10/IRR数据总结.gif
-[debug] 14:09:04.085 Processed: uploads/2013/10/My Heart Will Go On.mp3
-[debug] 14:09:04.089 Processed: uploads/2013/10/volatility-150x150.gif
-[debug] 14:09:04.092 Processed: uploads/2013/10/volatility-300x143.gif
-[debug] 14:09:04.096 Processed: uploads/2013/10/volatility.gif
-[debug] 14:09:04.100 Processed: uploads/2013/10/wind.mp3
-[debug] 14:09:04.104 Processed: uploads/2013/10/三季度转债表现-150x150.gif
-[debug] 14:09:04.108 Processed: uploads/2013/10/三季度转债表现-300x150.gif
-[debug] 14:09:04.112 Processed: uploads/2013/10/三季度转债表现.gif
-[debug] 14:09:04.115 Processed: uploads/2013/10/三季度转债表现图-150x150.gif
-[debug] 14:09:04.119 Processed: uploads/2013/10/三季度转债表现图-300x265.gif
-[debug] 14:09:04.123 Processed: uploads/2013/10/三季度转债表现图.gif
-[debug] 14:09:04.127 Processed: uploads/2013/10/三季度转债表现表-150x150.gif
-[debug] 14:09:04.131 Processed: uploads/2013/10/三季度转债表现表-238x300.gif
-[debug] 14:09:04.139 Processed: uploads/2013/10/三季度转债表现表.gif
-[debug] 14:09:04.142 Processed: uploads/2013/10/东大寺2-150x150.jpg
-[debug] 14:09:04.146 Processed: uploads/2013/10/东大寺2-300x225.jpg
-[debug] 14:09:04.150 Processed: uploads/2013/10/东大寺2.jpg
-[debug] 14:09:04.154 Processed: uploads/2013/10/中美国债-150x150.gif
-[debug] 14:09:04.159 Processed: uploads/2013/10/中美国债-300x189.gif
-[debug] 14:09:04.165 Processed: uploads/2013/10/中美国债.gif
-[debug] 14:09:04.169 Processed: uploads/2013/10/中行民生石化-150x150.gif
-[debug] 14:09:04.172 Processed: uploads/2013/10/中行民生石化-228x300.gif
-[debug] 14:09:04.176 Processed: uploads/2013/10/中行民生石化-780x1024.gif
-[debug] 14:09:04.180 Processed: uploads/2013/10/中行民生石化.gif
-[debug] 14:09:04.184 Processed: uploads/2013/10/京都岚山-150x150.jpg
-[debug] 14:09:04.188 Processed: uploads/2013/10/京都岚山-300x225.jpg
-[debug] 14:09:04.192 Processed: uploads/2013/10/京都岚山.jpg
-[debug] 14:09:04.197 Processed: uploads/2013/10/公募基金仓位1-150x150.png
-[debug] 14:09:04.202 Processed: uploads/2013/10/公募基金仓位1-276x300.png
-[debug] 14:09:04.206 Processed: uploads/2013/10/公募基金仓位1-945x1024.png
-[debug] 14:09:04.210 Processed: uploads/2013/10/公募基金仓位1.png
-[debug] 14:09:04.214 Processed: uploads/2013/10/公募基金仓位2-1024x742.png
-[debug] 14:09:04.218 Processed: uploads/2013/10/公募基金仓位2-150x150.png
-[debug] 14:09:04.222 Processed: uploads/2013/10/公募基金仓位2-300x217.png
-[debug] 14:09:04.226 Processed: uploads/2013/10/公募基金仓位2.png
-[debug] 14:09:04.230 Processed: uploads/2013/10/南山石化-150x150.gif
-[debug] 14:09:04.235 Processed: uploads/2013/10/南山石化-300x266.gif
-[debug] 14:09:04.239 Processed: uploads/2013/10/南山石化.gif
-[debug] 14:09:04.243 Processed: uploads/2013/10/可转债个券指标-150x150.png
-[debug] 14:09:04.247 Processed: uploads/2013/10/可转债个券指标-300x200.png
-[debug] 14:09:04.251 Processed: uploads/2013/10/可转债个券指标.png
-[debug] 14:09:04.256 Processed: uploads/2013/10/可转债个券指标1-150x150.png
-[debug] 14:09:04.260 Processed: uploads/2013/10/可转债个券指标1-300x151.png
-[debug] 14:09:04.264 Processed: uploads/2013/10/可转债个券指标1.png
-[debug] 14:09:04.269 Processed: uploads/2013/10/和服-150x150.jpg
-[debug] 14:09:04.273 Processed: uploads/2013/10/和服-300x225.jpg
-[debug] 14:09:04.277 Processed: uploads/2013/10/和服.jpg
-[debug] 14:09:04.281 Processed: uploads/2013/10/哲学の道-150x150.jpg
-[debug] 14:09:04.291 Processed: uploads/2013/10/哲学の道-300x225.jpg
-[debug] 14:09:04.295 Processed: uploads/2013/10/哲学の道.jpg
-[debug] 14:09:04.300 Processed: uploads/2013/10/四季度3-150x150.gif
-[debug] 14:09:04.304 Processed: uploads/2013/10/四季度3-215x300.gif
-[debug] 14:09:04.309 Processed: uploads/2013/10/四季度3.gif
-[debug] 14:09:04.313 Processed: uploads/2013/10/四季度报告-150x150.gif
-[debug] 14:09:04.318 Processed: uploads/2013/10/四季度报告-274x300.gif
-[debug] 14:09:04.323 Processed: uploads/2013/10/四季度报告.gif
-[debug] 14:09:04.327 Processed: uploads/2013/10/四季度报告2-150x150.gif
-[debug] 14:09:04.334 Processed: uploads/2013/10/四季度报告2-285x300.gif
-[debug] 14:09:04.339 Processed: uploads/2013/10/四季度报告2.gif
-[debug] 14:09:04.343 Processed: uploads/2013/10/国债期货-150x150.png
-[debug] 14:09:04.348 Processed: uploads/2013/10/国债期货-300x154.png
-[debug] 14:09:04.352 Processed: uploads/2013/10/国债期货.png
-[debug] 14:09:04.358 Processed: uploads/2013/10/国债期货四季度策略.pdf
-[debug] 14:09:04.363 Processed: uploads/2013/10/国债期货四季度策略1.pdf
-[debug] 14:09:04.368 Processed: uploads/2013/10/国债期货高频交易-150x150.png
-[debug] 14:09:04.373 Processed: uploads/2013/10/国债期货高频交易-300x225.png
-[debug] 14:09:04.378 Processed: uploads/2013/10/国债期货高频交易.png
-[debug] 14:09:04.383 Processed: uploads/2013/10/大阪-150x150.jpg
-[debug] 14:09:04.387 Processed: uploads/2013/10/大阪-300x225.jpg
-[debug] 14:09:04.392 Processed: uploads/2013/10/大阪.jpg
-[debug] 14:09:04.397 Processed: uploads/2013/10/大阪漫画者-150x150.jpg
-[debug] 14:09:04.402 Processed: uploads/2013/10/大阪漫画者-225x300.jpg
-[debug] 14:09:04.407 Processed: uploads/2013/10/大阪漫画者.jpg
-[debug] 14:09:04.412 Processed: uploads/2013/10/奈良_唐绍提寺-150x150.jpg
-[debug] 14:09:04.417 Processed: uploads/2013/10/奈良_唐绍提寺-300x225.jpg
-[debug] 14:09:04.422 Processed: uploads/2013/10/奈良_唐绍提寺.jpg
-[debug] 14:09:04.426 Processed: uploads/2013/10/奈良东大寺-150x150.jpg
-[debug] 14:09:04.432 Processed: uploads/2013/10/奈良东大寺-300x225.jpg
-[debug] 14:09:04.440 Processed: uploads/2013/10/奈良东大寺.jpg
-[debug] 14:09:04.445 Processed: uploads/2013/10/奈良东大寺1-150x150.jpg
-[debug] 14:09:04.450 Processed: uploads/2013/10/奈良东大寺1-300x225.jpg
-[debug] 14:09:04.455 Processed: uploads/2013/10/奈良东大寺1.jpg
-[debug] 14:09:04.462 Processed: uploads/2013/10/居酒屋-150x150.jpg
-[debug] 14:09:04.467 Processed: uploads/2013/10/居酒屋-300x225.jpg
-[debug] 14:09:04.472 Processed: uploads/2013/10/居酒屋.jpg
-[debug] 14:09:04.477 Processed: uploads/2013/10/岚山街头-150x150.jpg
-[debug] 14:09:04.482 Processed: uploads/2013/10/岚山街头-300x225.jpg
-[debug] 14:09:04.487 Processed: uploads/2013/10/岚山街头.jpg
-[debug] 14:09:04.493 Processed: uploads/2013/10/日本和服-150x150.jpg
-[debug] 14:09:04.498 Processed: uploads/2013/10/日本和服-300x225.jpg
-[debug] 14:09:04.503 Processed: uploads/2013/10/日本和服.jpg
-[debug] 14:09:04.508 Processed: uploads/2013/10/日本和服2-150x150.jpg
-[debug] 14:09:04.514 Processed: uploads/2013/10/日本和服2-300x225.jpg
-[debug] 14:09:04.519 Processed: uploads/2013/10/日本和服2.jpg
-[debug] 14:09:04.525 Processed: uploads/2013/10/民生转债走势-150x150.gif
-[debug] 14:09:04.531 Processed: uploads/2013/10/民生转债走势-300x233.gif
-[debug] 14:09:04.536 Processed: uploads/2013/10/民生转债走势.gif
-[debug] 14:09:04.541 Processed: uploads/2013/10/民生银行资本充足率-1024x701.png
-[debug] 14:09:04.547 Processed: uploads/2013/10/民生银行资本充足率-150x150.png
-[debug] 14:09:04.552 Processed: uploads/2013/10/民生银行资本充足率-300x205.png
-[debug] 14:09:04.558 Processed: uploads/2013/10/民生银行资本充足率.png
-[debug] 14:09:04.565 Processed: uploads/2013/10/清水市步行街-150x150.jpg
-[debug] 14:09:04.570 Processed: uploads/2013/10/清水市步行街-300x225.jpg
-[debug] 14:09:04.576 Processed: uploads/2013/10/清水市步行街.jpg
-[debug] 14:09:04.583 Processed: uploads/2013/10/艺妓-150x150.jpg
-[debug] 14:09:04.592 Processed: uploads/2013/10/艺妓-300x225.jpg
-[debug] 14:09:04.597 Processed: uploads/2013/10/艺妓.jpg
-[debug] 14:09:04.602 Processed: uploads/2013/10/转债基金资产配置.xlsx
-[debug] 14:09:04.608 Processed: uploads/2013/10/转债指数-150x150.png
-[debug] 14:09:04.614 Processed: uploads/2013/10/转债指数-300x136.png
-[debug] 14:09:04.619 Processed: uploads/2013/10/转债指数.png
-[debug] 14:09:04.625 Processed: uploads/2013/10/金阁寺-150x150.jpg
-[debug] 14:09:04.631 Processed: uploads/2013/10/金阁寺-300x225.jpg
-[debug] 14:09:04.640 Processed: uploads/2013/10/金阁寺.jpg
-[debug] 14:09:04.646 Processed: uploads/2013/11/pr20d_backtest-150x150.gif
-[debug] 14:09:04.652 Processed: uploads/2013/11/pr20d_backtest-300x208.gif
-[debug] 14:09:04.657 Processed: uploads/2013/11/pr20d_backtest.gif
-[debug] 14:09:04.666 Processed: uploads/2013/11/pr20d_backtest1-150x150.gif
-[debug] 14:09:04.672 Processed: uploads/2013/11/pr20d_backtest1-300x198.gif
-[debug] 14:09:04.680 Processed: uploads/2013/11/pr20d_backtest1.gif
-[debug] 14:09:04.688 Processed: uploads/2013/11/pr20d_backtest2-150x150.gif
-[debug] 14:09:04.697 Processed: uploads/2013/11/pr20d_backtest2-300x202.gif
-[debug] 14:09:04.705 Processed: uploads/2013/11/pr20d_backtest2.gif
-[debug] 14:09:04.716 Processed: uploads/2013/11/repo-150x150.png
-[debug] 14:09:04.725 Processed: uploads/2013/11/repo-300x86.png
-[debug] 14:09:04.734 Processed: uploads/2013/11/repo.png
-[debug] 14:09:04.742 Processed: uploads/2013/11/可转债套利.xlsx
-[debug] 14:09:04.761 Processed: uploads/2013/11/可转债套利1-150x150.gif
-[debug] 14:09:04.767 Processed: uploads/2013/11/可转债套利1-300x197.gif
-[debug] 14:09:04.773 Processed: uploads/2013/11/可转债套利1.gif
-[debug] 14:09:04.779 Processed: uploads/2013/11/转债套利2-150x150.gif
-[debug] 14:09:04.785 Processed: uploads/2013/11/转债套利2-300x269.gif
-[debug] 14:09:04.791 Processed: uploads/2013/11/转债套利2.gif
-[debug] 14:09:04.797 Processed: uploads/2013/11/转债套利3-150x150.gif
-[debug] 14:09:04.803 Processed: uploads/2013/11/转债套利3-300x147.gif
-[debug] 14:09:04.809 Processed: uploads/2013/11/转债套利3.gif
-[debug] 14:09:04.815 Processed: uploads/2013/11/转债套利4-150x150.gif
-[debug] 14:09:04.821 Processed: uploads/2013/11/转债套利4-300x232.gif
-[debug] 14:09:04.828 Processed: uploads/2013/11/转债套利4.gif
-[debug] 14:09:04.834 Processed: uploads/2013/11/银行资产负债表-150x150.gif
-[debug] 14:09:04.840 Processed: uploads/2013/11/银行资产负债表-300x200.gif
-[debug] 14:09:04.846 Processed: uploads/2013/11/银行资产负债表.gif
-[debug] 14:09:04.852 Processed: uploads/2013/11/银行资产负债表资产端-150x150.gif
-[debug] 14:09:04.858 Processed: uploads/2013/11/银行资产负债表资产端-300x168.gif
-[debug] 14:09:04.864 Processed: uploads/2013/11/银行资产负债表资产端.gif
-[debug] 14:09:04.871 Processed: uploads/2013/11/银行资产配置-150x150.png
-[debug] 14:09:04.877 Processed: uploads/2013/11/银行资产配置-300x148.png
-[debug] 14:09:04.883 Processed: uploads/2013/11/银行资产配置.png
-[debug] 14:09:04.889 Processed: uploads/2014/01/民生转债-150x150.png
-[debug] 14:09:04.896 Processed: uploads/2014/01/民生转债-300x273.png
-[debug] 14:09:04.902 Processed: uploads/2014/01/民生转债.png
-[debug] 14:09:04.911 Processed: uploads/2014/01/民生转债1-150x150.png
-[debug] 14:09:04.917 Processed: uploads/2014/01/民生转债1-300x233.png
-[debug] 14:09:04.923 Processed: uploads/2014/01/民生转债1.png
-[debug] 14:09:04.930 Processed: uploads/2014/01/民生转债修正-150x150.gif
-[debug] 14:09:04.936 Processed: uploads/2014/01/民生转债修正-300x237.gif
-[debug] 14:09:04.942 Processed: uploads/2014/01/民生转债修正.gif
-[debug] 14:09:04.949 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.doc
-[debug] 14:09:04.955 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.pdf
-[debug] 14:09:04.961 Processed: uploads/2014/03/杠杠使用之一.pdf
-[debug] 14:09:04.968 Processed: uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf
-[debug] 14:09:04.975 Processed: uploads/2014/04/房地产信贷-1024x303.png
-[debug] 14:09:04.981 Processed: uploads/2014/04/房地产信贷-150x150.png
-[debug] 14:09:04.987 Processed: uploads/2014/04/房地产信贷-300x89.png
-[debug] 14:09:04.994 Processed: uploads/2014/04/房地产信贷.png
-[debug] 14:09:05.000 Processed: uploads/2014/04/社会融资总量201403-150x150.png
-[debug] 14:09:05.007 Processed: uploads/2014/04/社会融资总量201403-300x178.png
-[debug] 14:09:05.013 Processed: uploads/2014/04/社会融资总量201403.png
-[debug] 14:09:05.020 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png
-[debug] 14:09:05.026 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png
-[debug] 14:09:05.033 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403.png
-[debug] 14:09:05.040 Processed: uploads/2014/04/社会融资总量__贷款201403-150x150.png
-[debug] 14:09:05.050 Processed: uploads/2014/04/社会融资总量__贷款201403-300x178.png
-[debug] 14:09:05.057 Processed: uploads/2014/04/社会融资总量__贷款201403.png
-[debug] 14:09:05.063 Processed: uploads/2014/04/银行生息资产配置行为-150x150.png
-[debug] 14:09:05.070 Processed: uploads/2014/04/银行生息资产配置行为-300x158.png
-[debug] 14:09:05.077 Processed: uploads/2014/04/银行生息资产配置行为.png
-[debug] 14:09:05.084 Processed: uploads/2014/04/银行资产配置—201403-150x150.png
-[debug] 14:09:05.090 Processed: uploads/2014/04/银行资产配置—201403-300x150.png
-[debug] 14:09:05.097 Processed: uploads/2014/04/银行资产配置—201403.png
-[debug] 14:09:05.104 Processed: uploads/2014/05/收益率阀值分析.png
-[debug] 14:09:05.111 Processed: uploads/2014/05/收益率阀值建仓速度.png
-[debug] 14:09:05.118 Processed: uploads/2014/05/高收益债列表.png
-[debug] 14:09:05.125 Processed: uploads/2014/05/高收益债指数久期变化.png
-[debug] 14:09:05.131 Processed: uploads/2014/05/高收益债指数交易额（万）.png
-[debug] 14:09:05.138 Processed: uploads/2014/05/高收益债指数表现情况.png
-[debug] 14:09:05.145 Processed: uploads/2014/05/高收益债指数走势.png
-[debug] 14:09:05.152 Processed: uploads/2014/05/高收益债数量和回购利率关系.png
-[debug] 14:09:05.163 Theme config loaded
-[debug] 14:09:05.163 Processed: _config.yml
-[debug] 14:09:05.170 Processed: uploads/2014/05/高收益债样本个数.png
-[debug] 14:09:05.171 Processed: languages/default.yml
-[debug] 14:09:05.172 Processed: languages/zh-CN.yml
-[debug] 14:09:05.174 Processed: languages/zh-TW.yml
-[debug] 14:09:06.073 Processed: readme.md
-[debug] 14:09:06.078 Processed: Rmd/test.md
-[debug] 14:09:06.079 Processed: Rmd/债券市场回顾.md
-[debug] 14:09:06.079 Processed: about/index.md
-[debug] 14:09:06.290 Processed: _posts/2013亚洲独立研究峰会笔录.md
-[debug] 14:09:06.290 Processed: _posts/2013日本游玩.md
-[debug] 14:09:06.290 Processed: _posts/MathJax试用.md
-[debug] 14:09:06.290 Processed: _posts/backtesting-of-risk-parity-strategy.md
-[debug] 14:09:06.290 Processed: _posts/bitbucket-intro.md
-[debug] 14:09:06.290 Processed: _posts/bloomberg包代码对应表.md
-[debug] 14:09:06.290 Processed: _posts/bs-and-pl.md
-[debug] 14:09:06.290 Processed: _posts/cb2013qr3allocation.md
-[debug] 14:09:06.290 Processed: _posts/economic-review-in-april.md
-[debug] 14:09:06.290 Processed: _posts/emacs-使用介绍.md
-[debug] 14:09:06.290 Processed: _posts/fwdrate.md
-[debug] 14:09:06.290 Processed: _posts/git-intro.md
-[debug] 14:09:06.290 Processed: _posts/pr20dsignal.md
-[debug] 14:09:06.290 Processed: _posts/project-name.md
-[debug] 14:09:06.290 Processed: _posts/test.md
-[debug] 14:09:06.291 Processed: _posts/write-r-pacakges-on-github.md
-[debug] 14:09:06.291 Processed: _posts/三月份融资数据点评.md
-[debug] 14:09:06.291 Processed: _posts/优先股试点报告.md
-[debug] 14:09:06.291 Processed: _posts/会计记录的后续问题讨论.md
-[debug] 14:09:06.291 Processed: _posts/债券和货币市场回顾_20130605.md
-[debug] 14:09:06.291 Processed: _posts/债券市场回顾.md
-[debug] 14:09:06.291 Processed: _posts/关于我们投资平台页面的设计.md
-[debug] 14:09:06.291 Processed: _posts/关于隔夜回购计息的问题.md
-[debug] 14:09:06.291 Processed: _posts/分级基金之基本风险收益分析.md
-[debug] 14:09:06.291 Processed: _posts/可转债市场回顾_20130605.md
-[debug] 14:09:06.291 Processed: _posts/可转债负溢价率套利策略一.md
-[debug] 14:09:06.291 Processed: _posts/可转债转股套利.md
-[debug] 14:09:06.291 Processed: _posts/回购的即期和远期收益率曲线.md
-[debug] 14:09:06.291 Processed: _posts/国债收益率曲线可视化项目.md
-[debug] 14:09:06.291 Processed: _posts/国债期货上市以来回顾.md
-[debug] 14:09:06.291 Processed: _posts/国债期货高频交易策略.md
-[debug] 14:09:06.291 Processed: _posts/国务院关于开展优先股试点的指导意见.md
-[debug] 14:09:06.291 Processed: _posts/在投资中使用杠杆之一.md
-[debug] 14:09:06.291 Processed: _posts/在投资中使用杠杆之二.md
-[debug] 14:09:06.291 Processed: _posts/基金份额的计算.md
-[debug] 14:09:06.291 Processed: _posts/推荐一篇非常难得的好报告.md
-[debug] 14:09:06.291 Processed: _posts/期货的持仓记录.md
-[debug] 14:09:06.291 Processed: _posts/民生转债修正条款博弈.md
-[debug] 14:09:06.291 Processed: _posts/转债市场观点_2013-10-29.md
-[debug] 14:09:06.291 Processed: _posts/远期收益率曲线交易角度的理解.md
-[debug] 14:09:06.291 Processed: _posts/银行研究专题一.md
-[debug] 14:09:06.292 Processed: _posts/高收益债投资研究.md
-[info] 14:09:06.629 Files loaded in 4.560s
-[debug] 14:09:06.666 Cache saved
-[debug] 14:09:06.752 Public folder cleared: archives/index.html,archives/page/2/index.html,archives/page/3/index.html,archives/page/4/index.html,archives/page/5/index.html,archives/2013/index.html,archives/2013/page/2/index.html,archives/2013/page/3/index.html,archives/2013/06/index.html,archives/2013/06/page/2/index.html,archives/2013/07/index.html,archives/2013/08/index.html,archives/2013/10/index.html,archives/2013/11/index.html,archives/2013/12/index.html,archives/2014/index.html,archives/2014/page/2/index.html,archives/2014/01/index.html,archives/2014/02/index.html,archives/2014/03/index.html,archives/2014/04/index.html,archives/2014/05/index.html,categories/经济和历史/index.html,categories/生活和旅游/index.html,categories/大类资产配置研究/index.html,categories/IT技术/index.html,categories/宏观经济/index.html,categories/可转债/index.html,categories/债券货币市场/index.html,categories/股票市场/index.html,categories/团队/index.html,categories/大类资产配置研究/高收益债/index.html,categories/金融市场报告/index.html,categories/金融市场报告/债券货币市场/index.html,categories/国债期货和利率/index.html,categories/债券货币市场/金融经济相关/index.html,categories/银行研究/index.html,index.html,page/2/index.html,page/3/index.html,page/4/index.html,page/5/index.html,readme.html,Rmd/test.html,Rmd/债券市场回顾.html,about/index.html,债券市场回顾/index.html,test/index.html,高收益债投资研究/index.html,三月份融资数据点评/index.html,在投资中使用杠杆之二/index.html,bs-and-pl/index.html,在投资中使用杠杆之一/index.html,分级基金之基本风险收益分析/index.html,会计记录的后续问题讨论/index.html,期货的持仓记录/index.html,基金份额的计算/index.html,民生转债修正条款博弈/index.html,可转债转股套利/index.html,国务院关于开展优先股试点的指导意见/index.html,可转债负溢价率套利策略一/index.html,银行研究专题一/index.html,bloomberg包代码对应表/index.html,pr20dsignal/index.html,fwdrate/index.html,2013亚洲独立研究峰会笔录/index.html,转债市场观点_2013-10-29/index.html,cb2013qr3allocation/index.html,国债期货高频交易策略/index.html,2013日本游玩/index.html,emacs-使用介绍/index.html,国债期货上市以来回顾/index.html,优先股试点报告/index.html,write-r-pacakges-on-github/index.html,远期收益率曲线交易角度的理解/index.html,回购的即期和远期收益率曲线/index.html,关于我们投资平台页面的设计/index.html,git-intro/index.html,推荐一篇非常难得的好报告/index.html,bitbucket-intro/index.html,project-name/index.html,economic-review-in-april/index.html,关于隔夜回购计息的问题/index.html,backtesting-of-risk-parity-strategy/index.html,MathJax试用/index.html,国债收益率曲线可视化项目/index.html,债券和货币市场回顾_20130605/index.html,可转债市场回顾_20130605/index.html,tags/bitbucket/index.html,tags/git/index.html,font/FontAwesome.otf,font/coveredbyyourgrace-webfont.eot,font/coveredbyyourgrace-webfont.svg,font/coveredbyyourgrace-webfont.ttf,font/coveredbyyourgrace-webfont.woff,font/fontawesome-webfont.eot,font/fontawesome-webfont.svg,font/fontawesome-webfont.ttf,font/fontawesome-webfont.woff,img/author.jpg,img/favicon.ico,img/logo.svg,img/pacman.jpg,js/jquery-2.1.0.min.js,css/style.css,fancybox/blank.gif,fancybox/fancybox_loading.gif,fancybox/fancybox_loading@2x.gif,fancybox/fancybox_overlay.png,fancybox/fancybox_sprite.png,fancybox/fancybox_sprite@2x.png,fancybox/jquery.fancybox.css,fancybox/jquery.fancybox.js,fancybox/jquery.fancybox.pack.js,fancybox/helpers/fancybox_buttons.png,fancybox/helpers/jquery.fancybox-buttons.css,fancybox/helpers/jquery.fancybox-buttons.js,fancybox/helpers/jquery.fancybox-media.js,fancybox/helpers/jquery.fancybox-thumbs.css,fancybox/helpers/jquery.fancybox-thumbs.js,CNAME,uploads/2013/06/01-igraph-vs-statnet.pdf,uploads/2013/06/2320339_005913444_2-150x150.jpg,uploads/2013/06/2320339_005913444_2-300x141.jpg,uploads/2013/06/2320339_005913444_2-624x293.jpg,uploads/2013/06/2320339_005913444_2.jpg,uploads/2013/06/Rplot-1000x288.jpg,uploads/2013/06/Rplot-1024x554.jpg,uploads/2013/06/Rplot-150x150.jpg,uploads/2013/06/Rplot-150x150.png,uploads/2013/06/Rplot-300x162.jpg,uploads/2013/06/Rplot-300x280.png,uploads/2013/06/Rplot-320x300.png,uploads/2013/06/Rplot-500x270.jpg,uploads/2013/06/Rplot-614x288.png,uploads/2013/06/Rplot.png,uploads/2013/06/Rplot.jpg,uploads/2013/06/Rplot1-300x187.png,uploads/2013/06/Rplot1-150x150.png,uploads/2013/06/Rplot1-478x300.png,uploads/2013/06/Rplot1-640x288.png,uploads/2013/06/Rplot1.png,uploads/2013/06/assetPerformance-150x150.png,uploads/2013/06/assetPerformance-300x145.png,uploads/2013/06/assetPerformance-300x166.png,uploads/2013/06/assetPerformance-500x276.png,uploads/2013/06/assetPerformance-500x242.png,uploads/2013/06/assetPerformance-655x288.png,uploads/2013/06/assetPerformance-982x288.png,uploads/2013/06/assetPerformance.png,uploads/2013/06/bondFuture-150x150.png,uploads/2013/06/bondFuture-300x205.png,uploads/2013/06/bondFuture-438x300.png,uploads/2013/06/bondFuture-612x288.png,uploads/2013/06/bondFuture.png,uploads/2013/06/convertible-150x150.png,uploads/2013/06/convertible-300x243.png,uploads/2013/06/convertible-370x300.png,uploads/2013/06/convertible-676x288.png,uploads/2013/06/convertible.png,uploads/2013/06/cropped-Rplot-150x150.jpg,uploads/2013/06/cropped-Rplot-300x68.jpg,uploads/2013/06/cropped-Rplot-500x114.jpg,uploads/2013/06/cropped-Rplot.jpg,uploads/2013/06/cropped-Rplot2-1000x288.png,uploads/2013/06/cropped-Rplot2-150x150.png,uploads/2013/06/cropped-Rplot2-300x150.png,uploads/2013/06/cropped-Rplot2-500x251.png,uploads/2013/06/cropped-Rplot2.png,uploads/2013/06/cropped-tao-1000x288.jpg,uploads/2013/06/cropped-tao-150x150.jpg,uploads/2013/06/cropped-tao-300x132.jpg,uploads/2013/06/cropped-tao.jpg,uploads/2013/06/git-cheat-sheet-medium-1000x288.png,uploads/2013/06/git-cheat-sheet-medium-1024x791.png,uploads/2013/06/cropped-tao-500x220.jpg,uploads/2013/06/git-cheat-sheet-medium-150x150.png,uploads/2013/06/git-cheat-sheet-medium-300x231.png,uploads/2013/06/git-cheat-sheet-medium-388x300.png,uploads/2013/06/git-cheat-sheet-medium.png,uploads/2013/06/money-1000x188.png,uploads/2013/06/money-1024x154.png,uploads/2013/06/money-150x150.png,uploads/2013/06/money-300x45.png,uploads/2013/06/money-500x75.png,uploads/2013/06/money-e1370486329431-1024x154.png,uploads/2013/06/money-e1370486329431-150x150.png,uploads/2013/06/money-e1370486329431.png,uploads/2013/06/money-e1370486329431-300x45.png,uploads/2013/06/money.png,uploads/2013/06/treasury-1000x288.png,uploads/2013/06/treasury-1024x289.png,uploads/2013/06/treasury-150x150.png,uploads/2013/06/treasury-300x84.png,uploads/2013/06/treasury-500x141.png,uploads/2013/06/upload-1000x288.png,uploads/2013/06/treasury.png,uploads/2013/06/upload-1024x488.png,uploads/2013/06/upload-150x150.png,uploads/2013/06/upload-300x143.png,uploads/2013/06/upload-500x238.png,uploads/2013/06/upload.png,uploads/2013/06/win-dns-150x150.png,uploads/2013/06/win-dns-300x186.png,uploads/2013/06/win-dns-483x300.png,uploads/2013/06/win-dns-719x288.png,uploads/2013/06/win-dns.png,uploads/2013/06/wind-1000x288.png,uploads/2013/06/wind-1024x436.png,uploads/2013/06/wind-150x150.png,uploads/2013/06/wind-300x127.png,uploads/2013/06/wind-500x213.png,uploads/2013/06/wind.png,uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf,uploads/2013/07/Repo-150x150.png,uploads/2013/07/Repo-300x87.png,uploads/2013/07/Repo-500x146.png,uploads/2013/07/Repo.png,uploads/2013/10/IRR-150x150.gif,uploads/2013/10/IRR-300x203.gif,uploads/2013/10/IRR.gif,uploads/2013/10/IRRvsRepo-150x150.gif,uploads/2013/10/IRRvsRepo-300x186.gif,uploads/2013/10/IRRvsRepo.gif,uploads/2013/10/IRR参数优化-150x150.gif,uploads/2013/10/IRR参数优化-300x193.gif,uploads/2013/10/IRR参数优化.gif,uploads/2013/10/IRR回测-150x93.png,uploads/2013/10/IRR回测-300x45.png,uploads/2013/10/IRR回测.png,uploads/2013/10/IRR数据总结-150x150.gif,uploads/2013/10/IRR数据总结-300x194.gif,uploads/2013/10/IRR数据总结.gif,uploads/2013/10/My Heart Will Go On.mp3,uploads/2013/10/volatility-150x150.gif,uploads/2013/10/volatility-300x143.gif,uploads/2013/10/volatility.gif,uploads/2013/10/wind.mp3,uploads/2013/10/三季度转债表现-150x150.gif,uploads/2013/10/三季度转债表现-300x150.gif,uploads/2013/10/三季度转债表现.gif,uploads/2013/10/三季度转债表现图-150x150.gif,uploads/2013/10/三季度转债表现图-300x265.gif,uploads/2013/10/三季度转债表现图.gif,uploads/2013/10/三季度转债表现表-150x150.gif,uploads/2013/10/三季度转债表现表.gif,uploads/2013/10/三季度转债表现表-238x300.gif,uploads/2013/10/东大寺2-150x150.jpg,uploads/2013/10/东大寺2-300x225.jpg,uploads/2013/10/东大寺2.jpg,uploads/2013/10/中美国债-150x150.gif,uploads/2013/10/中美国债-300x189.gif,uploads/2013/10/中美国债.gif,uploads/2013/10/中行民生石化-150x150.gif,uploads/2013/10/中行民生石化-228x300.gif,uploads/2013/10/中行民生石化-780x1024.gif,uploads/2013/10/中行民生石化.gif,uploads/2013/10/京都岚山-150x150.jpg,uploads/2013/10/京都岚山-300x225.jpg,uploads/2013/10/京都岚山.jpg,uploads/2013/10/公募基金仓位1-276x300.png,uploads/2013/10/公募基金仓位1-150x150.png,uploads/2013/10/公募基金仓位1-945x1024.png,uploads/2013/10/公募基金仓位1.png,uploads/2013/10/公募基金仓位2-1024x742.png,uploads/2013/10/公募基金仓位2-150x150.png,uploads/2013/10/公募基金仓位2-300x217.png,uploads/2013/10/公募基金仓位2.png,uploads/2013/10/南山石化-150x150.gif,uploads/2013/10/南山石化-300x266.gif,uploads/2013/10/南山石化.gif,uploads/2013/10/可转债个券指标-150x150.png,uploads/2013/10/可转债个券指标-300x200.png,uploads/2013/10/可转债个券指标.png,uploads/2013/10/可转债个券指标1-150x150.png,uploads/2013/10/可转债个券指标1-300x151.png,uploads/2013/10/可转债个券指标1.png,uploads/2013/10/和服-150x150.jpg,uploads/2013/10/和服-300x225.jpg,uploads/2013/10/和服.jpg,uploads/2013/10/哲学の道-150x150.jpg,uploads/2013/10/哲学の道-300x225.jpg,uploads/2013/10/哲学の道.jpg,uploads/2013/10/四季度3-150x150.gif,uploads/2013/10/四季度3.gif,uploads/2013/10/四季度3-215x300.gif,uploads/2013/10/四季度报告-150x150.gif,uploads/2013/10/四季度报告-274x300.gif,uploads/2013/10/四季度报告.gif,uploads/2013/10/四季度报告2-150x150.gif,uploads/2013/10/四季度报告2-285x300.gif,uploads/2013/10/四季度报告2.gif,uploads/2013/10/国债期货-150x150.png,uploads/2013/10/国债期货-300x154.png,uploads/2013/10/国债期货.png,uploads/2013/10/国债期货四季度策略1.pdf,uploads/2013/10/国债期货高频交易-150x150.png,uploads/2013/10/国债期货高频交易-300x225.png,uploads/2013/10/国债期货高频交易.png,uploads/2013/10/国债期货四季度策略.pdf,uploads/2013/10/大阪-150x150.jpg,uploads/2013/10/大阪-300x225.jpg,uploads/2013/10/大阪.jpg,uploads/2013/10/大阪漫画者-150x150.jpg,uploads/2013/10/大阪漫画者-225x300.jpg,uploads/2013/10/大阪漫画者.jpg,uploads/2013/10/奈良_唐绍提寺-150x150.jpg,uploads/2013/10/奈良_唐绍提寺-300x225.jpg,uploads/2013/10/奈良_唐绍提寺.jpg,uploads/2013/10/奈良东大寺-150x150.jpg,uploads/2013/10/奈良东大寺-300x225.jpg,uploads/2013/10/奈良东大寺.jpg,uploads/2013/10/奈良东大寺1-150x150.jpg,uploads/2013/10/奈良东大寺1-300x225.jpg,uploads/2013/10/奈良东大寺1.jpg,uploads/2013/10/居酒屋-150x150.jpg,uploads/2013/10/居酒屋-300x225.jpg,uploads/2013/10/居酒屋.jpg,uploads/2013/10/岚山街头-150x150.jpg,uploads/2013/10/岚山街头-300x225.jpg,uploads/2013/10/岚山街头.jpg,uploads/2013/10/日本和服-300x225.jpg,uploads/2013/10/日本和服.jpg,uploads/2013/10/日本和服2-150x150.jpg,uploads/2013/10/日本和服-150x150.jpg,uploads/2013/10/日本和服2-300x225.jpg,uploads/2013/10/日本和服2.jpg,uploads/2013/10/民生转债走势-300x233.gif,uploads/2013/10/民生转债走势-150x150.gif,uploads/2013/10/民生转债走势.gif,uploads/2013/10/民生银行资本充足率-1024x701.png,uploads/2013/10/民生银行资本充足率-150x150.png,uploads/2013/10/民生银行资本充足率-300x205.png,uploads/2013/10/民生银行资本充足率.png,uploads/2013/10/清水市步行街-150x150.jpg,uploads/2013/10/清水市步行街-300x225.jpg,uploads/2013/10/清水市步行街.jpg,uploads/2013/10/艺妓-150x150.jpg,uploads/2013/10/艺妓.jpg,uploads/2013/10/转债基金资产配置.xlsx,uploads/2013/10/转债指数-150x150.png,uploads/2013/10/艺妓-300x225.jpg,uploads/2013/10/转债指数-300x136.png,uploads/2013/10/转债指数.png,uploads/2013/10/金阁寺-150x150.jpg,uploads/2013/10/金阁寺-300x225.jpg,uploads/2013/10/金阁寺.jpg,uploads/2013/11/pr20d_backtest-150x150.gif,uploads/2013/11/pr20d_backtest-300x208.gif,uploads/2013/11/pr20d_backtest.gif,uploads/2013/11/pr20d_backtest1-300x198.gif,uploads/2013/11/pr20d_backtest1.gif,uploads/2013/11/pr20d_backtest2-150x150.gif,uploads/2013/11/pr20d_backtest1-150x150.gif,uploads/2013/11/pr20d_backtest2-300x202.gif,uploads/2013/11/pr20d_backtest2.gif,uploads/2013/11/repo-150x150.png,uploads/2013/11/repo-300x86.png,uploads/2013/11/repo.png,uploads/2013/11/可转债套利.xlsx,uploads/2013/11/可转债套利1-150x150.gif,uploads/2013/11/可转债套利1-300x197.gif,uploads/2013/11/可转债套利1.gif,uploads/2013/11/转债套利2-150x150.gif,uploads/2013/11/转债套利2-300x269.gif,uploads/2013/11/转债套利3-150x150.gif,uploads/2013/11/转债套利3-300x147.gif,uploads/2013/11/转债套利2.gif,uploads/2013/11/转债套利3.gif,uploads/2013/11/转债套利4-150x150.gif,uploads/2013/11/转债套利4-300x232.gif,uploads/2013/11/转债套利4.gif,uploads/2013/11/银行资产负债表-300x200.gif,uploads/2013/11/银行资产负债表.gif,uploads/2013/11/银行资产负债表资产端-150x150.gif,uploads/2013/11/银行资产负债表-150x150.gif,uploads/2013/11/银行资产负债表资产端-300x168.gif,uploads/2013/11/银行资产负债表资产端.gif,uploads/2013/11/银行资产配置-150x150.png,uploads/2013/11/银行资产配置.png,uploads/2013/11/银行资产配置-300x148.png,uploads/2014/01/民生转债-150x150.png,uploads/2014/01/民生转债-300x273.png,uploads/2014/01/民生转债.png,uploads/2014/01/民生转债1-150x150.png,uploads/2014/01/民生转债1-300x233.png,uploads/2014/01/民生转债修正-150x150.gif,uploads/2014/01/民生转债修正-300x237.gif,uploads/2014/01/民生转债修正.gif,uploads/2014/01/民生转债1.png,uploads/2014/03/分级基金A基金投资案例-双禧A.doc,uploads/2014/03/分级基金A基金投资案例-双禧A.pdf,uploads/2014/03/杠杠使用之一.pdf,uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf,uploads/2014/04/房地产信贷-1024x303.png,uploads/2014/04/房地产信贷-150x150.png,uploads/2014/04/房地产信贷-300x89.png,uploads/2014/04/房地产信贷.png,uploads/2014/04/社会融资总量201403-150x150.png,uploads/2014/04/社会融资总量201403-300x178.png,uploads/2014/04/社会融资总量201403.png,uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png,uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png,uploads/2014/04/社会融资总量__新增信托贷款201403.png,uploads/2014/04/社会融资总量__贷款201403-150x150.png,uploads/2014/04/社会融资总量__贷款201403.png,uploads/2014/04/银行生息资产配置行为-150x150.png,uploads/2014/04/社会融资总量__贷款201403-300x178.png,uploads/2014/04/银行生息资产配置行为.png,uploads/2014/04/银行资产配置—201403-150x150.png,uploads/2014/04/银行资产配置—201403-300x150.png,uploads/2014/04/银行生息资产配置行为-300x158.png,uploads/2014/04/银行资产配置—201403.png,uploads/2014/05/收益率阀值分析.png,uploads/2014/05/收益率阀值建仓速度.png,uploads/2014/05/高收益债列表.png,uploads/2014/05/高收益债指数久期变化.png,uploads/2014/05/高收益债指数交易额（万）.png,uploads/2014/05/高收益债指数表现情况.png,uploads/2014/05/高收益债指数走势.png,uploads/2014/05/高收益债数量和回购利率关系.png,uploads/2014/05/高收益债样本个数.png,Rmd/test.Rmd,images/高收益债样本个数.png,images/unnamed-chunk-2.png,images/ggdaily.png,images/Yr10.png,images/Yr10_gk.png,images/Yr5_2ap_drzp.png,images/Yr5_2a_drzp.png,images/ycDiffDay.png,images/ycDiffWeek.png,images/ycDecompose2008.png,images/ycDecompose2014.png,images/assetWeek.png,images/assetYear.png,Rmd/债券市场回顾.Rmd,images/assetMonth.png
-[debug] 14:09:06.788 Render archive: archives/
-[debug] 14:09:06.794 Render archive: archives/page/2/
-[debug] 14:09:06.795 Render archive: archives/page/3/
-[debug] 14:09:06.795 Render archive: archives/page/4/
-[debug] 14:09:06.796 Render archive: archives/page/5/
-[debug] 14:09:06.796 Render archive: archives/2013/
-[debug] 14:09:06.797 Render archive: archives/2013/page/2/
-[debug] 14:09:06.797 Render archive: archives/2013/page/3/
-[debug] 14:09:06.797 Render archive: archives/2013/06/
-[debug] 14:09:06.798 Render archive: archives/2013/06/page/2/
-[debug] 14:09:06.798 Render archive: archives/2013/07/
-[debug] 14:09:06.799 Render archive: archives/2013/08/
-[debug] 14:09:06.799 Render archive: archives/2013/10/
-[debug] 14:09:06.800 Render archive: archives/2013/11/
-[debug] 14:09:06.800 Render archive: archives/2013/12/
-[debug] 14:09:06.800 Render archive: archives/2014/
-[debug] 14:09:06.801 Render archive: archives/2014/page/2/
-[debug] 14:09:06.801 Render archive: archives/2014/01/
-[debug] 14:09:06.801 Render archive: archives/2014/02/
-[debug] 14:09:06.802 Render archive: archives/2014/03/
-[debug] 14:09:06.802 Render archive: archives/2014/04/
-[debug] 14:09:06.802 Render archive: archives/2014/05/
-[debug] 14:09:06.803 Render category: categories/经济和历史/
-[debug] 14:09:06.803 Render category: categories/生活和旅游/
-[debug] 14:09:06.803 Render category: categories/大类资产配置研究/
-[debug] 14:09:06.804 Render category: categories/IT技术/
-[debug] 14:09:06.804 Render category: categories/宏观经济/
-[debug] 14:09:06.804 Render category: categories/可转债/
-[debug] 14:09:06.805 Render category: categories/债券货币市场/
-[debug] 14:09:06.805 Render category: categories/股票市场/
-[debug] 14:09:06.805 Render category: categories/团队/
-[debug] 14:09:06.806 Render category: categories/大类资产配置研究/高收益债/
-[debug] 14:09:06.806 Render category: categories/金融市场报告/
-[debug] 14:09:06.806 Render category: categories/金融市场报告/债券货币市场/
-[debug] 14:09:06.807 Render category: categories/国债期货和利率/
-[debug] 14:09:06.807 Render category: categories/债券货币市场/金融经济相关/
-[debug] 14:09:06.807 Render category: categories/银行研究/
-[debug] 14:09:06.808 Render index: 
-[debug] 14:09:06.808 Render index: page/2/
-[debug] 14:09:06.808 Render index: page/3/
-[debug] 14:09:06.809 Render index: page/4/
-[debug] 14:09:06.809 Render index: page/5/
-[debug] 14:09:06.809 Render page: readme.html
-[debug] 14:09:06.809 Render page: Rmd/test.html
-[debug] 14:09:06.810 Render page: Rmd/债券市场回顾.html
-[debug] 14:09:06.810 Render page: about/index.html
-[debug] 14:09:06.810 Render post: 债券市场回顾/
-[debug] 14:09:06.811 Render post: test/
-[debug] 14:09:06.811 Render post: 高收益债投资研究/
-[debug] 14:09:06.811 Render post: 三月份融资数据点评/
-[debug] 14:09:06.812 Render post: 在投资中使用杠杆之二/
-[debug] 14:09:06.812 Render post: bs-and-pl/
-[debug] 14:09:06.812 Render post: 在投资中使用杠杆之一/
-[debug] 14:09:06.813 Render post: 分级基金之基本风险收益分析/
-[debug] 14:09:06.813 Render post: 会计记录的后续问题讨论/
-[debug] 14:09:06.813 Render post: 期货的持仓记录/
-[debug] 14:09:06.814 Render post: 基金份额的计算/
-[debug] 14:09:06.814 Render post: 民生转债修正条款博弈/
-[debug] 14:09:06.814 Render post: 可转债转股套利/
-[debug] 14:09:06.815 Render post: 国务院关于开展优先股试点的指导意见/
-[debug] 14:09:06.815 Render post: 可转债负溢价率套利策略一/
-[debug] 14:09:06.815 Render post: 银行研究专题一/
-[debug] 14:09:06.816 Render post: bloomberg包代码对应表/
-[debug] 14:09:06.816 Render post: pr20dsignal/
-[debug] 14:09:06.817 Render post: fwdrate/
-[debug] 14:09:06.817 Render post: 2013亚洲独立研究峰会笔录/
-[debug] 14:09:06.817 Render post: 转债市场观点_2013-10-29/
-[debug] 14:09:06.817 Render post: cb2013qr3allocation/
-[debug] 14:09:06.818 Render post: 国债期货高频交易策略/
-[debug] 14:09:06.818 Render post: 2013日本游玩/
-[debug] 14:09:06.818 Render post: emacs-使用介绍/
-[debug] 14:09:06.819 Render post: 国债期货上市以来回顾/
-[debug] 14:09:06.819 Render post: 优先股试点报告/
-[debug] 14:09:06.819 Render post: write-r-pacakges-on-github/
-[debug] 14:09:06.820 Render post: 远期收益率曲线交易角度的理解/
-[debug] 14:09:06.820 Render post: 回购的即期和远期收益率曲线/
-[debug] 14:09:06.820 Render post: 关于我们投资平台页面的设计/
-[debug] 14:09:06.821 Render post: git-intro/
-[debug] 14:09:06.821 Render post: 推荐一篇非常难得的好报告/
-[debug] 14:09:06.821 Render post: bitbucket-intro/
-[debug] 14:09:06.822 Render post: project-name/
-[debug] 14:09:06.822 Render post: economic-review-in-april/
-[debug] 14:09:06.822 Render post: 关于隔夜回购计息的问题/
-[debug] 14:09:06.823 Render post: backtesting-of-risk-parity-strategy/
-[debug] 14:09:06.823 Render post: MathJax试用/
-[debug] 14:09:06.823 Render post: 国债收益率曲线可视化项目/
-[debug] 14:09:06.824 Render post: 债券和货币市场回顾_20130605/
-[debug] 14:09:06.824 Render post: 可转债市场回顾_20130605/
-[debug] 14:09:06.825 Render tag: tags/bitbucket/
-[debug] 14:09:06.825 Render tag: tags/git/
-[error] 14:09:08.661 HexoError: Render failed: Rmd/test.html
-TypeError: Object [object Array] has no method 'find'
-    at list (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:48:16)
-    at Object.exports.list_categories (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:91:3)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:33:290)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:38:66)
-    at /usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:255:15
-    at Object.exports.render (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:293:13)
-    at module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/renderer/ejs.js:5:14)
-    at Object.exports.renderSync (/usr/local/lib/node_modules/hexo/lib/core/render.js:133:12)
-    at View.renderSync (/usr/local/lib/node_modules/hexo/lib/theme/view.js:183:28)
-    at Object.module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/helper/partial.js:19:17)
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\article.ejs:14
+    12| 		<%- item.content %>  
+    13| 	</div>
+ >> 14| 		<%- partial('footer') %>   	       
+    15| 	</article>
+    16| 	<%- partial('pagination') %>
+    17| 	<%- partial('comment') %>
 
-[error] 14:09:08.668 HexoError: Render failed: Rmd/债券市场回顾.html
-TypeError: Object [object Array] has no method 'find'
-    at list (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:48:16)
-    at Object.exports.list_categories (/usr/local/lib/node_modules/hexo/lib/plugins/helper/list.js:91:3)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:33:290)
-    at eval (eval at <anonymous> (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:242:14), <anonymous>:38:66)
-    at /usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:255:15
-    at Object.exports.render (/usr/local/lib/node_modules/hexo/node_modules/ejs/lib/ejs.js:293:13)
-    at module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/renderer/ejs.js:5:14)
-    at Object.exports.renderSync (/usr/local/lib/node_modules/hexo/lib/core/render.js:133:12)
-    at View.renderSync (/usr/local/lib/node_modules/hexo/lib/theme/view.js:183:28)
-    at Object.module.exports (/usr/local/lib/node_modules/hexo/lib/plugins/helper/partial.js:19:17)
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\footer.ejs:2
+    1| <footer class="article-footer clearfix">
+ >> 2| <%- partial('catetags') %>
+    3| <div class="article-share" id="share">
+    4| <% if(theme.jiathis.enable){ %>
+    5|   <%- partial('jiathis') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\catetags.ejs:13
+    11| <div class="article-categories">
+    12|   <span></span>
+ >> 13|   <%- list_categories(item.categories, {
+    14|       show_count: false,
+    15|       class: 'article-category',
+    16|       style: 'none',
+
+Object 大类资产配置研究,高收益债 has no method 'find'
+    at list (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:48:16)
+    at Object.exports.list_categories (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:91:3)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:290)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:37:66)
+    at C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:293:13)
+    at module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\core\render.js:133:12)
+    at View.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\theme\view.js:183:28)
+    at Object.module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:19:17)
+
+[error] 21:01:42.612 HexoError: Render failed: Rmd/债券市场回顾.html
+TypeError: C:\Sites\blog.wtmart.com\themes\pacman\layout\page.ejs:1
+ >> 1| <%- partial('_partial/post/article', {item: page, index: false,table: false}) %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\article.ejs:14
+    12| 		<%- item.content %>  
+    13| 	</div>
+ >> 14| 		<%- partial('footer') %>   	       
+    15| 	</article>
+    16| 	<%- partial('pagination') %>
+    17| 	<%- partial('comment') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\footer.ejs:2
+    1| <footer class="article-footer clearfix">
+ >> 2| <%- partial('catetags') %>
+    3| <div class="article-share" id="share">
+    4| <% if(theme.jiathis.enable){ %>
+    5|   <%- partial('jiathis') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\catetags.ejs:13
+    11| <div class="article-categories">
+    12|   <span></span>
+ >> 13|   <%- list_categories(item.categories, {
+    14|       show_count: false,
+    15|       class: 'article-category',
+    16|       style: 'none',
+
+Object 金融市场报告,债券货币市场 has no method 'find'
+    at list (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:48:16)
+    at Object.exports.list_categories (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:91:3)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:290)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:37:66)
+    at C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:293:13)
+    at module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\core\render.js:133:12)
+    at View.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\theme\view.js:183:28)
+    at Object.module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:19:17)
+[debug] 21:01:37.890 Config file loaded
+[debug] 21:01:37.900 Version info checked successfully
+[debug] 21:01:37.990 Loading database.
+[debug] 21:01:38.110 Script load successfully: fancybox.js
+[debug] 21:01:38.650 Processed: LICENSE
+[debug] 21:01:38.650 Processed: README.md
+[debug] 21:01:38.650 Processed: scripts/fancybox.js
+[debug] 21:01:38.834 Processed: source/css/_base/code.styl
+[debug] 21:01:38.835 Processed: source/css/_base/font.styl
+[debug] 21:01:38.835 Processed: source/css/_base/public.styl
+[debug] 21:01:38.835 Processed: source/css/_base/variable.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/article.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/aside.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/duoshuo.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/footer.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/gallery.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/header.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/helper.styl
+[debug] 21:01:38.835 Processed: source/css/_partial/index.styl
+[debug] 21:01:38.998 Processed: source/font/FontAwesome.otf
+[debug] 21:01:39.006 Processed: source/font/coveredbyyourgrace-webfont.eot
+[debug] 21:01:39.014 Processed: source/font/coveredbyyourgrace-webfont.svg
+[debug] 21:01:39.021 Processed: source/font/coveredbyyourgrace-webfont.ttf
+[debug] 21:01:39.029 Processed: source/font/coveredbyyourgrace-webfont.woff
+[debug] 21:01:39.036 Processed: source/font/fontawesome-webfont.eot
+[debug] 21:01:39.044 Processed: source/font/fontawesome-webfont.svg
+[debug] 21:01:39.051 Processed: source/font/fontawesome-webfont.ttf
+[debug] 21:01:39.060 Processed: source/font/fontawesome-webfont.woff
+[debug] 21:01:39.068 Processed: source/img/author.jpg
+[debug] 21:01:39.075 Processed: source/img/favicon.ico
+[debug] 21:01:39.083 Processed: source/img/logo.svg
+[debug] 21:01:39.091 Processed: source/img/pacman.jpg
+[debug] 21:01:39.099 Processed: source/js/jquery-2.1.0.min.js
+[debug] 21:01:39.107 Processed: source/css/style.styl
+[debug] 21:01:39.115 Processed: source/fancybox/blank.gif
+[debug] 21:01:39.123 Processed: source/fancybox/fancybox_loading.gif
+[debug] 21:01:39.130 Processed: source/fancybox/fancybox_loading@2x.gif
+[debug] 21:01:39.138 Processed: source/fancybox/fancybox_overlay.png
+[debug] 21:01:39.146 Processed: source/fancybox/fancybox_sprite.png
+[debug] 21:01:39.154 Processed: source/fancybox/fancybox_sprite@2x.png
+[debug] 21:01:39.161 Processed: source/fancybox/jquery.fancybox.css
+[debug] 21:01:39.173 Processed: source/fancybox/jquery.fancybox.js
+[debug] 21:01:39.181 Processed: source/fancybox/jquery.fancybox.pack.js
+[debug] 21:01:39.189 Processed: source/fancybox/helpers/fancybox_buttons.png
+[debug] 21:01:39.196 Processed: source/fancybox/helpers/jquery.fancybox-buttons.css
+[debug] 21:01:39.206 Processed: source/fancybox/helpers/jquery.fancybox-buttons.js
+[debug] 21:01:39.213 Processed: source/fancybox/helpers/jquery.fancybox-media.js
+[debug] 21:01:39.221 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.css
+[debug] 21:01:39.229 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.js
+[debug] 21:01:39.237 Processed: Rmd/test.Rmd~
+[debug] 21:01:39.238 Processed: Rmd/债券市场回顾.Rmd~
+[debug] 21:01:39.278 Processed: _drafts/2013日本旅行照片.md
+[debug] 21:01:39.278 Processed: _drafts/risk parity策略测试.md
+[debug] 21:01:39.278 Processed: _drafts/从三季报看银行的行为.md
+[debug] 21:01:39.278 Processed: _drafts/关于周五的回购利率问题.md
+[debug] 21:01:39.278 Processed: _drafts/分级债基套利专题(一).md
+[debug] 21:01:39.278 Processed: _drafts/利率市场概览--.md
+[debug] 21:01:39.279 Processed: _drafts/券商报告选读：从“紧非标”到“债市牛”之间的距离.md
+[debug] 21:01:39.279 Processed: _drafts/商业银行行为和债券市场走势.md
+[debug] 21:01:39.279 Processed: _drafts/国债收益率曲线可视化项目.md
+[debug] 21:01:39.279 Processed: _drafts/国债期货相关入门学习资料.md
+[debug] 21:01:39.279 Processed: _drafts/国债期货管理收益率曲线风险.md
+[debug] 21:01:39.279 Processed: _drafts/字体测试.md
+[debug] 21:01:39.279 Processed: _drafts/日本金融机构资金流量表解读.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆、国债收益率演变以及对银行行为的思考.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆经济学专题（一）：用杠杆思考经济学的框架介绍.md
+[debug] 21:01:39.279 Processed: _drafts/比特币高频交易设计.md
+[debug] 21:01:39.279 Processed: _drafts/石化二期转债发行情况.md
+[debug] 21:01:39.279 Processed: _drafts/杠杆经济学专题（二）：杠杆经济学以及对中国经济的理解.md
+[debug] 21:01:39.326 Processed: _posts/四月份融资数据点评.md~
+[debug] 21:01:39.345 Processed: _posts/figure/unnamed-chunk-1.png
+[debug] 21:01:39.345 Processed: _posts/figure/yieldCurveChange.png
+[debug] 21:01:40.022 Processed: layout/archive.ejs
+[debug] 21:01:40.022 Processed: CNAME
+[debug] 21:01:40.022 Processed: Rmd/test.Rmd
+[debug] 21:01:40.022 Processed: Rmd/债券市场回顾.Rmd
+[debug] 21:01:40.022 Processed: figure/unnamed-chunk-2.png
+[debug] 21:01:40.022 Processed: images/M2变化和测算结果偏离.png
+[debug] 21:01:40.022 Processed: images/M2变化和金融机构存款变化对比.png
+[debug] 21:01:40.022 Processed: images/M2变化季节性规律.png
+[debug] 21:01:40.022 Processed: images/M2实际变化和预测结果对比.png
+[debug] 21:01:40.022 Processed: images/M2来源分解季节性规律.png
+[debug] 21:01:40.022 Processed: images/Yr10.png
+[debug] 21:01:40.022 Processed: images/Yr10_gk.png
+[debug] 21:01:40.022 Processed: images/Yr5_2a_drzp.png
+[debug] 21:01:40.022 Processed: images/Yr5_2ap_drzp.png
+[debug] 21:01:40.022 Processed: images/assetMonth.png
+[debug] 21:01:40.032 Processed: images/assetWeek.png
+[debug] 21:01:40.032 Processed: images/assetYear.png
+[debug] 21:01:40.032 Processed: images/corpBond.png
+[debug] 21:01:40.032 Processed: images/entrustedLoan.png
+[debug] 21:01:40.032 Processed: images/ggdaily.png
+[debug] 21:01:40.032 Processed: images/newLoan.png
+[debug] 21:01:40.032 Processed: images/totalFinance.png
+[debug] 21:01:40.032 Processed: images/trstedLoan.png
+[debug] 21:01:40.032 Processed: images/unnamed-chunk-2.png
+[debug] 21:01:40.032 Processed: images/ycDecompose2008.png
+[debug] 21:01:40.032 Processed: images/ycDecompose2014.png
+[debug] 21:01:40.032 Processed: images/ycDiffDay.png
+[debug] 21:01:40.032 Processed: images/ycDiffWeek.png
+[debug] 21:01:40.032 Processed: images/保证金存款季节性.png
+[debug] 21:01:40.032 Processed: images/社融新增债券融资.png
+[debug] 21:01:40.032 Processed: images/社融非标.png
+[debug] 21:01:40.032 Processed: images/社融非标同比.png
+[debug] 21:01:40.032 Processed: images/银行表外进表季节性估算.png
+[debug] 21:01:40.032 Processed: images/预测残差的季节性规律_央行口径.png
+[debug] 21:01:40.042 Processed: images/预测残差的季节性规律_金融机构口径.png
+[debug] 21:01:40.042 Processed: images/高收益债样本个数.png
+[debug] 21:01:40.042 Processed: layout/category.ejs
+[debug] 21:01:40.042 Processed: uploads/2013/06/01-igraph-vs-statnet.pdf
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-150x150.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-300x141.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2-624x293.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/2320339_005913444_2.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-1000x288.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-1024x554.jpg
+[debug] 21:01:40.042 Processed: uploads/2013/06/Rplot-150x150.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-150x150.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-300x162.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-300x280.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-320x300.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-500x270.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot-614x288.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot.jpg
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-150x150.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-300x187.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-478x300.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1-640x288.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/Rplot1.png
+[debug] 21:01:40.052 Processed: uploads/2013/06/assetPerformance-150x150.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-300x145.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-300x166.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-500x242.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-500x276.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-655x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance-982x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/assetPerformance.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-150x150.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-300x205.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-438x300.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture-612x288.png
+[debug] 21:01:40.062 Processed: uploads/2013/06/bondFuture.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-150x150.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-300x243.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-370x300.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible-676x288.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/convertible.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-150x150.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-300x68.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot-500x114.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot.jpg
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot2-1000x288.png
+[debug] 21:01:40.072 Processed: uploads/2013/06/cropped-Rplot2-150x150.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2-300x150.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2-500x251.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-Rplot2.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-1000x288.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-150x150.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-300x132.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao-500x220.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/cropped-tao.jpg
+[debug] 21:01:40.082 Processed: uploads/2013/06/git-cheat-sheet-medium-1000x288.png
+[debug] 21:01:40.082 Processed: uploads/2013/06/git-cheat-sheet-medium-1024x791.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-150x150.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-300x231.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium-388x300.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/git-cheat-sheet-medium.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-1000x188.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-1024x154.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-150x150.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-300x45.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-500x75.png
+[debug] 21:01:40.092 Processed: uploads/2013/06/money-e1370486329431-1024x154.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431-150x150.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431-300x45.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money-e1370486329431.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/money.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-1000x288.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-1024x289.png
+[debug] 21:01:40.102 Processed: uploads/2013/06/treasury-150x150.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury-300x84.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury-500x141.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/treasury.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-1000x288.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-1024x488.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-150x150.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-300x143.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload-500x238.png
+[debug] 21:01:40.112 Processed: uploads/2013/06/upload.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-150x150.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-300x186.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-483x300.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns-719x288.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/win-dns.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-1000x288.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-1024x436.png
+[debug] 21:01:40.122 Processed: uploads/2013/06/wind-150x150.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind-300x127.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind-500x213.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/wind.png
+[debug] 21:01:40.132 Processed: uploads/2013/06/安信证券_策略研究_不破不立_程定华-诸海滨-范妍.pdf
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-150x150.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-300x87.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo-500x146.png
+[debug] 21:01:40.132 Processed: uploads/2013/07/Repo.png
+[debug] 21:01:40.132 Processed: uploads/2013/10/IRR-150x150.gif
+[debug] 21:01:40.132 Processed: uploads/2013/10/IRR-300x203.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo-150x150.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo-300x186.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRRvsRepo.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化-150x150.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化-300x193.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR参数优化.gif
+[debug] 21:01:40.142 Processed: uploads/2013/10/IRR回测-150x93.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR回测-300x45.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR回测.png
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结-150x150.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结-300x194.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/IRR数据总结.gif
+[debug] 21:01:40.152 Processed: uploads/2013/10/My Heart Will Go On.mp3
+[debug] 21:01:40.152 Processed: uploads/2013/10/volatility-150x150.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/volatility-300x143.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/volatility.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/wind.mp3
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现-150x150.gif
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现-300x150.gif
+[debug] 21:01:40.162 Processed: layout/index.ejs
+[debug] 21:01:40.162 Processed: uploads/2013/10/三季度转债表现.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图-150x150.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图-300x265.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现图.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表-150x150.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表-238x300.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/三季度转债表现表.gif
+[debug] 21:01:40.172 Processed: uploads/2013/10/东大寺2-150x150.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/东大寺2-300x225.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/东大寺2.jpg
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债-150x150.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债-300x189.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中美国债.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中行民生石化-150x150.gif
+[debug] 21:01:40.182 Processed: uploads/2013/10/中行民生石化-228x300.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/中行民生石化-780x1024.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/中行民生石化.gif
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山-150x150.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山-300x225.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/京都岚山.jpg
+[debug] 21:01:40.192 Processed: uploads/2013/10/公募基金仓位1-150x150.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1-276x300.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1-945x1024.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位1.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-1024x742.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-150x150.png
+[debug] 21:01:40.202 Processed: uploads/2013/10/公募基金仓位2-300x217.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/公募基金仓位2.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化-150x150.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化-300x266.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/南山石化.gif
+[debug] 21:01:40.212 Processed: uploads/2013/10/可转债个券指标-150x150.png
+[debug] 21:01:40.212 Processed: uploads/2013/10/可转债个券指标-300x200.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1-150x150.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1-300x151.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/可转债个券指标1.png
+[debug] 21:01:40.222 Processed: uploads/2013/10/和服-150x150.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/和服-300x225.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/和服.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道-150x150.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道-300x225.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/哲学の道.jpg
+[debug] 21:01:40.232 Processed: uploads/2013/10/四季度3-150x150.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度3-215x300.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度3.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告-150x150.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告-274x300.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告.gif
+[debug] 21:01:40.242 Processed: uploads/2013/10/四季度报告2-150x150.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/四季度报告2-285x300.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/四季度报告2.gif
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货-150x150.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货-300x154.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货.png
+[debug] 21:01:40.252 Processed: uploads/2013/10/国债期货四季度策略.pdf
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货四季度策略1.pdf
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易-150x150.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易-300x225.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/国债期货高频交易.png
+[debug] 21:01:40.262 Processed: uploads/2013/10/大阪-150x150.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪-300x225.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者-150x150.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者-225x300.jpg
+[debug] 21:01:40.272 Processed: uploads/2013/10/大阪漫画者.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺-150x150.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺-300x225.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良_唐绍提寺.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺-150x150.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺-300x225.jpg
+[debug] 21:01:40.282 Processed: uploads/2013/10/奈良东大寺.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1-150x150.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1-300x225.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/奈良东大寺1.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/居酒屋-150x150.jpg
+[debug] 21:01:40.292 Processed: uploads/2013/10/居酒屋-300x225.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/居酒屋.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头-150x150.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头-300x225.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/岚山街头.jpg
+[debug] 21:01:40.302 Processed: uploads/2013/10/日本和服-150x150.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服-300x225.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2-150x150.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2-300x225.jpg
+[debug] 21:01:40.312 Processed: uploads/2013/10/日本和服2.jpg
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势-150x150.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势-300x233.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生转债走势.gif
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生银行资本充足率-1024x701.png
+[debug] 21:01:40.322 Processed: uploads/2013/10/民生银行资本充足率-150x150.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/民生银行资本充足率-300x205.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/民生银行资本充足率.png
+[debug] 21:01:40.332 Processed: uploads/2013/10/清水市步行街-150x150.jpg
+[debug] 21:01:40.332 Processed: uploads/2013/10/清水市步行街-300x225.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/清水市步行街.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓-150x150.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓-300x225.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/艺妓.jpg
+[debug] 21:01:40.342 Processed: uploads/2013/10/转债基金资产配置.xlsx
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数-150x150.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数-300x136.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/转债指数.png
+[debug] 21:01:40.352 Processed: uploads/2013/10/金阁寺-150x150.jpg
+[debug] 21:01:40.352 Processed: uploads/2013/10/金阁寺-300x225.jpg
+[debug] 21:01:40.362 Processed: uploads/2013/10/金阁寺.jpg
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest-150x150.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest-300x208.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest.gif
+[debug] 21:01:40.362 Processed: uploads/2013/11/pr20d_backtest1-150x150.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest1-300x198.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest1.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest2-150x150.gif
+[debug] 21:01:40.372 Processed: uploads/2013/11/pr20d_backtest2-300x202.gif
+[debug] 21:01:40.382 Processed: uploads/2013/11/pr20d_backtest2.gif
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo-150x150.png
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo-300x86.png
+[debug] 21:01:40.382 Processed: uploads/2013/11/repo.png
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利.xlsx
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1-150x150.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1-300x197.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/可转债套利1.gif
+[debug] 21:01:40.392 Processed: uploads/2013/11/转债套利2-150x150.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利2-300x269.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利2.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利3-150x150.gif
+[debug] 21:01:40.402 Processed: uploads/2013/11/转债套利3-300x147.gif
+[debug] 21:01:40.402 Processed: layout/layout.ejs
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利3.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4-150x150.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4-300x232.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/转债套利4.gif
+[debug] 21:01:40.412 Processed: uploads/2013/11/银行资产负债表-150x150.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表-300x200.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表资产端-150x150.gif
+[debug] 21:01:40.422 Processed: uploads/2013/11/银行资产负债表资产端-300x168.gif
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产负债表资产端.gif
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置-150x150.png
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置-300x148.png
+[debug] 21:01:40.432 Processed: uploads/2013/11/银行资产配置.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债-150x150.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债-300x273.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债.png
+[debug] 21:01:40.442 Processed: uploads/2014/01/民生转债1-150x150.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债1-300x233.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债1.png
+[debug] 21:01:40.452 Processed: uploads/2014/01/民生转债修正-150x150.gif
+[debug] 21:01:40.462 Processed: uploads/2014/01/民生转债修正-300x237.gif
+[debug] 21:01:40.462 Processed: uploads/2014/01/民生转债修正.gif
+[debug] 21:01:40.462 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.doc
+[debug] 21:01:40.462 Processed: uploads/2014/03/分级基金A基金投资案例-双禧A.pdf
+[debug] 21:01:40.462 Processed: uploads/2014/03/杠杠使用之一.pdf
+[debug] 21:01:40.472 Processed: uploads/2014/03/杠杠使用之二-在证券账户中运用正回购加杠杆.pdf
+[debug] 21:01:40.472 Processed: uploads/2014/04/房地产信贷-1024x303.png
+[debug] 21:01:40.472 Processed: uploads/2014/04/房地产信贷-150x150.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/房地产信贷-300x89.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/房地产信贷.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/社会融资总量201403-150x150.png
+[debug] 21:01:40.482 Processed: uploads/2014/04/社会融资总量201403-300x178.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量201403.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-150x150.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403-300x188.png
+[debug] 21:01:40.492 Processed: uploads/2014/04/社会融资总量__新增信托贷款201403.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403-150x150.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403-300x178.png
+[debug] 21:01:40.502 Processed: uploads/2014/04/社会融资总量__贷款201403.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为-150x150.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为-300x158.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行生息资产配置行为.png
+[debug] 21:01:40.512 Processed: uploads/2014/04/银行资产配置—201403-150x150.png
+[debug] 21:01:40.522 Processed: uploads/2014/04/银行资产配置—201403-300x150.png
+[debug] 21:01:40.522 Processed: uploads/2014/04/银行资产配置—201403.png
+[debug] 21:01:40.522 Processed: uploads/2014/05/unnamed-chunk-2.png
+[debug] 21:01:40.522 Processed: uploads/2014/05/收益率阀值分析.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/收益率阀值建仓速度.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/高收益债列表.png
+[debug] 21:01:40.532 Processed: uploads/2014/05/高收益债指数久期变化.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数交易额（万）.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数表现情况.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债指数走势.png
+[debug] 21:01:40.542 Processed: uploads/2014/05/高收益债数量和回购利率关系.png
+[debug] 21:01:40.552 Processed: uploads/2014/05/高收益债样本个数.png
+[debug] 21:01:40.552 Processed: layout/page.ejs
+[debug] 21:01:40.552 Processed: layout/post.ejs
+[debug] 21:01:40.552 Processed: layout/tag.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/archive.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/category.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/links.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/rss.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/tag.ejs
+[debug] 21:01:40.552 Processed: layout/_widget/tagcloud.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/after_footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/archive.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/article.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/categories.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/comment.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/google_analytics.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/head.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/header.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/mathjax.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/pagination.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/search.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/sidebar.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/tags.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/catetags.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/gallery.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/header.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/jiathis.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/pagination.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/comment.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/footer.ejs
+[debug] 21:01:40.552 Processed: layout/_partial/post/article.ejs
+[debug] 21:01:40.552 Theme config loaded
+[debug] 21:01:40.552 Processed: _config.yml
+[debug] 21:01:40.552 Processed: languages/default.yml
+[debug] 21:01:40.552 Processed: languages/zh-CN.yml
+[debug] 21:01:40.552 Processed: languages/zh-TW.yml
+[debug] 21:01:41.342 Processed: readme.md
+[debug] 21:01:41.342 Processed: Rmd/test.md
+[debug] 21:01:41.342 Processed: Rmd/债券市场回顾.md
+[debug] 21:01:41.342 Processed: about/index.md
+[debug] 21:01:41.422 Processed: _posts/2013亚洲独立研究峰会笔录.md
+[debug] 21:01:41.422 Processed: _posts/2013日本游玩.md
+[debug] 21:01:41.422 Processed: _posts/MathJax试用.md
+[debug] 21:01:41.422 Processed: _posts/backtesting-of-risk-parity-strategy.md
+[debug] 21:01:41.422 Processed: _posts/bitbucket-intro.md
+[debug] 21:01:41.422 Processed: _posts/bloomberg包代码对应表.md
+[debug] 21:01:41.422 Processed: _posts/bs-and-pl.md
+[debug] 21:01:41.422 Processed: _posts/cb2013qr3allocation.md
+[debug] 21:01:41.422 Processed: _posts/economic-review-in-april.md
+[debug] 21:01:41.422 Processed: _posts/emacs-使用介绍.md
+[debug] 21:01:41.422 Processed: _posts/fwdrate.md
+[debug] 21:01:41.422 Processed: _posts/git-intro.md
+[debug] 21:01:41.422 Processed: _posts/pr20dsignal.md
+[debug] 21:01:41.422 Processed: _posts/project-name.md
+[debug] 21:01:41.422 Processed: _posts/test.md
+[debug] 21:01:41.422 Processed: _posts/test_de.md
+[debug] 21:01:41.422 Processed: _posts/write-r-pacakges-on-github.md
+[debug] 21:01:41.422 Processed: _posts/三月份融资数据点评.md
+[debug] 21:01:41.422 Processed: _posts/优先股试点报告.md
+[debug] 21:01:41.422 Processed: _posts/会计记录的后续问题讨论.md
+[debug] 21:01:41.422 Processed: _posts/债券和货币市场回顾_20130605.md
+[debug] 21:01:41.422 Processed: _posts/债券市场回顾.md
+[debug] 21:01:41.422 Processed: _posts/关于我们投资平台页面的设计.md
+[debug] 21:01:41.422 Processed: _posts/关于隔夜回购计息的问题.md
+[debug] 21:01:41.422 Processed: _posts/分级基金之基本风险收益分析.md
+[debug] 21:01:41.422 Processed: _posts/可转债市场回顾_20130605.md
+[debug] 21:01:41.422 Processed: _posts/可转债负溢价率套利策略一.md
+[debug] 21:01:41.422 Processed: _posts/可转债转股套利.md
+[debug] 21:01:41.422 Processed: _posts/四月份融资数据点评.md
+[debug] 21:01:41.422 Processed: _posts/回购的即期和远期收益率曲线.md
+[debug] 21:01:41.422 Processed: _posts/国债收益率曲线可视化项目.md
+[debug] 21:01:41.422 Processed: _posts/国债期货上市以来回顾.md
+[debug] 21:01:41.422 Processed: _posts/国债期货高频交易策略.md
+[debug] 21:01:41.422 Processed: _posts/国务院关于开展优先股试点的指导意见.md
+[debug] 21:01:41.422 Processed: _posts/在投资中使用杠杆之一.md
+[debug] 21:01:41.422 Processed: _posts/在投资中使用杠杆之二.md
+[debug] 21:01:41.422 Processed: _posts/基金份额的计算.md
+[debug] 21:01:41.422 Processed: _posts/推荐一篇非常难得的好报告.md
+[debug] 21:01:41.422 Processed: _posts/期货的持仓记录.md
+[debug] 21:01:41.422 Processed: _posts/民生转债修正条款博弈.md
+[debug] 21:01:41.422 Processed: _posts/转债市场观点_2013-10-29.md
+[debug] 21:01:41.422 Processed: _posts/银行研究专题一.md
+[debug] 21:01:41.422 Processed: _posts/高收益债投资研究.md
+[debug] 21:01:41.422 Processed: _posts/高收益债组合优化和回测.md
+[debug] 21:01:41.422 Processed: _posts/远期收益率曲线交易角度的理解.md
+[info] 21:01:41.562 Files loaded in 3.452s
+[debug] 21:01:41.572 Public folder not exists. No need to clear public folder.
+[debug] 21:01:41.572 Cache saved
+[debug] 21:01:41.582 Render archive: archives/
+[debug] 21:01:41.582 Render archive: archives/page/2/
+[debug] 21:01:41.582 Render archive: archives/page/3/
+[debug] 21:01:41.582 Render archive: archives/page/4/
+[debug] 21:01:41.582 Render archive: archives/page/5/
+[debug] 21:01:41.582 Render archive: archives/2013/
+[debug] 21:01:41.582 Render archive: archives/2013/page/2/
+[debug] 21:01:41.582 Render archive: archives/2013/page/3/
+[debug] 21:01:41.582 Render archive: archives/2013/06/
+[debug] 21:01:41.582 Render archive: archives/2013/06/page/2/
+[debug] 21:01:41.582 Render archive: archives/2013/07/
+[debug] 21:01:41.582 Render archive: archives/2013/08/
+[debug] 21:01:41.582 Render archive: archives/2013/10/
+[debug] 21:01:41.582 Render archive: archives/2013/11/
+[debug] 21:01:41.582 Render archive: archives/2013/12/
+[debug] 21:01:41.582 Render archive: archives/2014/
+[debug] 21:01:41.582 Render archive: archives/2014/page/2/
+[debug] 21:01:41.582 Render archive: archives/2014/01/
+[debug] 21:01:41.582 Render archive: archives/2014/02/
+[debug] 21:01:41.582 Render archive: archives/2014/03/
+[debug] 21:01:41.582 Render archive: archives/2014/04/
+[debug] 21:01:41.582 Render archive: archives/2014/05/
+[debug] 21:01:41.582 Render category: categories/经济和历史/
+[debug] 21:01:41.582 Render category: categories/生活和旅游/
+[debug] 21:01:41.582 Render category: categories/大类资产配置研究/
+[debug] 21:01:41.592 Render category: categories/IT技术/
+[debug] 21:01:41.592 Render category: categories/宏观经济/
+[debug] 21:01:41.592 Render category: categories/可转债/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/
+[debug] 21:01:41.592 Render category: categories/股票市场/
+[debug] 21:01:41.592 Render category: categories/团队/
+[debug] 21:01:41.592 Render category: categories/大类资产配置研究/高收益债/
+[debug] 21:01:41.592 Render category: categories/日志/
+[debug] 21:01:41.592 Render category: categories/金融市场报告/
+[debug] 21:01:41.592 Render category: categories/金融市场报告/债券货币市场/
+[debug] 21:01:41.592 Render category: categories/国债期货和利率/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/金融经济相关/
+[debug] 21:01:41.592 Render category: categories/银行研究/
+[debug] 21:01:41.592 Render category: categories/债券货币市场/高收益债/
+[debug] 21:01:41.592 Render index: 
+[debug] 21:01:41.592 Render index: page/2/
+[debug] 21:01:41.592 Render index: page/3/
+[debug] 21:01:41.592 Render index: page/4/
+[debug] 21:01:41.592 Render index: page/5/
+[debug] 21:01:41.592 Render page: readme.html
+[debug] 21:01:41.592 Render page: Rmd/test.html
+[debug] 21:01:41.592 Render page: Rmd/债券市场回顾.html
+[debug] 21:01:41.592 Render page: about/index.html
+[debug] 21:01:41.592 Render post: test_de/
+[debug] 21:01:41.592 Render post: 高收益债组合优化和回测/
+[debug] 21:01:41.592 Render post: 债券市场回顾/
+[debug] 21:01:41.592 Render post: 四月份融资数据点评/
+[debug] 21:01:41.592 Render post: test/
+[debug] 21:01:41.592 Render post: 高收益债投资研究/
+[debug] 21:01:41.592 Render post: 三月份融资数据点评/
+[debug] 21:01:41.592 Render post: 在投资中使用杠杆之二/
+[debug] 21:01:41.592 Render post: bs-and-pl/
+[debug] 21:01:41.592 Render post: 在投资中使用杠杆之一/
+[debug] 21:01:41.592 Render post: 分级基金之基本风险收益分析/
+[debug] 21:01:41.592 Render post: 会计记录的后续问题讨论/
+[debug] 21:01:41.592 Render post: 期货的持仓记录/
+[debug] 21:01:41.592 Render post: 基金份额的计算/
+[debug] 21:01:41.592 Render post: 民生转债修正条款博弈/
+[debug] 21:01:41.592 Render post: 可转债转股套利/
+[debug] 21:01:41.592 Render post: 国务院关于开展优先股试点的指导意见/
+[debug] 21:01:41.592 Render post: 可转债负溢价率套利策略一/
+[debug] 21:01:41.592 Render post: 银行研究专题一/
+[debug] 21:01:41.592 Render post: bloomberg包代码对应表/
+[debug] 21:01:41.592 Render post: pr20dsignal/
+[debug] 21:01:41.592 Render post: fwdrate/
+[debug] 21:01:41.592 Render post: 2013亚洲独立研究峰会笔录/
+[debug] 21:01:41.592 Render post: 转债市场观点_2013-10-29/
+[debug] 21:01:41.592 Render post: cb2013qr3allocation/
+[debug] 21:01:41.592 Render post: 国债期货高频交易策略/
+[debug] 21:01:41.592 Render post: 2013日本游玩/
+[debug] 21:01:41.592 Render post: emacs-使用介绍/
+[debug] 21:01:41.592 Render post: 国债期货上市以来回顾/
+[debug] 21:01:41.592 Render post: 优先股试点报告/
+[debug] 21:01:41.592 Render post: write-r-pacakges-on-github/
+[debug] 21:01:41.592 Render post: 远期收益率曲线交易角度的理解/
+[debug] 21:01:41.592 Render post: 回购的即期和远期收益率曲线/
+[debug] 21:01:41.592 Render post: 关于我们投资平台页面的设计/
+[debug] 21:01:41.592 Render post: git-intro/
+[debug] 21:01:41.592 Render post: 推荐一篇非常难得的好报告/
+[debug] 21:01:41.592 Render post: bitbucket-intro/
+[debug] 21:01:41.592 Render post: project-name/
+[debug] 21:01:41.592 Render post: economic-review-in-april/
+[debug] 21:01:41.592 Render post: 关于隔夜回购计息的问题/
+[debug] 21:01:41.592 Render post: backtesting-of-risk-parity-strategy/
+[debug] 21:01:41.592 Render post: MathJax试用/
+[debug] 21:01:41.592 Render post: 国债收益率曲线可视化项目/
+[debug] 21:01:41.592 Render post: 债券和货币市场回顾_20130605/
+[debug] 21:01:41.592 Render post: 可转债市场回顾_20130605/
+[debug] 21:01:41.592 Render tag: tags/bitbucket/
+[debug] 21:01:41.592 Render tag: tags/git/
+[debug] 21:01:41.592 Render tag: tags/开始/
+[debug] 21:01:41.602 Render tag: tags/我/
+[debug] 21:01:41.602 Render tag: tags/日记/
+[error] 21:01:42.572 HexoError: Render failed: Rmd/test.html
+TypeError: C:\Sites\blog.wtmart.com\themes\pacman\layout\page.ejs:1
+ >> 1| <%- partial('_partial/post/article', {item: page, index: false,table: false}) %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\article.ejs:14
+    12| 		<%- item.content %>  
+    13| 	</div>
+ >> 14| 		<%- partial('footer') %>   	       
+    15| 	</article>
+    16| 	<%- partial('pagination') %>
+    17| 	<%- partial('comment') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\footer.ejs:2
+    1| <footer class="article-footer clearfix">
+ >> 2| <%- partial('catetags') %>
+    3| <div class="article-share" id="share">
+    4| <% if(theme.jiathis.enable){ %>
+    5|   <%- partial('jiathis') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\catetags.ejs:13
+    11| <div class="article-categories">
+    12|   <span></span>
+ >> 13|   <%- list_categories(item.categories, {
+    14|       show_count: false,
+    15|       class: 'article-category',
+    16|       style: 'none',
+
+Object 大类资产配置研究,高收益债 has no method 'find'
+    at list (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:48:16)
+    at Object.exports.list_categories (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:91:3)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:290)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:37:66)
+    at C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:293:13)
+    at module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\core\render.js:133:12)
+    at View.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\theme\view.js:183:28)
+    at Object.module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:19:17)
+
+[error] 21:01:42.612 HexoError: Render failed: Rmd/债券市场回顾.html
+TypeError: C:\Sites\blog.wtmart.com\themes\pacman\layout\page.ejs:1
+ >> 1| <%- partial('_partial/post/article', {item: page, index: false,table: false}) %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\article.ejs:14
+    12| 		<%- item.content %>  
+    13| 	</div>
+ >> 14| 		<%- partial('footer') %>   	       
+    15| 	</article>
+    16| 	<%- partial('pagination') %>
+    17| 	<%- partial('comment') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\footer.ejs:2
+    1| <footer class="article-footer clearfix">
+ >> 2| <%- partial('catetags') %>
+    3| <div class="article-share" id="share">
+    4| <% if(theme.jiathis.enable){ %>
+    5|   <%- partial('jiathis') %>
+
+C:\Sites\blog.wtmart.com\themes\pacman\layout\_partial\post\catetags.ejs:13
+    11| <div class="article-categories">
+    12|   <span></span>
+ >> 13|   <%- list_categories(item.categories, {
+    14|       show_count: false,
+    15|       class: 'article-category',
+    16|       style: 'none',
+
+Object 金融市场报告,债券货币市场 has no method 'find'
+    at list (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:48:16)
+    at Object.exports.list_categories (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\list.js:91:3)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:32:290)
+    at eval (eval at <anonymous> (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:242:14), <anonymous>:37:66)
+    at C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:255:15
+    at Object.exports.render (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:293:13)
+    at module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\core\render.js:133:12)
+    at View.renderSync (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\theme\view.js:183:28)
+    at Object.module.exports (C:\Users\dengyishuo\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:19:17)
