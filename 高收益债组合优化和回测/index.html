@@ -11,7 +11,9 @@
     
     <meta name="description" content="组合优化
 组合模型设计
-假设我们要求解的变量为每个高收益债在交易日应持有的股数，假设变量为$$x_{i}, i = 1…n$$">
+我们的目标总结地讲很简单，就是要在最大化组合收益的条件下控制好组合中每个券的风险暴露，我们可以将这个问题描述为一个优化为题，具体的组合构建模型设计如下：
+
+假设t为我们rebalance的时间点，那么在这天开始的时候，假设我们的组合里面还剩余有$cashBOD_{t}$的现金">
     
     
     
@@ -79,8 +81,8 @@
       <a href="http://blog.wtmart.com" title="COS">COS</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-05-14T06:51:41.000Z" itemprop="datePublished">2014-05-14</time>
-    更新日期:<time datetime="2014-05-14T06:51:44.754Z" itemprop="dateModified">2014-05-14</time>
+    <time datetime="2014-05-25T12:34:47.000Z" itemprop="datePublished">2014-05-25</time>
+    更新日期:<time datetime="2014-05-25T12:37:43.208Z" itemprop="dateModified">2014-05-25</time>
     
   </p>
 </header>
@@ -94,7 +96,309 @@
 		
 		<h2 id="组合优化">组合优化</h2>
 <h3 id="组合模型设计">组合模型设计</h3>
-<p>假设我们要求解的变量为每个高收益债在交易日应持有的股数，假设变量为$$x_{i}, i = 1…n$$</p>
+<p>我们的目标总结地讲很简单，就是要在最大化组合收益的条件下控制好组合中每个券的风险暴露，我们可以将这个问题描述为一个优化为题，具体的组合构建模型设计如下：</p>
+<ol>
+<li>假设t为我们rebalance的时间点，那么在这天开始的时候，假设我们的组合里面还剩余有$cashBOD_{t}$的现金。</li>
+<li>假设持仓的向量表示为$\overrightarrow{shsHldBOD} = [shsHldBOD_{1},shsHldBOD_{2},...,shsHldBOD_{n}]^T$</li>
+<li>我们需要求解的变量是t日的每只券的持仓数量$\overrightarrow{X} = \overrightarrow{shsHldEOD} = [shsHldEOD_{1},shsHldEOD_{2},...,shsHldEOD_{n}]^T$</li>
+</ol>
+<p>那么调仓日开始的总市值可以表示为:$ntnlHldBOD_{t} = \sum^{n}_{i=1} (Price_{i,t-1} * shsHldBOD_{it}) + cashBOD_{t}$，我们组合优化的问题变成了求解以下的最优化问题：</p>
+<p>$$<br>\begin{aligned}<br> &amp; \max_{x_{1}\ldots x_{n}}:  \sum^{n}_{i=1} \frac{x_{i,t}\times Price_{i,t-1}}{ntnlHldBOD_{t}}\times YTM_{i,t-1} \<br> \newline &amp; St:<br> \newline &amp; 0\leq x_{i}\times Price_{i,t-1} \leq 5\%\times ntnlHldBOD_{t}, i = 1\ldots n \<br> \newline &amp; shsHldBOD_{it} - \theta \times atv_{i,t-1} \leq x_{it} \leq shsHldBOD_{it}+\theta\times atv_{i,t-1}, i = 1\ldots n\<br> \newline &amp; \sum^{n}_{i=1} \frac{x_{i,t}\times Price_{i,t-1}}{ntnlHldBOD_{t}} \leq 1<br> \newline &amp; \sum^{n}_{i=1} x_{i,t} \times atv_{i,t-1} \geq n \times 500000<br>\end{aligned}<br>$$</p>
+<p>接下来我们要考虑的是对构建参数的组合进行优化，我们回测的参数配置情况如下所示：</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="code"><pre>startDate &lt;- <span class="number">20130101</span>
+endDate &lt;- <span class="number">20140519</span>
+cfgLst &lt;- list(region = <span class="string">"CN"</span>, runFromScratch = <span class="literal">TRUE</span>, hldFile = <span class="string">"~/hld_20140514.csv"</span>, 
+    startDate = startDate, endDate = endDate, tradeLot = <span class="number">10</span>, extraTC = <span class="number">1</span>/<span class="number">10000</span>, 
+    volumeParticipationLimit = <span class="number">0.1</span>, individualHldLimit = <span class="number">0.02</span>, portsz = <span class="number">5</span> * 
+        <span class="number">1e+08</span>, tradeThreshold = <span class="number">0.08</span>, tradeOutThreshold = <span class="number">0.06</span>, atvThreshold = <span class="number">50</span> * 
+        <span class="number">10000</span>, atvOutThreshold = <span class="number">0.8</span> * <span class="number">50</span> * <span class="number">10000</span>, useGradeFilter = <span class="literal">F</span>, dataOutDir = <span class="string">"~/temp/backtestETF/exchangeHY"</span>, 
+    rebalanceFreq = <span class="string">"monthly"</span>, strategyName = <span class="string">"交易所高收益债策略"</span>)
+</pre></td></tr></table></figure>
+
+<p>我们这里有几个关键的参数需要优化，具体的含义如下：</p>
+<ol>
+<li>tradeThreshold = 0.08,            表示当债券的收益率高于8%我们就令程序在二级市场买入</li>
+<li>tradeOutThreshold = 0.06，        表示当债券的收益率低于6%我们就令程序在二级市场卖出</li>
+<li>atvThreshold = 50 * 1e4，         表示当债券的流动性指标满足该阀值的时候我们才在二级市场买入</li>
+<li>atvOutThreshold = 0.8 * 50 * 1e4, 表示当债券的流动性指标不满足该阀值的时候我们就在二级市场卖出</li>
+<li>individualHldLimit = 0.02,        表示个券占组合净值的最大比例，该值设置得越小则组合持有的高收益债的数量越多</li>
+</ol>
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+</pre></td><td class="code"><pre>backtest.optimize.test &lt;- <span class="keyword">function</span>() {
+    Sys.setenv(TEST = <span class="string">"yes"</span>)
+    <span class="keyword">source</span>(<span class="string">"/home/amg/svn/yieldCurve/profiling/Rprofile.R"</span>)
+    setwd(<span class="string">"/home/amg/svn/assetAllocation/dev/backtest/R"</span>)
+    <span class="keyword">source</span>(<span class="string">"exchangeHY.R"</span>)
+    <span class="keyword">library</span>(lpSolve)
+    <span class="keyword">library</span>(Rsolnp)
+    parmDf &lt;- expand.grid(tradeThreshold = c(<span class="number">0.1</span>, <span class="number">0.09</span>, <span class="number">0.08</span>, <span class="number">0.07</span>), tradeOutThreshold = c(<span class="number">0.08</span>, 
+        <span class="number">0.07</span>, <span class="number">0.06</span>, <span class="number">0.05</span>), atvThreshold = c(<span class="number">100</span> * <span class="number">10000</span>, <span class="number">50</span> * <span class="number">10000</span>, <span class="number">30</span> * <span class="number">10000</span>), 
+        atvOutThreshold = c(<span class="number">0.8</span> * <span class="number">100</span> * <span class="number">10000</span>, <span class="number">0.8</span> * <span class="number">50</span> * <span class="number">10000</span>, <span class="number">0.8</span> * <span class="number">30</span> * 
+            <span class="number">10000</span>), individualHldLimit = c(<span class="number">0.1</span>, <span class="number">0.05</span>, <span class="number">0.02</span>))
+    
+    startDate &lt;- <span class="number">20130101</span>
+    endDate &lt;- <span class="number">20140522</span>
+    cfgLst &lt;- list(region = <span class="string">"CN"</span>, runFromScratch = <span class="literal">TRUE</span>, loadData = <span class="literal">FALSE</span>, hldFile = <span class="string">"~/hld_20140514.csv"</span>, 
+        startDate = startDate, endDate = endDate, tradeLot = <span class="number">10</span>, extraTC = <span class="number">1</span>/<span class="number">10000</span>, 
+        volumeParticipationLimit = <span class="number">0.1</span>, individualHldLimit = <span class="number">0.02</span>, portsz = <span class="number">50</span> * 
+            <span class="number">10000</span>, tradeThreshold = <span class="number">0.08</span>, tradeOutThreshold = <span class="number">0.06</span>, atvThreshold = <span class="number">50</span> * 
+            <span class="number">10000</span>, atvOutThreshold = <span class="number">0.8</span> * <span class="number">50</span> * <span class="number">10000</span>, useGradeFilter = <span class="literal">F</span>, dataOutDir = <span class="string">"~/temp/backtestETF/exchangeHY"</span>, 
+        rebalanceFreq = <span class="string">"monthly"</span>, strategyName = <span class="string">"交易所高收益债策略"</span>)
+    
+    cfgLst &lt;- backtest.loadData(cfgLst)
+    optimizeLst &lt;- list()
+    <span class="keyword">for</span> (i <span class="keyword">in</span> <span class="number">1</span>:nrow(parmDf)) {
+        cfgLst$tradeThreshold &lt;- parmDf$tradeThreshold[i]
+        cfgLst$tradeOutThreshold &lt;- parmDf$tradeOutThreshold[i]
+        cfgLst$atvThreshold &lt;- parmDf$atvThreshold[i]
+        cfgLst$atvOutThreshold &lt;- parmDf$atvOutThreshold[i]
+        cfgLst$individualHldLimit &lt;- parmDf$individualHldLimit[i]
+        cfgLst &lt;- backtest(cfgLst)
+        lst &lt;- backtest.summary(cfgLst, ifPlot = <span class="literal">FALSE</span>)
+        optimizeLst[[i]] &lt;- lst$ALL
+        optimizeDf &lt;- df.rbindList(optimizeLst)
+        saveDf &lt;- cbind(parmDf[<span class="number">1</span>:i, ], optimizeDf)
+        <span class="comment">## Write to local dir</span>
+        write.csv(saveDf, file = <span class="string">"/home/amg/data/assetAllocation/cn/exchangeHY/backtest/exchangeHY_backtest_parmDf.csv"</span>, 
+            row.names = <span class="literal">FALSE</span>)
+    }
+}
+</pre></td></tr></table></figure>
+
+<p>首先是对进出收益率的阀值进行分析，无论是从累计收益率还是从回测计算的夏普比例看，在过去一年多的时间里面，设置tradeThreshold（即收益率高于该值的时候就杀进去）的值为10%是最好的的，退出的时候设置tradeOutThreshold为7%是最好的选择，因此我们在未来模拟组合的操作中就把这两个参数定在10%和7%。</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre>df &lt;- read.csv(<span class="string">"/home/amg/data/assetAllocation/cn/exchangeHY/backtest/exchangeHY_backtest_parmDf.csv"</span>)
+df &lt;- df[(df$tradeThreshold &gt;= df$tradeOutThreshold) & (df$atvThreshold &gt;= df$atvOutThreshold), 
+    ]
+aggregate(ret.P ~ tradeThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="preprocessor">##   tradeThreshold  ret.P</span>
+<span class="preprocessor">## 1           0.07  9.975</span>
+<span class="preprocessor">## 2           0.08  7.744</span>
+<span class="preprocessor">## 3           0.09  9.079</span>
+<span class="preprocessor">## 4           0.10 10.977</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(ret.P ~ tradeOutThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="preprocessor">##   tradeOutThreshold ret.P</span>
+<span class="preprocessor">## 1              0.05 9.442</span>
+<span class="preprocessor">## 2              0.06 9.460</span>
+<span class="preprocessor">## 3              0.07 9.506</span>
+<span class="preprocessor">## 4              0.08 9.164</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(SR ~ tradeThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="preprocessor">##   tradeThreshold    SR</span>
+<span class="preprocessor">## 1           0.07 1.228</span>
+<span class="preprocessor">## 2           0.08 1.027</span>
+<span class="preprocessor">## 3           0.09 1.226</span>
+<span class="preprocessor">## 4           0.10 1.563</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(SR ~ tradeOutThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="preprocessor">##   tradeOutThreshold    SR</span>
+<span class="preprocessor">## 1              0.05 1.257</span>
+<span class="preprocessor">## 2              0.06 1.261</span>
+<span class="preprocessor">## 3              0.07 1.273</span>
+<span class="preprocessor">## 4              0.08 1.262</span>
+</pre></td></tr></table></figure>
+
+<p>另外两个关于流动性德参数，我们也进行了同样的分析，得出的最优结果是设置当流动性好于100万/天的时候进去，当小于80万/天的时候选择卖出。</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(ret.P ~ atvThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   atvThreshold ret.P</span>
+<span class="preprocessor">## 1        3e+05 9.304</span>
+<span class="preprocessor">## 2        5e+05 9.391</span>
+<span class="preprocessor">## 3        1e+06 9.455</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(ret.P ~ atvOutThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   atvOutThreshold ret.P</span>
+<span class="preprocessor">## 1          240000 9.288</span>
+<span class="preprocessor">## 2          400000 9.410</span>
+<span class="preprocessor">## 3          800000 9.767</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(SR ~ atvThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   atvThreshold    SR</span>
+<span class="preprocessor">## 1        3e+05 1.234</span>
+<span class="preprocessor">## 2        5e+05 1.251</span>
+<span class="preprocessor">## 3        1e+06 1.281</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(SR ~ atvOutThreshold, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   atvOutThreshold    SR</span>
+<span class="preprocessor">## 1          240000 1.243</span>
+<span class="preprocessor">## 2          400000 1.260</span>
+<span class="preprocessor">## 3          800000 1.330</span>
+</pre></td></tr></table></figure>
+
+<p>最后最为关键的一个参数是设置每个券的占比情况参数和回测表现的关系，综合收益率和夏普比例的指标可以看出设置该值为2%时表现最佳。</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(ret.P ~ individualHldLimit, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   individualHldLimit  ret.P</span>
+<span class="preprocessor">## 1               0.02  9.145</span>
+<span class="preprocessor">## 2               0.05  8.107</span>
+<span class="preprocessor">## 3               0.10 10.973</span>
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight r"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>aggregate(SR ~ individualHldLimit, data = df, FUN = mean)
+</pre></td></tr></table></figure>
+
+
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="preprocessor">##   individualHldLimit    SR</span>
+<span class="preprocessor">## 1               0.02 1.677</span>
+<span class="preprocessor">## 2               0.05 1.039</span>
+<span class="preprocessor">## 3               0.10 1.074</span>
+</pre></td></tr></table></figure>
+
+<p>综合上面的分析，我们在实际模拟组合的运营中，选择以下最优参数进行高收益债券的买入和卖出操作：</p>
+<ol>
+<li>tradeThreshold = 0.1,             当债券的收益率高于10%我们就令程序在二级市场买入。</li>
+<li>tradeOutThreshold = 0.07，        当债券的收益率低于7%我们就令程序在二级市场卖出。</li>
+<li>atvThreshold = 100 * 1e4，        当债券的流动性指标满足该阀值的时候我们才在二级市场买入。</li>
+<li>atvOutThreshold = 80 * 1e4,       当债券的流动性指标小于80万德时候我们就在二级市场卖出。</li>
+<li>individualHldLimit = 0.02,        个券占组合净值的最大比例设置不能超过2%。</li>
+</ol>
+<p>我们就选用改组参数，回测了去年以来的高收益债策略，表现的总结图如下面所示：</p>
+<p><strong>图 1：最优参数表现结果 </strong> </p>
+<hr>
+<p><img src="/images/回测最优参数结果.png" alt="高收益债策略"></p>
+<hr>
+<p>资料来源：Wind,COS Inv系统</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -118,11 +422,19 @@
 	
 <nav class="article-nav clearfix">
  
+ <div class="prev" >
+ <a href="/account_0526/" title="每日账户变动（20140526）">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  每日账户变动（20140526）</span>
+</a>
+</div>
+
 
 <div class="next">
-<a href="/债券市场回顾/"  title="中国债券市场日报: 2014-05-14">
+<a href="/从央行报表看公开市场操作/"  title="从央行报表看公开市场操作">
  <strong>NEXT:</strong><br/> 
- <span>中国债券市场日报: 2014-05-14
+ <span>从央行报表看公开市场操作
 </span>
 </a>
 </div>
@@ -149,11 +461,13 @@
 		
 			<li><a href="/categories/IT技术/" title="IT技术">IT技术<sup>1</sup></a></li>
 		
-			<li><a href="/categories/债券货币市场/" title="债券货币市场">债券货币市场<sup>9</sup></a></li>
-		
 			<li><a href="/categories/金融市场报告/债券货币市场/" title="债券货币市场">债券货币市场<sup>1</sup></a></li>
 		
+			<li><a href="/categories/债券货币市场/" title="债券货币市场">债券货币市场<sup>11</sup></a></li>
+		
 			<li><a href="/categories/可转债/" title="可转债">可转债<sup>6</sup></a></li>
+		
+			<li><a href="/categories/债券货币市场/可转债/" title="可转债">可转债<sup>1</sup></a></li>
 		
 			<li><a href="/categories/团队/" title="团队">团队<sup>1</sup></a></li>
 		
@@ -161,13 +475,17 @@
 		
 			<li><a href="/categories/大类资产配置研究/" title="大类资产配置研究">大类资产配置研究<sup>3</sup></a></li>
 		
-			<li><a href="/categories/宏观经济/" title="宏观经济">宏观经济<sup>3</sup></a></li>
+			<li><a href="/categories/宏观经济/" title="宏观经济">宏观经济<sup>4</sup></a></li>
+		
+			<li><a href="/categories/日志/" title="日志">日志<sup>1</sup></a></li>
 		
 			<li><a href="/categories/生活和旅游/" title="生活和旅游">生活和旅游<sup>1</sup></a></li>
 		
 			<li><a href="/categories/经济和历史/" title="经济和历史">经济和历史<sup>1</sup></a></li>
 		
 			<li><a href="/categories/股票市场/" title="股票市场">股票市场<sup>2</sup></a></li>
+		
+			<li><a href="/categories/账户变动/" title="账户变动">账户变动<sup>2</sup></a></li>
 		
 			<li><a href="/categories/金融市场报告/" title="金融市场报告">金融市场报告<sup>1</sup></a></li>
 		
@@ -191,6 +509,12 @@
 			<li><a href="/tags/bitbucket/" title="bitbucket">bitbucket<sup>1</sup></a></li>
 		
 			<li><a href="/tags/git/" title="git">git<sup>1</sup></a></li>
+		
+			<li><a href="/tags/开始/" title="开始">开始<sup>1</sup></a></li>
+		
+			<li><a href="/tags/我/" title="我">我<sup>1</sup></a></li>
+		
+			<li><a href="/tags/日记/" title="日记">日记<sup>1</sup></a></li>
 		
 		</ul>
 </div>
